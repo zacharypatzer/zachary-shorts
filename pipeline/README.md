@@ -51,7 +51,8 @@ All scripts use absolute paths under `/home/claude/` (`scripts/`, `songs/<slug>/
 ## Scheduling (Metricool MCP)
 
 - **Account:** blogId `7494992`, timezone `America/Los_Angeles`. Posts go out daily at 17:30.
-- **Providers:** youtube (type `short`, MUSIC), tiktok (needs `tiktokData.title`), instagram (type `REEL`). Add facebook and threads once they're connected.
+- **Providers:** youtube (type `short`, MUSIC), tiktok (needs `tiktokData.title`), instagram (type `REEL`) and threads (`threadsData: {}`, connected Oct 21, 2026). Facebook is not connected; that was his choice.
+- **Plan:** Metricool paid plan (upgraded Oct 21, 2026). He chose to stay at 1 Short a day until real stats show what works.
 - **AI disclosure is always on:** `tiktokData.isAigc`, `instagramData.isAiGenerated` and `youtubeData.isAiGeneratedContent` are all set to true.
 - **Media:** must be a public URL. Metricool re-hosts it when the post is created.
 - **Editing:** `updateScheduledPost` changes the post id (the uuid stays the same). The API has no delete.
