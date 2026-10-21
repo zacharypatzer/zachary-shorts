@@ -1,0 +1,50 @@
+lions_heart	103.26	147.38	R2_lions_heart.mp4	#ffc160	For the caregivers	nobody sees.
+lions_heart	218.62	282.66	R3_lions_heart.mp4	#ffc160	For the ones	who went on ahead.
+a_mile_an_hour	149.1	204.82	R2_a_mile_an_hour.mp4	#5ec0ff	I rang that bell	3 times.
+a_mile_an_hour	350.7	412.41	R3_a_mile_an_hour.mp4	#5ec0ff	Who's worth going	through hell for?
+beautiful_anyway	14.7	61.54	R2_beautiful_anyway.mp4	#e3874f	Holding the hand	that held the whole world.
+beautiful_anyway	206.86	249.78	R3_beautiful_anyway.mp4	#e3874f	Say "I love you"	every chance you get.
+take_a_number	91.9	146.16	R2_take_a_number.mp4	#f1d9ad	Tired ain't the same	as giving up.
+take_a_number	182.38	231.94	R3_take_a_number.mp4	#f1d9ad	Death started	bringing me coffee.
+living_in_the_echo	15.9	79.06	R2_living_in_the_echo.mp4	#ffa31a	It's just a blood test.	My body doesn't believe it.
+living_in_the_echo	245.66	299.1	R3_living_in_the_echo.mp4	#ffa31a	For the survivors	everybody thinks are fine.
+light_one_let_it_go	13.1	72.1	R2_light_one_let_it_go.mp4	#c7a6ff	I couldn't lift a spoon.	So I wrote songs.
+light_one_let_it_go	134.7	192.82	R3_light_one_let_it_go.mp4	#c7a6ff	Write the words	you needed to hear.
+remember_me_when_im_gone	13.98	45.78	R2_remember_me_when_im_gone.mp4	#f6dcef	This body	was only ever leased.
+remember_me_when_im_gone	185.34	247.54	R3_remember_me_when_im_gone.mp4	#f6dcef	For anyone missing	someone tonight.
+floor_of_shadows	14.38	46.18	R2_floor_of_shadows.mp4	#fff03a	Every time I ride	that elevator up...
+floor_of_shadows	165.18	199.46	R3_floor_of_shadows.mp4	#fff03a	To every oncology nurse:	I saw you.
+no_complaints	279.98	312.02	R2_no_complaints.mp4	#5f8bff	Here's why I always ask	how you're doing.
+no_complaints	165.5	206.9	R3_no_complaints.mp4	#5f8bff	9 out of 10	stopped calling.
+even_if_we_stumble	175.74	229.88	R2_even_if_we_stumble.mp4	#92f7cf	They say it's bad for me.	It's why I'm alive.
+even_if_we_stumble	244.62	309.78	R3_even_if_we_stumble.mp4	#92f7cf	A love song	with a twist ending.
+my_word_wont_die	88.78	131.7	R2_my_word_wont_die.mp4	#f6e3bc	They counted my days.	So I made them count.
+my_word_wont_die	173.74	231.7	R3_my_word_wont_die.mp4	#f6e3bc	Chemo took the feeling	in my feet. Not my word.
+island_time	83.9	149.94	R2_island_time.mp4	#46e8e4	Pineapple and an umbrella	in my chemo cup 🍍
+island_time	163.42	222.22	R3_island_time.mp4	#46e8e4	No glass. No screen.	Just my arms around them.
+unfinished	97.74	142.78	R2_unfinished.mp4	#ffbf9c	We trade "I'm fine"	like a password.
+unfinished	245.34	313.7	R3_unfinished.mp4	#ffbf9c	Nobody's book is finished	while there's ink in the pen.
+only_the_strong_survive	237.02	283.9	R2_only_the_strong_survive.mp4	#ff4a4a	My body can't do a stage.	So I wrote it down.
+only_the_strong_survive	282.94	331.48	R3_only_the_strong_survive.mp4	#ff4a4a	Losing the fight	never made them weak.
+dying_to_live	78.3	134.1	R2_dying_to_live.mp4	#b4f24c	They never told me	I was unbreakable.
+dying_to_live	267.34	299.78	R3_dying_to_live.mp4	#b4f24c	If you're counting down	instead of on...
+i_live_on_through_you	14.3	65.3	R2_i_live_on_through_you.mp4	#ffd890	The sun is going down,	but it's coming up soon.
+i_live_on_through_you	230.22	285.38	R3_i_live_on_through_you.mp4	#ffd890	Pull a chair up by the bed	and stay the whole night.
+a_seat_at_the_table	75.9	125.7	R2_a_seat_at_the_table.mp4	#35d47d	This one's	for the fathers.
+a_seat_at_the_table	231.1	278.42	R3_a_seat_at_the_table.mp4	#35d47d	A blessing	for whoever needs it tonight.
+live_now_die_later	118.86	179.86	R2_live_now_die_later.mp4	#c4ebff	I used to think crying	made me weak.
+live_now_die_later	259.66	319.62	R3_live_now_die_later.mp4	#c4ebff	If you're carrying	a lot tonight...
+embrace_every_scar	102.06	170.82	R2_embrace_every_scar.mp4	#d0b8ff	My bicep rolled up	like a window shade.
+embrace_every_scar	182.3	228.02	R3_embrace_every_scar.mp4	#d0b8ff	The scars nobody sees	are the ones I wear most.
+make_your_time_count	9.98	75.14	R2_make_your_time_count.mp4	#f2a88a	Advice to the kid	I used to be.
+make_your_time_count	189.82	234.5	R3_make_your_time_count.mp4	#f2a88a	Laugh through the cancer.	Turn the devil into a thief.
+shout_yes	107.66	169.3	R2_shout_yes.mp4	#4fe3ff	Yes doesn't mean	I like it.
+shout_yes	219.62	252.59	R3_shout_yes.mp4	#4fe3ff	If all you've got	is a whisper...
+from_where_i_stand	37.1	74.58	R2_from_where_i_stand.mp4	#e9d9a6	"It's probably nothing."	For years.
+from_where_i_stand	118.38	181.66	R3_from_where_i_stand.mp4	#e9d9a6	I gave them calm	instead of fear.
+quiet_fire	37.58	100.74	R2_quiet_fire.mp4	#ff8a2a	My hands quit.	So I picked up a pen.
+quiet_fire	104.62	144.58	R3_quiet_fire.mp4	#ff8a2a	Casserole, jumper cable,	and some good advice.
+footprints_of_gold	151.36	197.7	R2_footprints_of_gold.mp4	#f4c23c	My daddy taught me	to hear what you don't say.
+footprints_of_gold	196.3	253.46	R3_footprints_of_gold.mp4	#f4c23c	Call the friend	who's gone too quiet.
+we_die_before_we_quit	88.46	115.14	R2_we_die_before_we_quit.mp4	#ff3640	I saw the little kids	in the waiting room.
+we_die_before_we_quit	6.7	61.78	R3_we_die_before_we_quit.mp4	#ff3640	Stage four tried	to take it all.

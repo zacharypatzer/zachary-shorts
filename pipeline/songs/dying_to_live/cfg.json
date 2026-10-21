@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/dying_to_live",
+ "dur": 375.984,
+ "art_path": "/home/claude/songs/dying_to_live/cover.png",
+ "title": "Dying to Live",
+ "glow_col": [
+  70.1,
+  120.0,
+  46.8
+ ],
+ "ember_col": [
+  122.0,
+  255.0,
+  200.0
+ ],
+ "sub_tint": [
+  160,
+  255,
+  208
+ ],
+ "ember_speed": 0.7,
+ "ember_gain": 1.0,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

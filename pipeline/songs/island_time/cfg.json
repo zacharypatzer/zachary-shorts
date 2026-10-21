@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/island_time",
+ "dur": 347.64,
+ "art_path": "/home/claude/songs/island_time/cover.png",
+ "title": "Island Time",
+ "glow_col": [
+  37.6,
+  64.9,
+  120.0
+ ],
+ "ember_col": [
+  160.0,
+  217.0,
+  255.0
+ ],
+ "sub_tint": [
+  240,
+  243,
+  159
+ ],
+ "ember_speed": 0.8,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

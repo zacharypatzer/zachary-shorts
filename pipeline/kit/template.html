@@ -1,0 +1,201 @@
+<title>Zachary Patzer Shorts</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,800&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@500&display=swap">
+<style>
+/* Layout: one narrow column of Short cards, video left / copy right on wide screens, stacked on phones */
+:root {
+  --bg: #f6f2ec; --surface: #fffdf9; --line: #e3d9cc; --fg: #2a211a; --muted: #75685b;
+  --accent: #c8641e; --accent-ink: #ffffff; --ok: #2f7d4f; --ok-bg: #e3f2e8;
+  --display: "Fraunces", Georgia, serif; --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif; --mono: "IBM Plex Mono", ui-monospace, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #17120e; --surface: #221a14; --line: #3a2e24; --fg: #f3eae0; --muted: #b3a493;
+  --accent: #f0904a; --accent-ink: #1b120b; --ok: #7fd3a0; --ok-bg: #1d3326; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #17120e; --surface: #221a14; --line: #3a2e24; --fg: #f3eae0; --muted: #b3a493;
+  --accent: #f0904a; --accent-ink: #1b120b; --ok: #7fd3a0; --ok-bg: #1d3326; color-scheme: dark }
+body { background: var(--bg); color: var(--fg); font-family: var(--body); font-size: 16px; line-height: 1.5; }
+.wrap { max-width: 980px; margin: 0 auto; padding-block: 28px 64px; padding-left: max(16px, env(safe-area-inset-left, 0px)); padding-right: max(16px, env(safe-area-inset-right, 0px)); display: grid; gap: 22px; }
+header h1 { font-family: var(--display); font-weight: 800; font-size: clamp(28px, 6vw, 40px); line-height: 1.1; margin: 0 0 6px; text-wrap: balance; }
+header p { margin: 0; color: var(--muted); max-width: 62ch; }
+.count { font-family: var(--mono); font-size: 13px; letter-spacing: .04em; text-transform: uppercase; color: var(--accent); margin-bottom: 8px; }
+.list { display: grid; gap: 16px; }
+.card { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; grid-template-columns: 180px minmax(0, 1fr); gap: 18px; align-items: start; }
+@media (max-width: 640px) { .card { grid-template-columns: minmax(0, 1fr); } .vid { max-width: 220px; } }
+.vid { width: 100%; aspect-ratio: 9 / 16; border-radius: 10px; background: var(--line); overflow: hidden; display: grid; place-items: center; color: var(--muted); font-size: 13px; text-align: center; }
+.vid video { width: 100%; height: 100%; object-fit: cover; display: block; }
+.meta { min-width: 0; display: grid; gap: 12px; }
+.top { display: flex; flex-wrap: wrap; align-items: baseline; gap: 6px 12px; }
+.top h2 { font-family: var(--display); font-weight: 600; font-size: 22px; margin: 0; }
+.when { font-family: var(--mono); font-size: 13px; color: var(--muted); }
+.pill { font-size: 12px; font-weight: 700; letter-spacing: .05em; text-transform: uppercase; padding: 3px 10px; border-radius: 999px; border: 1px solid var(--line); color: var(--muted); }
+.pill.on { background: var(--ok-bg); color: var(--ok); border-color: transparent; }
+.field { display: grid; gap: 4px; }
+.field .lab { display: flex; justify-content: space-between; align-items: center; gap: 8px; font-size: 12px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; color: var(--muted); }
+.field pre { margin: 0; white-space: pre-wrap; word-break: break-word; font-family: var(--body); font-size: 15px; background: var(--bg); border: 1px solid var(--line); border-radius: 8px; padding: 10px 12px; }
+button.copy { font: 600 13px var(--body); color: var(--accent-ink); background: var(--accent); border: 0; border-radius: 999px; padding: 6px 14px; cursor: pointer; min-height: 32px; }
+button.copy:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+button.copy.done { background: var(--ok); color: var(--surface); }
+.drive { background: var(--surface); border: 1px solid var(--line); border-radius: 14px; padding: 16px; display: grid; gap: 10px; }
+.drive h2 { font-family: var(--display); font-weight: 600; font-size: 20px; margin: 0; }
+.drive p { margin: 0; color: var(--muted); max-width: 62ch; }
+.drive .row { display: flex; flex-wrap: wrap; align-items: center; gap: 10px 14px; }
+button.big { font: 700 16px var(--body); color: var(--accent-ink); background: var(--accent); border: 0; border-radius: 999px; padding: 12px 22px; cursor: pointer; min-height: 48px; }
+button.big:disabled { opacity: .55; cursor: default; }
+button.big:focus-visible { outline: 3px solid var(--fg); outline-offset: 2px; }
+.status { font-weight: 600; }
+.status.err { color: var(--accent); }
+.status.good { color: var(--ok); }
+.bar { height: 8px; border-radius: 999px; background: var(--line); overflow: hidden; }
+.bar > i { display: block; height: 100%; width: 0; background: var(--ok); transition: width .3s; }
+@media (prefers-reduced-motion: reduce) { .bar > i { transition: none; } }
+.dstate { font-size: 13px; font-weight: 600; color: var(--muted); }
+.dstate.good { color: var(--ok); }
+.dstate.err { color: var(--accent); }
+</style>
+
+<div class="wrap">
+  <header>
+    <div class="count" id="count"></div>
+    <h1>Zachary Patzer Shorts</h1>
+    <p>One Short per song, posting by itself every evening on YouTube, TikTok and Instagram. Each card shows when it goes out, plus the title, description and tags if you ever want to post one by hand.</p>
+  </header>
+  <section class="drive" id="drive" hidden>
+    <h2>Send the Shorts to Google Drive</h2>
+    <p>One tap copies every Short below into the "Zachary Patzer Shorts" folder in your Google Drive, so Claude can schedule them on YouTube and TikTok for you. Keep this page open until it finishes, about a few minutes. Shorts already in the folder are skipped, so tapping again is safe.</p>
+    <div class="row">
+      <button class="big" id="send" type="button" disabled>Copy all Shorts to Google Drive</button>
+      <span class="status" id="status">Checking Google Drive…</span>
+    </div>
+    <div class="bar" aria-hidden="true"><i id="barfill"></i></div>
+  </section>
+  <main class="list" id="list"></main>
+</div>
+
+<script>
+const ITEMS = /*DATA*/[];
+const list = document.getElementById('list');
+const scheduled = ITEMS.filter(i => i.status === 'scheduled').length;
+document.getElementById('count').textContent = ITEMS.length + ' Shorts' + (scheduled ? ' · ' + scheduled + ' scheduled' : '');
+
+function field(label, text) {
+  const f = document.createElement('div'); f.className = 'field';
+  const lab = document.createElement('div'); lab.className = 'lab';
+  const s = document.createElement('span'); s.textContent = label;
+  const b = document.createElement('button'); b.className = 'copy'; b.type = 'button'; b.textContent = 'Copy';
+  const pre = document.createElement('pre'); pre.textContent = text;
+  b.addEventListener('click', () => {
+    const ok = () => { b.textContent = 'Copied'; b.classList.add('done'); setTimeout(() => { b.textContent = 'Copy'; b.classList.remove('done'); }, 1600); };
+    try {
+      navigator.clipboard.writeText(text).then(ok, () => selectText(pre));
+    } catch (e) { selectText(pre); }
+  });
+  lab.append(s, b); f.append(lab, pre); return f;
+}
+function selectText(el) { const r = document.createRange(); r.selectNodeContents(el); const sel = getSelection(); sel.removeAllRanges(); sel.addRange(r); }
+
+ITEMS.forEach(it => {
+  const card = document.createElement('article'); card.className = 'card';
+  const vid = document.createElement('div'); vid.className = 'vid';
+  if (it.url) {
+    const v = document.createElement('video'); v.src = it.url; v.controls = true; v.preload = 'metadata'; v.playsInline = true;
+    vid.append(v);
+  } else { vid.textContent = 'Video in the chat'; }
+  const meta = document.createElement('div'); meta.className = 'meta';
+  const top = document.createElement('div'); top.className = 'top';
+  const h = document.createElement('h2'); h.textContent = it.name;
+  const pill = document.createElement('span'); pill.className = 'pill' + (it.status === 'scheduled' ? ' on' : '');
+  pill.textContent = it.status === 'scheduled' ? 'Scheduled' : 'Not scheduled';
+  top.append(h, pill);
+  if (it.when) { const w = document.createElement('span'); w.className = 'when'; w.textContent = it.when; top.append(w); }
+  const ds = document.createElement('span'); ds.className = 'dstate'; ds.id = 'ds-' + it.slug; top.append(ds);
+  meta.append(top, field('Title', it.title), field('Description', it.desc), field('Tags', it.tags));
+  card.append(vid, meta); list.append(card);
+});
+
+/* ---- Google Drive copy ---- */
+const FOLDER = '__FOLDER__';
+const DRIVE = 'Google Drive';
+const sendBtn = document.getElementById('send');
+const statusEl = document.getElementById('status');
+const barfill = document.getElementById('barfill');
+let mcp = null, busy = false;
+
+function setStatus(text, kind) { statusEl.textContent = text; statusEl.className = 'status' + (kind ? ' ' + kind : ''); }
+function setDs(slug, text, kind) { const el = document.getElementById('ds-' + slug); if (el) { el.textContent = text; el.className = 'dstate' + (kind ? ' ' + kind : ''); } }
+function setBar(done) { barfill.style.width = Math.round(100 * done / ITEMS.length) + '%'; }
+
+async function existingTitles() {
+  const titles = new Set();
+  let pageToken;
+  for (let i = 0; i < 5; i++) {
+    const input = { query: "parentId = '" + FOLDER + "'", excludeContentSnippets: true, pageSize: 100 };
+    if (pageToken) input.pageToken = pageToken;
+    const r = await mcp.callTool(DRIVE, 'search_files', input, { cache: false });
+    const p = r.payload || {};
+    (p.files || []).forEach(f => titles.add(f.title));
+    if (!p.nextPageToken || !(p.files || []).length) break;
+    pageToken = p.nextPageToken;
+  }
+  return titles;
+}
+
+function fatal(e) {
+  const c = e && e.code;
+  if (c === 'needs_reauth') return 'Google Drive needs reconnecting: claude.ai Settings → Connectors → Google Drive.';
+  if (c === 'server_not_connected' || c === 'server_not_found') return 'Google Drive is not connected: add it in claude.ai Settings → Connectors.';
+  if (c === 'selection_required') return 'Choose which Google Drive account to use when Claude asks, then tap again.';
+  if (c === 'not_in_manifest' || c === 'approval_required' || c === 'consent_required') return 'This page needs your OK to use Google Drive. Tap the button again and choose Allow.';
+  if (c === 'blocked_by_policy') return 'Your account settings block this page from using Google Drive.';
+  if (c === 'not_granted' || c === 'capability_disabled' || c === 'capability_removed') return 'This view cannot reach Google Drive. Open the page in the Claude app or on claude.ai.';
+  return null;
+}
+
+async function sendAll() {
+  if (busy || !mcp) return;
+  busy = true; sendBtn.disabled = true;
+  let done = 0, failed = 0;
+  try {
+    setStatus('Checking what is already in Drive…');
+    const have = await existingTitles();
+    for (const it of ITEMS) {
+      if (have.has(it.fname)) { done++; setDs(it.slug, 'In Drive', 'good'); setBar(done); continue; }
+      setDs(it.slug, 'Sending…'); setStatus('Sending ' + it.name + ' (' + (done + 1) + ' of ' + ITEMS.length + ')…');
+      try {
+        const res = await fetch(it.url);
+        if (!res.ok) throw { code: 'local', message: 'Could not load the video (' + res.status + ')' };
+        const blob = await res.blob();
+        await mcp.callTool(DRIVE, 'create_file', {
+          title: it.fname, parentId: FOLDER, contentMimeType: 'video/mp4', disableConversionToGoogleType: true,
+          base64Content: { $file: { data: blob, name: it.fname, type: 'video/mp4' } }
+        });
+        done++; setDs(it.slug, 'In Drive', 'good'); setBar(done);
+      } catch (e) {
+        const f = fatal(e);
+        if (f) { setDs(it.slug, 'Not sent', 'err'); setStatus(f, 'err'); return; }
+        failed++;
+        const unsure = e && (e.code === 'server_unavailable' || e.code === 'upstream_error' || e.code === 'cancelled');
+        setDs(it.slug, unsure ? 'May not have arrived' : 'Failed: ' + ((e && e.message) || 'unknown error').slice(0, 80), 'err');
+      }
+    }
+    if (failed) setStatus(done + ' of ' + ITEMS.length + ' are in Drive. ' + failed + ' did not go through. Tap again to retry them.', 'err');
+    else setStatus('All ' + ITEMS.length + ' Shorts are in your Google Drive. Tell Claude it is done.', 'good');
+  } catch (e) {
+    setStatus(fatal(e) || ('Google Drive did not answer: ' + ((e && e.message) || 'unknown error') + '. Try again in a minute.'), 'err');
+  } finally {
+    busy = false; sendBtn.disabled = false;
+  }
+}
+sendBtn.addEventListener('click', sendAll);
+
+(async () => {
+  try { mcp = window.claude && window.claude.use ? await window.claude.use('mcp') : null; } catch (e) { mcp = null; }
+  if (!mcp) { setStatus('Open this page in the Claude app or on claude.ai to copy the Shorts to Google Drive.', 'err'); return; }
+  let lt = null;
+  try { lt = await mcp.listTools(); } catch (e) { lt = null; }
+  if (lt && lt.fileArgs !== true) { setStatus('This view cannot send video files. Open the page on claude.ai in a browser and try there.', 'err'); return; }
+  sendBtn.disabled = false;
+  setStatus('Ready.');
+})();
+</script>

@@ -1,0 +1,1152 @@
+[
+ {
+  "slug": "lions_heart",
+  "name": "Lion's Heart",
+  "round": 2,
+  "start": 103.26,
+  "end": 147.38,
+  "dur": 44.1,
+  "hook": [
+   "For the caregivers",
+   "nobody sees."
+  ],
+  "title": "For the caregivers nobody sees 🦁",
+  "quote": "There's a friend who drives three hours just to sit and hold a hand.",
+  "tags": [
+   "caregiver song",
+   "night shift nurse"
+  ],
+  "accent": "#ffc160",
+  "first": "There's a husband learning how to cook",
+  "last": "In the middle of the night",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "lions_heart",
+  "name": "Lion's Heart",
+  "round": 3,
+  "start": 218.62,
+  "end": 282.66,
+  "dur": 64.0,
+  "hook": [
+   "For the ones",
+   "who went on ahead."
+  ],
+  "title": "For the ones who went on ahead. You were lions too. 🕊️",
+  "quote": "It was never 'bout how long you stayed. It's the love you gave away.",
+  "tags": [
+   "in loving memory",
+   "grief song"
+  ],
+  "accent": "#ffc160",
+  "first": "And to the ones who went on ahead",
+  "last": "And the whole world is singing for you",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "a_mile_an_hour",
+  "name": "A Mile An Hour",
+  "round": 2,
+  "start": 149.1,
+  "end": 204.82,
+  "dur": 55.7,
+  "hook": [
+   "I rang that bell",
+   "3 times."
+  ],
+  "title": "I rang that bell three times, then learned to walk again 🔔",
+  "quote": "Ain't nobody passin' me but the leaves in the breeze.",
+  "tags": [
+   "ring the bell",
+   "learning to walk again"
+  ],
+  "accent": "#5ec0ff",
+  "first": "They pumped that poison down into my chest",
+  "last": "Ain't nobody passin' me but the leaves in the breeze",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "a_mile_an_hour",
+  "name": "A Mile An Hour",
+  "round": 3,
+  "start": 350.7,
+  "end": 412.41,
+  "dur": 61.7,
+  "hook": [
+   "Who's worth going",
+   "through hell for?"
+  ],
+  "title": "Who's worth going through hell for? Find 'em. Hold 'em close. 🛣️",
+  "quote": "So nobody walkin' slow has to walk alone.",
+  "tags": [
+   "never give up",
+   "blues"
+  ],
+  "accent": "#5ec0ff",
+  "first": "Yeah, I'm walkin' this road at a mile an hour (mile an hour)",
+  "last": "Still walkin' on...",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "beautiful_anyway",
+  "name": "Beautiful Anyway",
+  "round": 2,
+  "start": 14.7,
+  "end": 61.54,
+  "dur": 46.8,
+  "hook": [
+   "Holding the hand",
+   "that held the whole world."
+  ],
+  "title": "Holding the hand that once carried the whole world 🕯️",
+  "quote": "They never saw the fire you carried inside.",
+  "tags": [
+   "caregiver song",
+   "goodbye song"
+  ],
+  "accent": "#e3874f",
+  "first": "The coffee's gone cold and the window is gray",
+  "last": "They never saw the fire you carried inside",
+  "overlap": 1.1,
+  "overlap23": 0
+ },
+ {
+  "slug": "beautiful_anyway",
+  "name": "Beautiful Anyway",
+  "round": 3,
+  "start": 206.86,
+  "end": 249.78,
+  "dur": 42.9,
+  "hook": [
+   "Say \"I love you\"",
+   "every chance you get."
+  ],
+  "title": "Say I love you every chance you get ❤️",
+  "quote": "I'd rather say too much than nothing at all.",
+  "tags": [
+   "say I love you",
+   "no regrets"
+  ],
+  "accent": "#e3874f",
+  "first": "I learned it the hard way, in rooms just like these",
+  "last": "Go hold them too long... anyway",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "take_a_number",
+  "name": "Take a Number",
+  "round": 2,
+  "start": 91.9,
+  "end": 146.16,
+  "dur": 54.3,
+  "hook": [
+   "Tired ain't the same",
+   "as giving up."
+  ],
+  "title": "Death asked if I was tired yet. Tired ain't the same as giving up. 🤠",
+  "quote": "Then my mama walked in, eyes red but standing tall.",
+  "tags": [
+   "outlaw country",
+   "western"
+  ],
+  "accent": "#f1d9ad",
+  "first": "He came back Tuesday when the treatment hit hard",
+  "last": "So take a number, take a seat",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "take_a_number",
+  "name": "Take a Number",
+  "round": 3,
+  "start": 182.38,
+  "end": 231.94,
+  "dur": 49.6,
+  "hook": [
+   "Death started",
+   "bringing me coffee."
+  ],
+  "title": "By the second winter, Death started bringing me coffee ☕",
+  "quote": "Don't wait to start your living. The living's right here.",
+  "tags": [
+   "storytelling song",
+   "western"
+  ],
+  "accent": "#f1d9ad",
+  "first": "By the second winter he quit bringing the clipboard",
+  "last": "Don't wait to start your living, friend, the living's right here",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "living_in_the_echo",
+  "name": "Living in the Echo",
+  "round": 2,
+  "start": 15.9,
+  "end": 79.06,
+  "dur": 63.2,
+  "hook": [
+   "It's just a blood test.",
+   "My body doesn't believe it."
+  ],
+  "title": "It's just a blood test. My body doesn't believe it.",
+  "quote": "Like my body knows this building, and it's bracing for what's to come.",
+  "tags": [
+   "scanxiety",
+   "survivor anxiety"
+  ],
+  "accent": "#ffa31a",
+  "first": "It's only a simple check, just some lab work, nothing more",
+  "last": "Four years clear, and it's ringing just as strong",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "living_in_the_echo",
+  "name": "Living in the Echo",
+  "round": 3,
+  "start": 245.66,
+  "end": 299.1,
+  "dur": 53.4,
+  "hook": [
+   "For the survivors",
+   "everybody thinks are fine."
+  ],
+  "title": "For the survivors everybody thinks are fine 💙",
+  "quote": "Go easy on your people. There's a lot you'll never know.",
+  "tags": [
+   "PTSD after cancer",
+   "survivor anxiety"
+  ],
+  "accent": "#ffa31a",
+  "first": "This song is for the survivors everybody thinks are fine",
+  "last": "Four years clear, and it's ringing just as strong",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "light_one_let_it_go",
+  "name": "Light One, Let It Go",
+  "round": 2,
+  "start": 13.1,
+  "end": 72.1,
+  "dur": 59.0,
+  "hook": [
+   "I couldn't lift a spoon.",
+   "So I wrote songs."
+  ],
+  "title": "There was a season I could barely lift a spoon 🏮",
+  "quote": "So I sit at the table with a pencil and fold every prayer into a song.",
+  "tags": [
+   "folk pop",
+   "hope song"
+  ],
+  "accent": "#c7a6ff",
+  "first": "Mornings come slower than they used to",
+  "last": "Light one, let it go",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "light_one_let_it_go",
+  "name": "Light One, Let It Go",
+  "round": 3,
+  "start": 134.7,
+  "end": 192.82,
+  "dur": 58.1,
+  "hook": [
+   "Write the words",
+   "you needed to hear."
+  ],
+  "title": "Write the words you wish somebody told you on your hardest night ✍️",
+  "quote": "It doesn't have to be pretty, and it doesn't have to rhyme.",
+  "tags": [
+   "kindness song",
+   "paper lanterns"
+  ],
+  "accent": "#c7a6ff",
+  "first": "So if you're holding one tonight, here's the only thing I ask",
+  "last": "Long after the flame",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "remember_me_when_im_gone",
+  "name": "Remember Me When I'm Gone",
+  "round": 2,
+  "start": 13.98,
+  "end": 45.78,
+  "dur": 31.8,
+  "hook": [
+   "This body",
+   "was only ever leased."
+  ],
+  "title": "This body was only ever leased 🕊️",
+  "quote": "I gave it back a little worn, but I left it here in peace.",
+  "tags": [
+   "memorial song",
+   "funeral song"
+  ],
+  "accent": "#f6dcef",
+  "first": "This body that I lived in",
+  "last": "To fill up every space",
+  "overlap": 1.4,
+  "overlap23": 0
+ },
+ {
+  "slug": "remember_me_when_im_gone",
+  "name": "Remember Me When I'm Gone",
+  "round": 3,
+  "start": 185.34,
+  "end": 247.54,
+  "dur": 62.2,
+  "hook": [
+   "For anyone missing",
+   "someone tonight."
+  ],
+  "title": "For anyone missing someone tonight 🕊️",
+  "quote": "I'm closer than you think I am. I was never very far.",
+  "tags": [
+   "grief song",
+   "in loving memory"
+  ],
+  "accent": "#f6dcef",
+  "first": "Maybe I'm your father, maybe I'm your friend",
+  "last": "I'm never really gone",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "floor_of_shadows",
+  "name": "Floor of Shadows",
+  "round": 2,
+  "start": 14.38,
+  "end": 46.18,
+  "dur": 31.8,
+  "hook": [
+   "Every time I ride",
+   "that elevator up..."
+  ],
+  "title": "Every time I ride that elevator up to the fourth floor",
+  "quote": "I'm wearing the clothes of a normal man, walking in like nothing's strange.",
+  "tags": [
+   "hospital song",
+   "chemo ward"
+  ],
+  "accent": "#fff03a",
+  "first": "I take the elevator up",
+  "last": "On a floor I know by heart",
+  "overlap": 1.4,
+  "overlap23": 0
+ },
+ {
+  "slug": "floor_of_shadows",
+  "name": "Floor of Shadows",
+  "round": 3,
+  "start": 165.18,
+  "end": 199.46,
+  "dur": 34.3,
+  "hook": [
+   "To every oncology nurse:",
+   "I saw you."
+  ],
+  "title": "To every oncology nurse: I saw what you carried 💙",
+  "quote": "The nurses did the best they could at a job I couldn't do.",
+  "tags": [
+   "oncology nurse",
+   "nurses"
+  ],
+  "accent": "#fff03a",
+  "first": "I've done hours in those chairs, and I've done nights in those beds",
+  "last": "Carrying a weight I never knew every time they left that floor",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "no_complaints",
+  "name": "No Complaints",
+  "round": 2,
+  "start": 279.98,
+  "end": 312.02,
+  "dur": 32.0,
+  "hook": [
+   "Here's why I always ask",
+   "how you're doing."
+  ],
+  "title": "Here's why I always ask how you're doing 😉",
+  "quote": "Their mind goes looking for something good to tell me. And it finds it.",
+  "tags": [
+   "Delta blues",
+   "positivity"
+  ],
+  "accent": "#5f8bff",
+  "first": "People ask me, \"How we doing?\"",
+  "last": "You're welcome",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "no_complaints",
+  "name": "No Complaints",
+  "round": 3,
+  "start": 165.5,
+  "end": 206.9,
+  "dur": 41.4,
+  "hook": [
+   "9 out of 10",
+   "stopped calling."
+  ],
+  "title": "Nine out of ten stopped calling. The one who stayed was worth it all.",
+  "quote": "The one in ten shows up when it's ugly, and that one's worth it all.",
+  "tags": [
+   "blues",
+   "real friends"
+  ],
+  "accent": "#5f8bff",
+  "first": "Nine out of ten of the names that used to call me don't call at all",
+  "last": "So I pour it all out in my notes, all the thoughts I couldn't keep",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "even_if_we_stumble",
+  "name": "Even If We Stumble",
+  "round": 2,
+  "start": 175.74,
+  "end": 229.88,
+  "dur": 54.1,
+  "hook": [
+   "They say it's bad for me.",
+   "It's why I'm alive."
+  ],
+  "title": "They say it's bad for my body. It's the reason I'm still alive. 💉",
+  "quote": "A little door above my heart to let you in.",
+  "tags": [
+   "chemo song",
+   "R&B"
+  ],
+  "accent": "#92f7cf",
+  "first": "They don't understand what we've got going on",
+  "last": "'Cause I'm waking up each morning, and that's the deal we made",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "even_if_we_stumble",
+  "name": "Even If We Stumble",
+  "round": 3,
+  "start": 244.62,
+  "end": 309.78,
+  "dur": 65.2,
+  "hook": [
+   "A love song",
+   "with a twist ending."
+  ],
+  "title": "A love song with a twist ending. Wait for it. 💉",
+  "quote": "Thank you, nurse. Same time in two weeks.",
+  "tags": [
+   "chemo song",
+   "slow jam"
+  ],
+  "accent": "#92f7cf",
+  "first": "Even if we stumble, even if we fall",
+  "last": "Same time in two weeks",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "my_word_wont_die",
+  "name": "My Word Won't Die",
+  "round": 2,
+  "start": 88.78,
+  "end": 131.7,
+  "dur": 42.9,
+  "hook": [
+   "They counted my days.",
+   "So I made them count."
+  ],
+  "title": "They counted my days. So I made the days count.",
+  "quote": "If I say it, I'll back it. Every step on the ground.",
+  "tags": [
+   "keep your word",
+   "promise song"
+  ],
+  "accent": "#f6e3bc",
+  "first": "Never been one for talking",
+  "last": "Is the word I'm living out",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "my_word_wont_die",
+  "name": "My Word Won't Die",
+  "round": 3,
+  "start": 173.74,
+  "end": 231.7,
+  "dur": 58.0,
+  "hook": [
+   "Chemo took the feeling",
+   "in my feet. Not my word."
+  ],
+  "title": "Chemo took the feeling in my feet. Not my word.",
+  "quote": "I gotta be ten times stronger 'cause I'm ten times weak.",
+  "tags": [
+   "neuropathy",
+   "CIPN"
+  ],
+  "accent": "#f6e3bc",
+  "first": "The treatment left its mark on me",
+  "last": "'Cause you're welcome to come in",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "island_time",
+  "name": "Island Time",
+  "round": 2,
+  "start": 83.9,
+  "end": 149.94,
+  "dur": 66.0,
+  "hook": [
+   "Pineapple and an umbrella",
+   "in my chemo cup 🍍"
+  ],
+  "title": "I asked the chemo nurse for a pineapple and an umbrella in my cup 🍍",
+  "quote": "Every single morning that I open up my eyes is a little piece of paradise.",
+  "tags": [
+   "island music",
+   "treatment chair"
+  ],
+  "accent": "#46e8e4",
+  "first": "Back in that treatment chair, I close my eyes and see",
+  "last": "Counting days in smiles",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "island_time",
+  "name": "Island Time",
+  "round": 3,
+  "start": 163.42,
+  "end": 222.22,
+  "dur": 58.8,
+  "hook": [
+   "No glass. No screen.",
+   "Just my arms around them."
+  ],
+  "title": "No glass, no screen, no distance. Just my arms around them 🌺",
+  "quote": "If I hold you a little longer than you think I should, it's 'cause I remember when I couldn't.",
+  "tags": [
+   "family",
+   "ohana"
+  ],
+  "accent": "#46e8e4",
+  "first": "There was a season I could only wave hello",
+  "last": "That's the kind of rich that's worth the keeping",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "unfinished",
+  "name": "Unfinished",
+  "round": 2,
+  "start": 97.74,
+  "end": 142.78,
+  "dur": 45.0,
+  "hook": [
+   "We trade \"I'm fine\"",
+   "like a password."
+  ],
+  "title": "We trade \"I'm fine\" like a password",
+  "quote": "The one who's always smiling might be the one who's breaking too.",
+  "tags": [
+   "mental health song",
+   "it's okay to not be okay"
+  ],
+  "accent": "#ffbf9c",
+  "first": "Now I see it in the checkout line",
+  "last": "So I'm giving them away",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "unfinished",
+  "name": "Unfinished",
+  "round": 3,
+  "start": 245.34,
+  "end": 313.7,
+  "dur": 68.4,
+  "hook": [
+   "Nobody's book is finished",
+   "while there's ink in the pen."
+  ],
+  "title": "Nobody's book is finished while there's ink left in the pen 🖋️",
+  "quote": "Write the nights you come apart and the mornings you come through.",
+  "tags": [
+   "mental health song",
+   "hope song"
+  ],
+  "accent": "#ffbf9c",
+  "first": "So here's the pen, it's yours too",
+  "last": "Me and you",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "only_the_strong_survive",
+  "name": "Only The Strong Survive",
+  "round": 2,
+  "start": 237.02,
+  "end": 283.9,
+  "dur": 46.9,
+  "hook": [
+   "My body can't do a stage.",
+   "So I wrote it down."
+  ],
+  "title": "My body can't do a stage. So your headphones are my stadium tonight 🎧",
+  "quote": "So I put it in a song, and I wrote it on the page.",
+  "tags": [
+   "men mental health",
+   "rock anthem"
+  ],
+  "accent": "#ff4a4a",
+  "first": "Then they told me, \"You should hear yourself",
+  "last": "Now your speakers and headphones are my stadium tonight",
+  "overlap": 0,
+  "overlap23": 1.0
+ },
+ {
+  "slug": "only_the_strong_survive",
+  "name": "Only The Strong Survive",
+  "round": 3,
+  "start": 282.94,
+  "end": 331.48,
+  "dur": 48.5,
+  "hook": [
+   "Losing the fight",
+   "never made them weak."
+  ],
+  "title": "To the ones we've lost: passing never made you weak 🕊️",
+  "quote": "Passing never made you weak. It made you human, friend.",
+  "tags": [
+   "in loving memory",
+   "strength"
+  ],
+  "accent": "#ff4a4a",
+  "first": "To the ones we've lost along the way",
+  "last": "And the courage to be real",
+  "overlap": 0,
+  "overlap23": 1.0
+ },
+ {
+  "slug": "dying_to_live",
+  "name": "Dying to Live",
+  "round": 2,
+  "start": 78.3,
+  "end": 134.1,
+  "dur": 55.8,
+  "hook": [
+   "They never told me",
+   "I was unbreakable."
+  ],
+  "title": "You told me the odds were unbeatable. You never told me I was unbreakable.",
+  "quote": "Quit staring at the clock, and I started digging roots.",
+  "tags": [
+   "stage 4 survivor",
+   "fight song"
+  ],
+  "accent": "#b4f24c",
+  "first": "You told me the odds were unbeatable",
+  "last": "I was living to die, now I'm dying to live",
+  "overlap": 0.1,
+  "overlap23": 0
+ },
+ {
+  "slug": "dying_to_live",
+  "name": "Dying to Live",
+  "round": 3,
+  "start": 267.34,
+  "end": 299.78,
+  "dur": 32.4,
+  "hook": [
+   "If you're counting down",
+   "instead of on..."
+  ],
+  "title": "If you're counting down instead of on, make one promise ✊",
+  "quote": "Don't promise them forever. Just promise them you'll fight it every day you've got.",
+  "tags": [
+   "promise",
+   "never give up"
+  ],
+  "accent": "#b4f24c",
+  "first": "So if you're sitting where I sat, counting down instead of on",
+  "last": "So I never said I'd beat it, I just swore I'd fight it through",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "i_live_on_through_you",
+  "name": "I Live On Through You",
+  "round": 2,
+  "start": 14.3,
+  "end": 65.3,
+  "dur": 51.0,
+  "hook": [
+   "The sun is going down,",
+   "but it's coming up soon."
+  ],
+  "title": "The sun is going down, but it's coming up soon 🌅",
+  "quote": "Just a whole life's worth of living that I'm passing down.",
+  "tags": [
+   "legacy song",
+   "heartland rock"
+  ],
+  "accent": "#ffd890",
+  "first": "I got a ticket for a sweet afternoon",
+  "last": "I live on through you",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "i_live_on_through_you",
+  "name": "I Live On Through You",
+  "round": 3,
+  "start": 230.22,
+  "end": 285.38,
+  "dur": 55.2,
+  "hook": [
+   "Pull a chair up by the bed",
+   "and stay the whole night."
+  ],
+  "title": "Show up for each other. Pull a chair up by the bed and stay. 🪑",
+  "quote": "Keep your circle small and tight, and let the good ones in.",
+  "tags": [
+   "songs for family",
+   "legacy song"
+  ],
+  "accent": "#ffd890",
+  "first": "Don't you waste a single minute crying at the gate",
+  "last": "I live on through you",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "a_seat_at_the_table",
+  "name": "A Seat at the Table",
+  "round": 2,
+  "start": 75.9,
+  "end": 125.7,
+  "dur": 49.8,
+  "hook": [
+   "This one's",
+   "for the fathers."
+  ],
+  "title": "This one's for the fathers, those beside us and those gone 🥃",
+  "quote": "A real man is the shelter, not the storm.",
+  "tags": [
+   "fathers",
+   "Irish folk"
+  ],
+  "accent": "#35d47d",
+  "first": "Now this one's for the fathers, the ones who showed us how",
+  "last": "So we'll sing for 'em together for as long as we are able",
+  "overlap": 0.3,
+  "overlap23": 0
+ },
+ {
+  "slug": "a_seat_at_the_table",
+  "name": "A Seat at the Table",
+  "round": 3,
+  "start": 231.1,
+  "end": 278.42,
+  "dur": 47.3,
+  "hook": [
+   "A blessing",
+   "for whoever needs it tonight."
+  ],
+  "title": "A blessing for whoever needs it tonight 🍀",
+  "quote": "May the ones you've lost sit with you in the stories that you tell.",
+  "tags": [
+   "blessing",
+   "toast song"
+  ],
+  "accent": "#35d47d",
+  "first": "May your cup be full of something good, whatever suits you best",
+  "last": "So we'll sing for 'em together for as long as we are able",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "live_now_die_later",
+  "name": "Live Now, Die Later",
+  "round": 2,
+  "start": 118.86,
+  "end": 179.86,
+  "dur": 61.0,
+  "hook": [
+   "I used to think crying",
+   "made me weak."
+  ],
+  "title": "I used to think crying made me weaker than a man should be 🎭",
+  "quote": "Now when I need to, I just cry, and I let it have its say.",
+  "tags": [
+   "men mental health",
+   "it is okay to cry"
+  ],
+  "accent": "#c4ebff",
+  "first": "I used to fight back every tear, bury it where none could see",
+  "last": "Feel the whole thing through",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "live_now_die_later",
+  "name": "Live Now, Die Later",
+  "round": 3,
+  "start": 259.66,
+  "end": 319.62,
+  "dur": 60.0,
+  "hook": [
+   "If you're carrying",
+   "a lot tonight..."
+  ],
+  "title": "If you're carrying a lot tonight, let it out 🎭",
+  "quote": "Nobody gets to tell you how you're supposed to feel.",
+  "tags": [
+   "feel your feelings",
+   "two masks"
+  ],
+  "accent": "#c4ebff",
+  "first": "If you found this song tonight, and you're carrying a lot",
+  "last": "Feel the whole thing through",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "embrace_every_scar",
+  "name": "Embrace Every Scar",
+  "round": 2,
+  "start": 102.06,
+  "end": 170.82,
+  "dur": 68.8,
+  "hook": [
+   "My bicep rolled up",
+   "like a window shade."
+  ],
+  "title": "My bicep tore and rolled up like a window shade. Pride's receipt. 💪",
+  "quote": "Some scars teach you what you're made of, some teach you what you're not.",
+  "tags": [
+   "scars",
+   "healing song"
+  ],
+  "accent": "#d0b8ff",
+  "first": "There's another on my right forearm, and it's got a story too",
+  "last": "The pain is just proof you're alive",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "embrace_every_scar",
+  "name": "Embrace Every Scar",
+  "round": 3,
+  "start": 182.3,
+  "end": 228.02,
+  "dur": 45.7,
+  "hook": [
+   "The scars nobody sees",
+   "are the ones I wear most."
+  ],
+  "title": "The scars nobody sees are the ones I wear the most",
+  "quote": "We can both put the smile down for a minute, and that's alright.",
+  "tags": [
+   "hidden pain",
+   "healing song"
+  ],
+  "accent": "#d0b8ff",
+  "first": "But the ones nobody sees are the ones I wear the most",
+  "last": "It don't matter where you got 'em, you're allowed to heal again",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "make_your_time_count",
+  "name": "Make Your Time Count",
+  "round": 2,
+  "start": 9.98,
+  "end": 75.14,
+  "dur": 65.2,
+  "hook": [
+   "Advice to the kid",
+   "I used to be."
+  ],
+  "title": "Sit down, kid. Here's what I wish I'd known. 🎺",
+  "quote": "Everybody shows up for the party. Watch how quick you lose the crowd.",
+  "tags": [
+   "advice to my younger self",
+   "big band"
+  ],
+  "accent": "#f2a88a",
+  "first": "Sit down, kid, I see that worry",
+  "last": "Then who had excuses ready when the hard news came and went",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "make_your_time_count",
+  "name": "Make Your Time Count",
+  "round": 3,
+  "start": 189.82,
+  "end": 234.5,
+  "dur": 44.7,
+  "hook": [
+   "Laugh through the cancer.",
+   "Turn the devil into a thief."
+  ],
+  "title": "Laugh through the cancer and turn the devil into a thief 😄",
+  "quote": "All the love you've got for these words is the same love I've got for you.",
+  "tags": [
+   "laughter is medicine",
+   "swing"
+  ],
+  "accent": "#f2a88a",
+  "first": "In the hardest rooms I've sat in, I found out that laughter's free",
+  "last": "All the love you've got for these words is the same love I've got for you",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "shout_yes",
+  "name": "Shout Yes",
+  "round": 2,
+  "start": 107.66,
+  "end": 169.3,
+  "dur": 61.6,
+  "hook": [
+   "Yes doesn't mean",
+   "I like it."
+  ],
+  "title": "Yes doesn't mean I like it. It means I'm here for it. 🙌",
+  "quote": "I've never had a morning yet I couldn't put a yes on.",
+  "tags": [
+   "morning motivation",
+   "say yes"
+  ],
+  "accent": "#4fe3ff",
+  "first": "Now I stand up slow on gummy legs and find my balance first",
+  "last": "Say it with me",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "shout_yes",
+  "name": "Shout Yes",
+  "round": 3,
+  "start": 219.62,
+  "end": 252.59,
+  "dur": 33.0,
+  "hook": [
+   "If all you've got",
+   "is a whisper..."
+  ],
+  "title": "If all you've got today is a whispered yes, that's enough 🙌",
+  "quote": "Some days you say it till you mean it, and that's how you start the day.",
+  "tags": [
+   "grief",
+   "depression"
+  ],
+  "accent": "#4fe3ff",
+  "first": "Maybe you're grieving, maybe you're hurting, maybe your mind won't let you rest",
+  "last": "Just don't you dare surrender to the down inside",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "from_where_i_stand",
+  "name": "From Where I Stand",
+  "round": 2,
+  "start": 37.1,
+  "end": 74.58,
+  "dur": 37.5,
+  "hook": [
+   "\"It's probably nothing.\"",
+   "For years."
+  ],
+  "title": "For years they said it was probably nothing. Then: stage four.",
+  "quote": "I was almost relieved. At least now we know where to begin.",
+  "tags": [
+   "misdiagnosis",
+   "you're not crazy"
+  ],
+  "accent": "#e9d9a6",
+  "first": "For years, every answer was the same",
+  "last": "Now we've got a fight and a way through",
+  "overlap": 0.6,
+  "overlap23": 0
+ },
+ {
+  "slug": "from_where_i_stand",
+  "name": "From Where I Stand",
+  "round": 3,
+  "start": 118.38,
+  "end": 181.66,
+  "dur": 63.3,
+  "hook": [
+   "I gave them calm",
+   "instead of fear."
+  ],
+  "title": "Every time they looked at me, I gave them calm instead of fear",
+  "quote": "That was the only wheel I had, so that's the one I steered.",
+  "tags": [
+   "perspective",
+   "still standing"
+  ],
+  "accent": "#e9d9a6",
+  "first": "I couldn't stop the cancer or the things that chemo took",
+  "last": "Still standing, here I am",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "quiet_fire",
+  "name": "Quiet Fire",
+  "round": 2,
+  "start": 37.58,
+  "end": 100.74,
+  "dur": 63.2,
+  "hook": [
+   "My hands quit.",
+   "So I picked up a pen."
+  ],
+  "title": "My hands couldn't haul the load anymore, so I picked up a pen ✍️",
+  "quote": "My body's got a fence line, but my mind's got none.",
+  "tags": [
+   "underdog song",
+   "songwriter"
+  ],
+  "accent": "#ff8a2a",
+  "first": "These old hands can't haul the load they hauled back then",
+  "last": "But everybody feels the spark",
+  "overlap": 0.4,
+  "overlap23": 0
+ },
+ {
+  "slug": "quiet_fire",
+  "name": "Quiet Fire",
+  "round": 3,
+  "start": 104.62,
+  "end": 144.58,
+  "dur": 40.0,
+  "hook": [
+   "Casserole, jumper cable,",
+   "and some good advice."
+  ],
+  "title": "The kind of people who show up in the rain without being asked twice",
+  "quote": "With a casserole, a jumper cable, and some good advice.",
+  "tags": [
+   "small town",
+   "quiet strength"
+  ],
+  "accent": "#ff8a2a",
+  "first": "I don't need a stadium, I don't need a crowd",
+  "last": "But in the quiet's where the truth gets told",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "footprints_of_gold",
+  "name": "Footprints of Gold",
+  "round": 2,
+  "start": 151.36,
+  "end": 197.7,
+  "dur": 46.3,
+  "hook": [
+   "My daddy taught me",
+   "to hear what you don't say."
+  ],
+  "title": "My daddy taught me to hear what people can't find the words to say",
+  "quote": "When somebody says they're alright and looks away, I pull up close and stay.",
+  "tags": [
+   "fathers",
+   "listen"
+  ],
+  "accent": "#f4c23c",
+  "first": "Oh, my daddy taught me something that I hold on to today",
+  "last": "He truly lived for others, the realest good man you could meet",
+  "overlap": 0,
+  "overlap23": 1.4
+ },
+ {
+  "slug": "footprints_of_gold",
+  "name": "Footprints of Gold",
+  "round": 3,
+  "start": 196.3,
+  "end": 253.46,
+  "dur": 57.2,
+  "hook": [
+   "Call the friend",
+   "who's gone too quiet."
+  ],
+  "title": "Call the friend who's gone too quiet ☎️",
+  "quote": "Help somebody move a couch. Pay for the car behind you.",
+  "tags": [
+   "kindness",
+   "pay it forward"
+  ],
+  "accent": "#f4c23c",
+  "first": "So here's something you can do before the sun goes down today",
+  "last": "Every little kindness leaves a step that glows",
+  "overlap": 0,
+  "overlap23": 1.4
+ },
+ {
+  "slug": "we_die_before_we_quit",
+  "name": "We Die Before We Quit",
+  "round": 2,
+  "start": 88.46,
+  "end": 115.14,
+  "dur": 26.7,
+  "hook": [
+   "I saw the little kids",
+   "in the waiting room."
+  ],
+  "title": "I looked around the waiting room and saw the little kids",
+  "quote": "Give me the sickness, give me the weakness.",
+  "tags": [
+   "motivational rap",
+   "warrior mindset"
+  ],
+  "accent": "#ff3640",
+  "first": "I look around the waiting room, I see the little kids",
+  "last": "Refusing defeat, completing the treatment",
+  "overlap": 0,
+  "overlap23": 0
+ },
+ {
+  "slug": "we_die_before_we_quit",
+  "name": "We Die Before We Quit",
+  "round": 3,
+  "start": 6.7,
+  "end": 61.78,
+  "dur": 55.1,
+  "hook": [
+   "Stage four tried",
+   "to take it all."
+  ],
+  "title": "Stage four tried to take it all. I looked it in the eyes. 🥊",
+  "quote": "I am the director of a resurrection.",
+  "tags": [
+   "motivational rap",
+   "battle cry"
+  ],
+  "accent": "#ff3640",
+  "first": "The monitors were my lifestyle",
+  "last": "Defying every medical conjecture",
+  "overlap": 0,
+  "overlap23": 0
+ }
+]

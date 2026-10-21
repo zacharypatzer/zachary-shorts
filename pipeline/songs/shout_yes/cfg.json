@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/shout_yes",
+ "dur": 338.4,
+ "art_path": "/home/claude/songs/shout_yes/cover.png",
+ "title": "Shout Yes",
+ "glow_col": [
+  120.0,
+  28.2,
+  82.8
+ ],
+ "ember_col": [
+  255.0,
+  227.0,
+  79.0
+ ],
+ "sub_tint": [
+  255,
+  168,
+  242
+ ],
+ "ember_speed": 1.4,
+ "ember_gain": 1.0,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

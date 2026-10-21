@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/remember_me_when_im_gone",
+ "dur": 348.144,
+ "art_path": "/home/claude/songs/remember_me_when_im_gone/cover.png",
+ "title": "Remember Me When I'm Gone",
+ "glow_col": [
+  67.2,
+  96.0,
+  120.0
+ ],
+ "ember_col": [
+  208.0,
+  240.0,
+  255.0
+ ],
+ "sub_tint": [
+  192,
+  220,
+  240
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.7,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

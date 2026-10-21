@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/a_mile_an_hour",
+ "dur": 417.24,
+ "art_path": "/home/claude/songs/a_mile_an_hour/cover.png",
+ "title": "A Mile An Hour",
+ "glow_col": [
+  120.0,
+  75.7,
+  32.0
+ ],
+ "ember_col": [
+  255.0,
+  230.0,
+  207.0
+ ],
+ "sub_tint": [
+  255,
+  210,
+  159
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

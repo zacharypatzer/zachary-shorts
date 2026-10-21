@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/from_where_i_stand",
+ "dur": 328.44,
+ "art_path": "/home/claude/songs/from_where_i_stand/cover.png",
+ "title": "From Where I Stand",
+ "glow_col": [
+  40.9,
+  94.1,
+  120.0
+ ],
+ "ember_col": [
+  138.0,
+  224.0,
+  255.0
+ ],
+ "sub_tint": [
+  200,
+  230,
+  240
+ ],
+ "ember_speed": 0.6,
+ "ember_gain": 1.0,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

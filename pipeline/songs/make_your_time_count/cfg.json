@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/make_your_time_count",
+ "dur": 361.92,
+ "art_path": "/home/claude/songs/make_your_time_count/cover.png",
+ "title": "Make Your Time Count",
+ "glow_col": [
+  36.0,
+  86.4,
+  120.0
+ ],
+ "ember_col": [
+  144.0,
+  216.0,
+  255.0
+ ],
+ "sub_tint": [
+  176,
+  198,
+  246
+ ],
+ "ember_speed": 0.9,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

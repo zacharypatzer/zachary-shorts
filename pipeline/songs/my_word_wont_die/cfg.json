@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/my_word_wont_die",
+ "dur": 398.592,
+ "art_path": "/home/claude/songs/my_word_wont_die/cover.png",
+ "title": "My Word Won't Die",
+ "glow_col": [
+  33.6,
+  72.0,
+  120.0
+ ],
+ "ember_col": [
+  160.0,
+  216.0,
+  255.0
+ ],
+ "sub_tint": [
+  188,
+  227,
+  246
+ ],
+ "ember_speed": 0.9,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

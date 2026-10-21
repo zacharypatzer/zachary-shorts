@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/living_in_the_echo",
+ "dur": 382.824,
+ "art_path": "/home/claude/songs/living_in_the_echo/cover.png",
+ "title": "Living in the Echo",
+ "glow_col": [
+  120.0,
+  72.3,
+  28.6
+ ],
+ "ember_col": [
+  255.0,
+  216.0,
+  154.0
+ ],
+ "sub_tint": [
+  138,
+  207,
+  255
+ ],
+ "ember_speed": 0.6,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

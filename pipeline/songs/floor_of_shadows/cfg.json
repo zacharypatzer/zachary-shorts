@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/floor_of_shadows",
+ "dur": 357.624,
+ "art_path": "/home/claude/songs/floor_of_shadows/cover.png",
+ "title": "Floor of Shadows",
+ "glow_col": [
+  120.0,
+  106.1,
+  92.2
+ ],
+ "ember_col": [
+  255.0,
+  240.0,
+  232.0
+ ],
+ "sub_tint": [
+  160,
+  246,
+  255
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.6,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}
