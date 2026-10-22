@@ -506,7 +506,7 @@ def key(w):
 def wrap(words, f):
     import itertools
     dr = ImageDraw.Draw(Image.new('L', (8, 8)))
-    sw = dr.textlength(' ', font=f)
+    sw = dr.textlength(' ', font=f) + 12
     ww = [dr.textlength(w, font=f) for w in words]
 
     def width(a, b):
@@ -543,7 +543,7 @@ class Word:
 def build_lyrics(lyr):
     f = ImageFont.truetype(INTER_B, FS)
     dr = ImageDraw.Draw(Image.new('L', (8, 8)))
-    sw = dr.textlength(' ', font=f)
+    sw = dr.textlength(' ', font=f) + 12   # extra room so a popping word never touches its neighbour
     items = []
     for it in lyr:
         if it.get('kind') == 'dots':
