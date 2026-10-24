@@ -7,7 +7,7 @@ import sys, os, json, re, subprocess, shutil
 
 SLUG = sys.argv[1]
 D = f'/home/claude/songs/{SLUG}'
-U = '/root/.claude/uploads/7e2b6de3-c1a2-50ff-9aa8-ba533aa956e4'
+U = os.environ.get('UPL', '/root/.claude/uploads/7e2b6de3-c1a2-50ff-9aa8-ba533aa956e4')
 rows = [l.rstrip('\n').split('\t') for l in open('/home/claude/songs/list.tsv')]
 row = [r for r in rows if r[1] == SLUG][0]
 TITLE = row[3]
@@ -40,6 +40,7 @@ PAL = {
     'a_mile_an_hour':         ('#2f6fb0', '#cfe6ff', '#9fd2ff', 0.4, 0.9),
     'unfinished':             ('#e07a64', '#c8f5e6', '#ffd0c2', 0.5, 0.8),
     'lions_heart':            ('#e0862a', '#ffd27a', '#ffe0a8', 0.6, 0.9),
+    'the_seventh_day':        ('#d9a441', '#fff1c4', '#fff4d6', 0.35, 0.8),
 }
 
 

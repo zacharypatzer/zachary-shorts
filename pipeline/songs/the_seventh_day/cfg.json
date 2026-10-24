@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/the_seventh_day",
+ "dur": 148.824,
+ "art_path": "/home/claude/songs/the_seventh_day/cover.png",
+ "title": "The Seventh Day",
+ "glow_col": [
+  35.9,
+  90.7,
+  120.0
+ ],
+ "ember_col": [
+  196.0,
+  241.0,
+  255.0
+ ],
+ "sub_tint": [
+  214,
+  244,
+  255
+ ],
+ "ember_speed": 0.35,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}
