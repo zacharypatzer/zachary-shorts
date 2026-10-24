@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/its_your_birthday",
+ "dur": 155.952,
+ "art_path": "/home/claude/songs/its_your_birthday/cover.png",
+ "title": "It's Your Birthday",
+ "glow_col": [
+  112.1,
+  33.6,
+  120.0
+ ],
+ "ember_col": [
+  74.0,
+  207.0,
+  255.0
+ ],
+ "sub_tint": [
+  244,
+  217,
+  255
+ ],
+ "ember_speed": 1.0,
+ "ember_gain": 1.1,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

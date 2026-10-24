@@ -9,8 +9,11 @@ FONT = os.environ.get('FONT', '/home/claude/fonts/Lora-Variable.ttf')
 INTER_SB = '/usr/share/fonts/opentype/inter/Inter-SemiBold.otf'
 out = sys.argv[1]; mode = sys.argv[2] if len(sys.argv) > 2 else 'square'
 S0 = 1668
+dx = 0
 if mode == 'square':
     W, H, k, dy = S0, S0, 1.0, 0
+elif mode == 'reel':
+    W, H = 1080, 1920; k = 1.22 * W / S0; dx = -(k * S0 - W) / 2; dy = H - k * S0
 else:
     W, H = 1080, 1350; k = W / S0; dy = H - W
 def hexc(h):
@@ -21,7 +24,7 @@ x0 = (n - W) // 2; img = sc[0:H, x0:x0 + W].copy()
 yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
 P = cv2.imread('/home/claude/songs/unfinished/face_src.jpg').astype(np.float32)
 mP = cv2.imread(f'{D}/matte.png', 0).astype(np.float32) / 255
-M = np.load(f'{D}/M_face.npy') * k; M[1, 2] += dy
+M = np.load(f'{D}/M_face.npy') * k; M[1, 2] += dy; M[0, 2] += dx
 core = cv2.erode((mP > 0.95).astype(np.float32), np.ones((5, 5), np.uint8))
 F = cv2.GaussianBlur(P * core[..., None], (0, 0), 4) / np.maximum(cv2.GaussianBlur(core, (0, 0), 4)[..., None], 1e-4)
 band = cv2.GaussianBlur(cv2.dilate(((mP > 0.02) & (mP < 0.98)).astype(np.float32), np.ones((7, 7), np.uint8)), (0, 0), 2)[..., None]
@@ -64,14 +67,16 @@ for sz in range(int(420 * u), 60, -4):
     try: f.set_variation_by_axes([700])
     except Exception: pass
     l, t, r, b = d0.textbbox((0, 0), title, font=f, anchor='ls')
-    if r - l <= W * 0.86 and (-t) <= cap * u: break
-base = (int(os.environ.get('BASE', 370)) * u) + (dy * 0.35 if mode != 'square' else 0)
+    if r - l <= W * (0.80 if mode == 'reel' else 0.86) and (-t) <= cap * u: break
+base = (int(os.environ.get('BASE', 370)) * u) + (dy * 0.35 if mode == 'vertical' else 0)
+if mode == 'reel': base = 0.27 * H
 tx = (W - (r - l)) / 2 - l
 A = mask(lambda d: d.text((tx, base), title, font=f, fill=255, anchor='ls'))
 img = styled(img, A, '#fffdf4', '#f2c35a', '#14203f', max(3, int(7 * u)), base + t, base + b, 0.7, glow=0.9)
 fa = ImageFont.truetype(INTER_SB, max(20, int(54 * u))); art, sp = 'ZACHARY PATZER', 20 * u
 wid = sum(d0.textlength(c, font=fa) for c in art) + sp * (len(art) - 1)
-ay = 112 * u + (dy * 0.12 if mode != 'square' else 0)
+ay = 112 * u + (dy * 0.12 if mode == 'vertical' else 0)
+if mode == 'reel': ay = 0.17 * H
 def draw_art(d):
     x = (W - wid) / 2
     for c in art:
