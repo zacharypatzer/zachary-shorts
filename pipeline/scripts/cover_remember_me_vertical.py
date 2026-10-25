@@ -96,13 +96,13 @@ core = cv2.erode((a > 0.95).astype(np.float32), np.ones((5, 5), np.uint8))
 F = cv2.GaussianBlur(P * core[..., None], (0, 0), 4) / np.maximum(cv2.GaussianBlur(core, (0, 0), 4), 1e-4)[..., None]
 band = cv2.GaussianBlur(cv2.dilate(((a > 0.02) & (a < 0.98)).astype(np.float32), np.ones((7, 7), np.uint8)), (0, 0), 2)[..., None]
 P = P * (1 - band) + F * band
-FS = 860
+FS = 1080
 P = cv2.resize(P, (FS, FS), interpolation=cv2.INTER_AREA); a = cv2.resize(a, (FS, FS), interpolation=cv2.INTER_AREA)
-fx, fy = (W - FS) // 2, 735
+fx, fy = (W - FS) // 2, 840
 P = P * np.array([0.92, 1.0, 1.06], np.float32)
 ry, rx = np.mgrid[0:FS, 0:FS].astype(np.float32)
 P += (bgr('#ffcf8a') * 0.10)[None, None] * np.clip(rx / FS, 0, 1)[..., None]
-a = a * np.clip((FS - 30 - ry) / 170, 0, 1) ** 1.3 * np.clip(np.minimum(rx - 20, FS - 20 - rx) / 90, 0, 1)
+a = cv2.GaussianBlur(a, (0, 0), 1.2)  # soft edge; bust runs off the bottom and sides so nothing is cut mid-body
 reg = img[fy:fy + FS, fx:fx + FS]
 sh = cv2.GaussianBlur(a, (0, 0), 30) * 0.55
 reg = reg * (1 - sh[..., None])
