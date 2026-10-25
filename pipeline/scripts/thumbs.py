@@ -42,6 +42,7 @@ S = {
     'a_mile_an_hour':         ('bfef81be-7867.jpg', 'ofl/bevan/Bevan-Regular.ttf', None, '#5ec0ff', '#03182a', 'flat', True),
     'unfinished':             ('/home/claude/songs/unfinished/scene_crop.png', 'ofl/mrdafoe/MrDafoe-Regular.ttf', None, '#fff3e6', '#1a2647', 'sunrise', False),
     'lions_heart':            ('/home/claude/songs/lions_heart/scene_crop.png', 'ofl/sansita/Sansita-BlackItalic.ttf', None, '#ffd27a', '#3d0f08', 'lion', False),
+    'glad_youre_here':        ('/home/claude/songs/glad_youre_here/scene_src.png', 'ofl/pacifico/Pacifico-Regular.ttf', None, '#ffd27a', '#5a1a04', 'sunrise', False),
 }
 # per-song face-panel crop (fraction of cover width): Lion's Heart shifts right to keep the lion and drop the IV cape
 PANEL_X = {}
@@ -49,7 +50,7 @@ PANEL_X = {}
 HIDE_LEFT_SCENE = {'lions_heart'}
 EXTRA_TITLES = {'take_a_number': 'Take a Number', 'light_one_let_it_go': 'Light One, Let It Go',
                 'beautiful_anyway': 'Beautiful Anyway', 'a_mile_an_hour': 'A Mile An Hour',
-                'lions_heart': 'Lion\u2019s Heart'}
+                'lions_heart': 'Lion\u2019s Heart', 'glad_youre_here': 'Glad You\u2019re Here'}
 
 
 def hexc(h):

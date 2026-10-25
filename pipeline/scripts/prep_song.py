@@ -42,6 +42,7 @@ PAL = {
     'lions_heart':            ('#e0862a', '#ffd27a', '#ffe0a8', 0.6, 0.9),
     'the_seventh_day':        ('#d9a441', '#fff1c4', '#fff4d6', 0.35, 0.8),
     'its_your_birthday':      ('#d63cc8', '#ffcf4a', '#ffd9f4', 1.0, 1.1),
+    'glad_youre_here':        ('#ff8a1f', '#ffe08a', '#fff0c8', 0.8, 1.0),
 }
 
 
