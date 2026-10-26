@@ -126,10 +126,10 @@ for i in range(N):
         if ln[0][1] - 0.15 <= t:
             cur = ln
     if cur:
-        f = font(98)
+        f = font(92)
         words = [w for w, s, e in cur]
-        rws = wrap(words, f, d, 840)
-        k = 0; yy = 1220; lh = 116
+        rws = wrap(words, f, d, 740)
+        k = 0; yy = 1200; lh = 110
         for r in rws:
             full = ' '.join(r); x = W / 2 - d.textlength(full, font=f) / 2
             for w in r:
