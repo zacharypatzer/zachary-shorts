@@ -26,7 +26,10 @@ d0, d1 = DEST, DEST + (t1 - t0)
 band = f"(1-0.32*clip(min((Y-{d0}+160)/160,({d1}+150-Y)/200),0,1))"
 dim = f"((0.98-0.20*clip((Y-900)/1000,0,1))*{band})"
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-i', cover, '-vf',
-    "scale=2320:2320,crop=1080:1920:620:440,gblur=sigma=5,format=gbrp,"
+    # mirror rows 70-150 over the top edge to hide any leftover cover-title shadow
+    "scale=2320:2320:flags=lanczos,crop=1080:1920:620:495,split[m][t];"
+    "[t]crop=1080:80:0:70,vflip,gblur=sigma=6[tp];[m][tp]overlay=0:0,"
+    "gblur=sigma=1.2,format=gbrp,"
     f"geq=r='r(X,Y)*{dim}':g='g(X,Y)*{dim}':b='b(X,Y)*{dim}',"
     "eq=contrast=1.05:saturation=1.08,vignette=PI/8", '-frames:v', '1', bg], check=True)
 
