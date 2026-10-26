@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/dying_to_live/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/dying_to_live.png",
+ "song_start": 78.65,
+ "song_end": 93.21,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R2_dying_to_live.mp4",
+ "audio_off": 0.35,
+ "accent": "#b4f24c",
+ "hook": [
+  "They said the odds",
+  "WERE UNBEATABLE."
+ ],
+ "payoff": [
+  "That was 4 years ago.",
+  "STILL HERE."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_dying_to_live_A.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/live_now_die_later/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/live_now_die_later.png",
+ "song_start": 272.97,
+ "song_end": 288.65,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_live_now_die_later.mp4",
+ "audio_off": 13.31,
+ "accent": "#38bbff",
+ "hook": [
+  "Nobody gets to tell you",
+  "HOW TO FEEL."
+ ],
+ "payoff": [
+  "Send this to someone",
+  "WHO NEEDS IT."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_live_now_die_later_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

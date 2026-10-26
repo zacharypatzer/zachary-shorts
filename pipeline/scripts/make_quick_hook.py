@@ -27,11 +27,15 @@ for x in json.load(open(C['lyrics'])):
 src = Image.open(C['cover']).convert('RGB')
 if C.get('hide_top') and 'crop_cx' in C:   # replace the cover's own title band with stretched smoke from just below it
     k = C['hide_top']
-    band = src.crop((0, k, src.width, k + 60)).resize((src.width, k), Image.BICUBIC).filter(ImageFilter.GaussianBlur(25))
+    if C.get('hide_mode') == 'blur':
+        band = src.crop((0, 0, src.width, k)).filter(ImageFilter.GaussianBlur(k // 6))
+    else:
+        band = src.crop((0, k, src.width, k + 60)).resize((src.width, k), Image.BICUBIC).filter(ImageFilter.GaussianBlur(25))
     band = Image.blend(band, Image.new('RGB', band.size, (0, 0, 0)), 0.35)
     m = Image.new('L', (src.width, k), 255); md = ImageDraw.Draw(m)
-    for y in range(k - 60, k):
-        md.line([(0, y), (src.width, y)], fill=int(255 * (k - y) / 60))
+    fz = k // 8 if C.get('hide_mode') == 'blur' else 60
+    for y in range(k - fz, k):
+        md.line([(0, y), (src.width, y)], fill=int(255 * (k - y) / fz))
     src.paste(band, (0, 0), m)
 if 'crop_cx' in C:
   cx, cy, ch = C['crop_cx'], C['crop_cy'], C['crop_h']

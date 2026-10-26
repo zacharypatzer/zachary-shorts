@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/i_live_on_through_you/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/i_live_on_through_you.png",
+ "song_start": 242.17,
+ "song_end": 254.41,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_i_live_on_through_you.mp4",
+ "audio_off": 11.95,
+ "accent": "#ffb938",
+ "hook": [
+  "Pull a chair up by the bed",
+  "AND STAY."
+ ],
+ "payoff": [
+  "Send this to someone",
+  "WHO NEEDS IT."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_i_live_on_through_you_A.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

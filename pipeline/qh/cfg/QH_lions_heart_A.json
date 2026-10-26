@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/lions_heart/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/lions_heart.png",
+ "song_start": 103.61,
+ "song_end": 118.57,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R2_lions_heart.mp4",
+ "audio_off": 0.35,
+ "accent": "#ffc160",
+ "hook": [
+  "For the caregivers",
+  "NOBODY SEES."
+ ],
+ "payoff": [
+  "Send this to someone",
+  "WHO NEEDS IT."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_lions_heart_A.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

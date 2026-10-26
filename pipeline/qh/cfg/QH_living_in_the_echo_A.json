@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/living_in_the_echo/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/living_in_the_echo.png",
+ "song_start": 53.45,
+ "song_end": 65.29,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R2_living_in_the_echo.mp4",
+ "audio_off": 37.55,
+ "accent": "#ffa319",
+ "hook": [
+  "\"Your scans look clean.\"",
+  "MY BODY DISAGREES."
+ ],
+ "payoff": [
+  "That was 4 years ago.",
+  "STILL HERE."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_living_in_the_echo_A.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

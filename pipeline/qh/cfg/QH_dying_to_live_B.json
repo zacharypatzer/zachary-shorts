@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/dying_to_live/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/dying_to_live.png",
+ "song_start": 279.05,
+ "song_end": 293.61,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_dying_to_live.mp4",
+ "audio_off": 11.71,
+ "accent": "#b4f24c",
+ "hook": [
+  "If you're counting down",
+  "INSTEAD OF ON..."
+ ],
+ "payoff": [
+  "Stage 4 Hodgkin's.",
+  "3 BELLS RUNG."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_dying_to_live_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

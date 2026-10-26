@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/footprints_of_gold/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/footprints_of_gold.png",
+ "song_start": 211.69,
+ "song_end": 227.41,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_footprints_of_gold.mp4",
+ "audio_off": 15.39,
+ "accent": "#f4c23b",
+ "hook": [
+  "The gold isn't",
+  "IN YOUR POCKET."
+ ],
+ "payoff": [
+  "Send this to someone",
+  "WHO NEEDS IT."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_footprints_of_gold_C.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

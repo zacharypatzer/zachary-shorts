@@ -1,0 +1,43 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/remember_me_when_im_gone/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/remember_me_when_im_gone.png",
+ "song_start": 201.13,
+ "song_end": 214.43,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_remember_me_when_im_gone.mp4",
+ "audio_off": 15.79,
+ "accent": "#ff38c9",
+ "hook": [
+  "For anyone missing",
+  "SOMEONE TONIGHT."
+ ],
+ "payoff": [
+  "Send this to someone",
+  "WHO NEEDS IT."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_remember_me_when_im_gone_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 923,
+ "hide_mode": "blur"
+}

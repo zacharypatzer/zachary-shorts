@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/from_where_i_stand/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/from_where_i_stand.png",
+ "song_start": 52.01,
+ "song_end": 66.65,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R2_from_where_i_stand.mp4",
+ "audio_off": 14.91,
+ "accent": "#ffcf38",
+ "hook": [
+  "Stage 4. And I was",
+  "ALMOST RELIEVED."
+ ],
+ "payoff": [
+  "That was 4 years ago.",
+  "STILL HERE."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_from_where_i_stand_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

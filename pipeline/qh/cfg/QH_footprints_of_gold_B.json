@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/footprints_of_gold/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/footprints_of_gold.png",
+ "song_start": 151.71,
+ "song_end": 167.53,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R2_footprints_of_gold.mp4",
+ "audio_off": 0.35,
+ "accent": "#f4c23b",
+ "hook": [
+  "My daddy taught me to hear",
+  "WHAT YOU DON'T SAY."
+ ],
+ "payoff": [
+  "Send this to someone",
+  "WHO NEEDS IT."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_footprints_of_gold_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

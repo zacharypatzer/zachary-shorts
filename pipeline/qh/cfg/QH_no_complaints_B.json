@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/no_complaints/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/no_complaints.png",
+ "song_start": 280.33,
+ "song_end": 294.36,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R2_no_complaints.mp4",
+ "audio_off": 0.35,
+ "accent": "#5f8bff",
+ "hook": [
+  "\"How you doing?\"",
+  "NO COMPLAINTS."
+ ],
+ "payoff": [
+  "That was 4 years ago.",
+  "STILL HERE."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_no_complaints_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

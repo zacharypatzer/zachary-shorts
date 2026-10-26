@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/floor_of_shadows/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/floor_of_shadows.png",
+ "song_start": 29.69,
+ "song_end": 45.53,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R2_floor_of_shadows.mp4",
+ "audio_off": 15.31,
+ "accent": "#fff039",
+ "hook": [
+  "Every time I ride",
+  "THAT ELEVATOR UP..."
+ ],
+ "payoff": [
+  "That was 4 years ago.",
+  "STILL HERE."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_floor_of_shadows_A.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

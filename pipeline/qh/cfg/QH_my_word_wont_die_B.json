@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/my_word_wont_die/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/my_word_wont_die.png",
+ "song_start": 202.49,
+ "song_end": 217.02,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_my_word_wont_die.mp4",
+ "audio_off": 28.75,
+ "accent": "#ffbd38",
+ "hook": [
+  "Chemo took my feet.",
+  "NOT MY WORD."
+ ],
+ "payoff": [
+  "Stage 4 Hodgkin's.",
+  "3 BELLS RUNG."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_my_word_wont_die_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

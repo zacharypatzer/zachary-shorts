@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/make_your_time_count/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/make_your_time_count.png",
+ "song_start": 218.57,
+ "song_end": 233.85,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_make_your_time_count.mp4",
+ "audio_off": 28.75,
+ "accent": "#ff7138",
+ "hook": [
+  "To everyone who plays",
+  "MY SONGS AT NIGHT."
+ ],
+ "payoff": [
+  "Stage 4 Hodgkin's.",
+  "3 BELLS RUNG."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_make_your_time_count_C.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

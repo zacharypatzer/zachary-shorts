@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/from_where_i_stand/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/from_where_i_stand.png",
+ "song_start": 133.45,
+ "song_end": 147.57,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_from_where_i_stand.mp4",
+ "audio_off": 15.07,
+ "accent": "#ffcf38",
+ "hook": [
+  "I gave them calm",
+  "INSTEAD OF FEAR."
+ ],
+ "payoff": [
+  "Send this to someone",
+  "WHO NEEDS IT."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_from_where_i_stand_C.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}

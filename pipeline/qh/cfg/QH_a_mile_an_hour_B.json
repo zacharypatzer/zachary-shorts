@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/a_mile_an_hour/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/qh/covers4x/a_mile_an_hour.png",
+ "song_start": 366.41,
+ "song_end": 380.03,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_a_mile_an_hour.mp4",
+ "audio_off": 15.71,
+ "accent": "#5ec0ff",
+ "hook": [
+  "Slow ain't",
+  "STOPPING."
+ ],
+ "payoff": [
+  "Stage 4 Hodgkin's.",
+  "3 BELLS RUNG."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_a_mile_an_hour_B.mp4",
+ "crop_cx": 1592.0,
+ "crop_cy": 1592.0,
+ "crop_h": 3184,
+ "hide_top": 780
+}
