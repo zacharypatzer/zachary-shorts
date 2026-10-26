@@ -8,6 +8,7 @@ from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageColor
 
 C = json.load(open(sys.argv[1]))
 W, H, FPS = 1080, 1920, 30
+CAP_SZ, CAP_W = 86, 780
 FB = '/usr/share/fonts/opentype/inter/Inter-Black.otf'
 s0, s1 = C['song_start'], C['song_end']          # song-time window
 T = s1 - s0
@@ -24,7 +25,7 @@ for x in json.load(open(C['lyrics'])):
 
 # background crop of the square cover (face + ring, no title)
 src = Image.open(C['cover']).convert('RGB')
-if C.get('hide_top'):   # replace the cover's own title band with stretched smoke from just below it
+if C.get('hide_top') and 'crop_cx' in C:   # replace the cover's own title band with stretched smoke from just below it
     k = C['hide_top']
     band = src.crop((0, k, src.width, k + 60)).resize((src.width, k), Image.BICUBIC).filter(ImageFilter.GaussianBlur(25))
     band = Image.blend(band, Image.new('RGB', band.size, (0, 0, 0)), 0.35)
@@ -32,9 +33,10 @@ if C.get('hide_top'):   # replace the cover's own title band with stretched smok
     for y in range(k - 60, k):
         md.line([(0, y), (src.width, y)], fill=int(255 * (k - y) / 60))
     src.paste(band, (0, 0), m)
-cx, cy, ch = C['crop_cx'], C['crop_cy'], C['crop_h']
-cw = ch * W / H
-base = src.crop((int(cx - cw / 2), int(cy - ch / 2), int(cx + cw / 2), int(cy + ch / 2))).resize((W * 2, H * 2), Image.LANCZOS)
+if 'crop_cx' in C:
+  cx, cy, ch = C['crop_cx'], C['crop_cy'], C['crop_h']
+  cw = ch * W / H
+  base = src.crop((int(cx - cw / 2), int(cy - ch / 2), int(cx + cw / 2), int(cy + ch / 2))).resize((W * 2, H * 2), Image.LANCZOS)
 
 # static overlays: vignette + dark bands top/bottom for text
 shade = Image.new('L', (W, H), 0); sd = ImageDraw.Draw(shade)
@@ -46,7 +48,8 @@ for y in range(H):
 dark = Image.new('RGB', (W, H), (0, 0, 0))
 
 # ---- 'studio' background: works for every song (his portrait over a living dark set) ----
-STUDIO = C.get('bg') == 'studio'
+STUDIO = C.get('bg') in ('studio', 'cover_blur')
+COVERBG = C.get('bg') == 'cover_blur'
 if STUDIO:
     import numpy as np, cv2
     rng = np.random.default_rng(7)
@@ -75,14 +78,27 @@ if STUDIO:
     px, py = rng.random(NP) * W, rng.random(NP) * H
     pv = 6 + rng.random(NP) * 18; pr = rng.choice([1, 2, 2, 3, 4], NP); ph = rng.random(NP) * 6.28
     cool, warm = np.array([0.55, 0.66, 0.85]), np.array([1.0, 0.72, 0.48])
+    if COVERBG:   # the song's own cover, filled to 9:16, softly blurred and dimmed behind the sharp portrait
+        cv_ = cv2.cvtColor(np.asarray(src), cv2.COLOR_RGB2BGR)[..., ::-1].astype(np.float32)
+        sc = H * 1.12 / cv_.shape[0]
+        cv_ = cv2.resize(cv_, (int(cv_.shape[1] * sc), int(cv_.shape[0] * sc)), interpolation=cv2.INTER_CUBIC)
+        cv_ = cv2.GaussianBlur(cv_, (0, 0), C.get('bg_blur', 7)) * C.get('bg_gain', 0.62)
+        CB = cv_
 
     def studio_frame(t, z, flash):
         k = t / T
         tint = cool * (1 - k) + warm * k
-        lvl = 0.9 + 0.1 * np.sin(t * 1.3)
-        h = np.roll(hz, int(t * 22), axis=1)[:, :W]
-        lum = 10 + 70 * glow * (0.85 + 0.25 * k) + 46 * beam * lvl + 26 * h * glow
-        img = lum[..., None] * tint[None, None, :]
+        if COVERBG:
+            zb = 1 + (z - 1) * 0.5
+            bh_, bw_ = CB.shape[:2]; vh, vw = H / zb * (bh_ / (H * 1.12)), W / zb * (bh_ / (H * 1.12))
+            y0b, x0b = (bh_ - vh) / 2, (bw_ - vw) / 2
+            img = cv2.resize(CB[int(y0b):int(y0b + vh), int(x0b):int(x0b + vw)], (W, H), interpolation=cv2.INTER_LINEAR)
+            tint = np.array([1.0, 1.0, 1.0])
+        else:
+            lvl = 0.9 + 0.1 * np.sin(t * 1.3)
+            h = np.roll(hz, int(t * 22), axis=1)[:, :W]
+            lum = 10 + 70 * glow * (0.85 + 0.25 * k) + 46 * beam * lvl + 26 * h * glow
+            img = lum[..., None] * tint[None, None, :]
         dots = np.zeros((H, W), np.float32)
         for j in range(NP):
             x = (px[j] + 14 * np.sin(t * 0.4 + ph[j])) % W; y = (py[j] - pv[j] * t) % H
@@ -101,9 +117,36 @@ if STUDIO:
         out = Image.fromarray(img.astype(np.uint8))
         out = Image.composite(dark, out, shade)
         if flash:
-            out = Image.blend(out, Image.new('RGB', (W, H), ImageColor.getrgb(ACC)), flash * 0.7)
+            out = Image.blend(out, Image.new('RGB', (W, H), ImageColor.getrgb(ACC)), flash * (0.45 if COVERBG else 0.7))
         return out
 
+_d = ImageDraw.Draw(Image.new('RGB', (10, 10))); _f = ImageFont.truetype(FB, CAP_SZ)
+def _rows(ws):
+    rows, cur = 1, ''
+    for w in ws:
+        t = (cur + ' ' + w).strip()
+        if cur and _d.textlength(t, font=_f) > CAP_W: rows += 1; cur = w
+        else: cur = t
+    return rows
+def _split(ln, k):   # k contiguous groups, balanced by character length
+    tot = sum(len(w[0]) + 1 for w in ln); out, cur, acc = [], [], 0
+    for i, w in enumerate(ln):
+        cur.append(w); acc += len(w[0]) + 1
+        left = len(ln) - i - 1
+        if len(out) < k - 1 and acc >= tot * (len(out) + 1) / k and left >= k - 1 - len(out):
+            out.append(cur); cur = []
+    out.append(cur); return [g for g in out if g]
+chunks = []
+for ln in lines:
+    k = 1
+    while True:
+        gs = _split(ln, k)
+        if all(_rows([w[0] for w in g]) <= 2 for g in gs) or k >= len(ln): break
+        k += 1
+    chunks.extend(gs)
+lines = chunks
+if 'payoff_at' not in C:
+    C['payoff_at'] = max(T * 0.6, lines[-1][0][1] - 0.1)
 punches = [p for p in C.get('punch_words', [])]
 hits = []
 for ln in lines:
@@ -168,7 +211,7 @@ for i in range(N):
         fr = base.crop((int(ox), int(oy), int(ox + vw * 2), int(oy + vh * 2))).resize((W, H), Image.BILINEAR)
         fr = Image.composite(dark, fr, shade)
         if flash:
-            fr = Image.blend(fr, Image.new('RGB', (W, H), (170, 0, 10)), flash)
+            fr = Image.blend(fr, Image.new('RGB', (W, H), ImageColor.getrgb(C.get('flash_col', ACC))), flash * C.get('flash_gain', 0.6))
     d = ImageDraw.Draw(fr)
 
     # top hook (frame 1) -> payoff near the end
@@ -188,10 +231,10 @@ for i in range(N):
         if ln[0][1] - 0.15 <= t:
             cur = ln
     if cur:
-        f = font(92)
+        f = font(CAP_SZ)
         words = [w for w, s, e in cur]
-        rws = wrap(words, f, d, 740)
-        k = 0; yy = 1200; lh = 110
+        rws = wrap(words, f, d, CAP_W)
+        k = 0; yy = 1200; lh = 104
         for r in rws:
             full = ' '.join(r); x = W / 2 - d.textlength(full, font=f) / 2
             for w in r:

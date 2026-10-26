@@ -1,0 +1,42 @@
+{
+ "lyrics": "/home/claude/zachary-shorts/pipeline/songs/we_die_before_we_quit/lyrics_final.json",
+ "cover": "/home/claude/zachary-shorts/pipeline/songs/we_die_before_we_quit/cover_full.jpg",
+ "song_start": 20.25,
+ "song_end": 33.77,
+ "audio_src": "/home/claude/zachary-shorts/shorts/R3_we_die_before_we_quit.mp4",
+ "audio_off": 13.55,
+ "accent": "#ff3640",
+ "hook": [
+  "POV: the doctor just said",
+  "STAGE 4"
+ ],
+ "payoff": [
+  "That was 4 years ago.",
+  "STILL HERE."
+ ],
+ "punch_words": [
+  "alive",
+  "bell",
+  "cancer",
+  "chemo",
+  "death",
+  "fight",
+  "fire",
+  "four",
+  "gold",
+  "lion",
+  "love",
+  "never",
+  "quit",
+  "scar",
+  "scars",
+  "stage",
+  "strong",
+  "yes"
+ ],
+ "out": "/home/claude/zachary-shorts/shorts/qh/QH_we_die_before_we_quit_A.mp4",
+ "crop_cx": 966,
+ "crop_cy": 966,
+ "crop_h": 1932,
+ "hide_top": 470
+}
