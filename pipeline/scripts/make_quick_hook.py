@@ -46,8 +46,9 @@ if 'crop_cx' in C:
 shade = Image.new('L', (W, H), 0); sd = ImageDraw.Draw(shade)
 for y in range(H):
     a = 0
-    if y < 620: a = int(200 * (1 - y / 620) ** 1.3)
-    if y > 1040: a = max(a, int(215 * min(1, (y - 1040) / 420) ** 1.1))
+    # kept light at the very edges: near-black top/bottom reads as a "border" to Facebook
+    if y < 620: a = int(C.get('shade_top', 120) * (1 - y / 620) ** 1.3)
+    if y > 1040: a = max(a, int(C.get('shade_bot', 125) * min(1, (y - 1040) / 420) ** 1.1))
     sd.line([(0, y), (W, y)], fill=a)
 dark = Image.new('RGB', (W, H), (0, 0, 0))
 

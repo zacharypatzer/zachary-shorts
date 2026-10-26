@@ -7,7 +7,7 @@ from plan import PLAN, PAYOFF, PUNCH
 from PIL import Image, ImageColor
 
 P = '/home/claude/zachary-shorts/pipeline'
-OUT = '/home/claude/zachary-shorts/shorts/qh'
+OUT = os.environ.get('QH_OUT', '/home/claude/zachary-shorts/shorts/qh')
 os.makedirs(OUT, exist_ok=True); os.makedirs(f'{P}/qh/cfg', exist_ok=True)
 jobs = {}
 for l in open(f'{P}/shorts/round2/jobs.txt'):

@@ -14,7 +14,7 @@ import subprocess, sys, os, tempfile
 inp, cover, out, style = sys.argv[1:5]
 # rows (full-res) of the original small card (dropped) and the lyric band
 CARD, TEXT = {'r': ((325, 865), (870, 1330)),
-              'story': ((190, 775), (830, 1120))}[style]
+              'story': ((190, 775), (830, 1260))}[style]
 # lyrics are lifted to forehead level so his eyes stay clear, looking back
 DEST = 350
 
