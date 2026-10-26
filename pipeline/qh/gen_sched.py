@@ -24,8 +24,12 @@ for i, p in enumerate(order):
     day = d0 + datetime.timedelta(days=i)
     tag = re.sub(r"[^A-Za-z0-9]", '', p['title'].replace("'", ''))
     tag = ''.join(w[:1].upper() + w[1:] for w in re.sub(r"[^A-Za-z0-9 ]", '', p['title'].replace("'", '')).split())
-    hook = p['hook']
-    text = f"{hook}\n\n{p['title']} by Zachary Patzer. Full song on my YouTube channel.\n\n#{tag} #ZacharyPatzer #cancersurvivor #originalmusic #fyp"
+    hook = p['hook'].rstrip()
+    if hook[-1] not in '.?!': hook += '.'
+    pay = re.sub(r"\b[A-Z][A-Z']+\b", lambda m: m.group(0).lower(), p['payoff'])
+    pay = re.sub(r"([.?!] )([a-z])", lambda m: m.group(1) + m.group(2).upper(), pay)
+    body = f"{hook} {pay}"
+    text = f"{body}\n\n{p['title']} by Zachary Patzer. Full song on my YouTube channel.\n\n#{tag} #ZacharyPatzer #cancersurvivor #originalmusic #fyp"
     info = {
         'autoPublish': True, 'draft': False, 'descendants': [], 'firstCommentText': '', 'hasNotReadNotes': False, 'shortener': False,
         'smartLinkData': {'ids': []}, 'media': [RAW + p['file']], 'mediaAltText': [None], 'videoThumbnailUrl': RAW + p['cover'],
