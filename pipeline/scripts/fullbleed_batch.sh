@@ -7,5 +7,5 @@ while IFS=$'\t' read -r f slug style; do
   [ -s $o ] && continue
   c=pipeline/qh/covers4x/$slug.png
   while [ ! -s $c ]; do sleep 20; done
-  python3 pipeline/scripts/fullbleed.py $f $c $o.tmp.mp4 $style && mv $o.tmp.mp4 $o && echo "done $f"
+  python3 pipeline/scripts/fullbleed.py $f $c $o.tmp.mp4 $style </dev/null && mv $o.tmp.mp4 $o && echo "done $f"
 done < pipeline/shorts/fullbleed_jobs.tsv
