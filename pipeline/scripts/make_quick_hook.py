@@ -4,7 +4,7 @@ big word-by-word captions, a hook line on screen from frame 1 and a payoff line 
 Audio is cut from an existing finished Short (already -14 LUFS).
 usage: make_quick_hook.py CFG.json"""
 import sys, json, subprocess
-from PIL import Image, ImageDraw, ImageFont, ImageFilter
+from PIL import Image, ImageDraw, ImageFont, ImageFilter, ImageColor
 
 C = json.load(open(sys.argv[1]))
 W, H, FPS = 1080, 1920, 30
@@ -44,6 +44,65 @@ for y in range(H):
     if y > 1040: a = max(a, int(215 * min(1, (y - 1040) / 420) ** 1.1))
     sd.line([(0, y), (W, y)], fill=a)
 dark = Image.new('RGB', (W, H), (0, 0, 0))
+
+# ---- 'studio' background: works for every song (his portrait over a living dark set) ----
+STUDIO = C.get('bg') == 'studio'
+if STUDIO:
+    import numpy as np, cv2
+    rng = np.random.default_rng(7)
+    P = '/home/claude/zachary-shorts/pipeline/assets/'
+    fs = cv2.cvtColor(cv2.imread(P + 'face_src.jpg'), cv2.COLOR_BGR2RGB).astype(np.float32)
+    fm = cv2.resize(cv2.imread(P + 'face_matte.png', 0), (fs.shape[1], fs.shape[0])).astype(np.float32) / 255
+    fh, fw = fm.shape
+    fm = cv2.GaussianBlur(cv2.erode(fm, np.ones((9, 9), np.uint8)), (0, 0), 6)
+    hsv = cv2.cvtColor(fs.astype(np.uint8), cv2.COLOR_RGB2HSV)       # grey out the old cover's embers on the hoodie
+    em = (((hsv[..., 0] < 25) | (hsv[..., 0] > 170)) & (hsv[..., 1] > 90) & (hsv[..., 2] > 70)).astype(np.float32)
+    reg = np.zeros((fh, fw), np.float32); reg[680:, :] = 1; reg[680:960, 360:780] = 0
+    em = cv2.GaussianBlur(cv2.dilate(em * reg, np.ones((9, 9), np.uint8)), (0, 0), 3)
+    g = cv2.cvtColor(cv2.cvtColor(fs.astype(np.uint8), cv2.COLOR_RGB2GRAY), cv2.COLOR_GRAY2RGB).astype(np.float32) * 0.55
+    fs = fs * (1 - em[..., None]) + g * em[..., None]
+    yy, xx = np.mgrid[0:fh, 0:fw]
+    fade = np.clip((1.05 - np.sqrt(((xx - 540) / 560) ** 2 + ((yy - 430) / 640) ** 2)) / 0.30, 0, 1) * np.clip((fh - yy) / 220, 0, 1)
+    fa = fm * fade
+    PW = C.get('portrait_w', 1040); PY = C.get('portrait_top', 400)
+
+    Y, X = np.mgrid[0:H, 0:W].astype(np.float32)
+    glow = np.exp(-(((X - W / 2) / 560) ** 2 + ((Y - 860) / 760) ** 2))             # soft light behind him
+    beam = np.clip(1 - np.abs(X - W / 2) / (90 + Y * 0.42), 0, 1) ** 1.6 * np.clip(1 - Y / 1500, 0, 1)
+    hz = cv2.resize(rng.random((24, 14)).astype(np.float32), (W * 2, H), interpolation=cv2.INTER_CUBIC)
+    hz = cv2.GaussianBlur(hz, (0, 0), 40); hz = (hz - hz.min()) / (np.ptp(hz) + 1e-6)
+    NP = 150
+    px, py = rng.random(NP) * W, rng.random(NP) * H
+    pv = 6 + rng.random(NP) * 18; pr = rng.choice([1, 2, 2, 3, 4], NP); ph = rng.random(NP) * 6.28
+    cool, warm = np.array([0.55, 0.66, 0.85]), np.array([1.0, 0.72, 0.48])
+
+    def studio_frame(t, z, flash):
+        k = t / T
+        tint = cool * (1 - k) + warm * k
+        lvl = 0.9 + 0.1 * np.sin(t * 1.3)
+        h = np.roll(hz, int(t * 22), axis=1)[:, :W]
+        lum = 10 + 70 * glow * (0.85 + 0.25 * k) + 46 * beam * lvl + 26 * h * glow
+        img = lum[..., None] * tint[None, None, :]
+        dots = np.zeros((H, W), np.float32)
+        for j in range(NP):
+            x = (px[j] + 14 * np.sin(t * 0.4 + ph[j])) % W; y = (py[j] - pv[j] * t) % H
+            cv2.circle(dots, (int(x), int(y)), int(pr[j]), float(120 + 120 * (0.5 + 0.5 * np.sin(t * 2 + ph[j]))), -1, cv2.LINE_AA)
+        dots = cv2.GaussianBlur(dots, (0, 0), 1.6) * (0.35 + 0.65 * glow)
+        img += dots[..., None] * (tint * 0.6 + 0.4)[None, None, :]
+        # portrait with push-in
+        sw = int(PW * z); sh = int(fh * sw / fw)
+        fr_ = cv2.resize(fs, (sw, sh), interpolation=cv2.INTER_AREA if z < 1 else cv2.INTER_LINEAR)
+        fa_ = cv2.resize(fa, (sw, sh))
+        x0 = (W - sw) // 2; y0 = int(PY - (sh - fh * PW / fw) * 0.35)
+        ys, xs = max(0, y0), max(0, x0); ye, xe = min(H, y0 + sh), min(W, x0 + sw)
+        sub = fr_[ys - y0:ye - y0, xs - x0:xe - x0]; a = fa_[ys - y0:ye - y0, xs - x0:xe - x0][..., None]
+        img[ys:ye, xs:xe] = img[ys:ye, xs:xe] * (1 - a) + sub * (0.92 + 0.12 * k) * a
+        img = np.clip(img + rng.normal(0, 3.0, (H // 4, W // 4)).repeat(4, 0).repeat(4, 1)[..., None], 0, 255)   # film grain
+        out = Image.fromarray(img.astype(np.uint8))
+        out = Image.composite(dark, out, shade)
+        if flash:
+            out = Image.blend(out, Image.new('RGB', (W, H), ImageColor.getrgb(ACC)), flash * 0.7)
+        return out
 
 punches = [p for p in C.get('punch_words', [])]
 hits = []
@@ -100,13 +159,16 @@ for i in range(N):
             k = 1 - (t - h) / 0.45
             z += 0.06 * k * k
             flash = max(flash, 0.32 * k * k if h > 0 else 0)
-    bw, bh = base.size
-    vw, vh = bw / 2 / z, bh / 2 / z
-    ox, oy = (bw - vw * 2) / 2 / 1, (bh - vh * 2) / 2
-    fr = base.crop((int(ox), int(oy), int(ox + vw * 2), int(oy + vh * 2))).resize((W, H), Image.BILINEAR)
-    fr = Image.composite(dark, fr, shade)
-    if flash:
-        fr = Image.blend(fr, Image.new('RGB', (W, H), (170, 0, 10)), flash)
+    if STUDIO:
+        fr = studio_frame(t, z, flash)
+    else:
+        bw, bh = base.size
+        vw, vh = bw / 2 / z, bh / 2 / z
+        ox, oy = (bw - vw * 2) / 2 / 1, (bh - vh * 2) / 2
+        fr = base.crop((int(ox), int(oy), int(ox + vw * 2), int(oy + vh * 2))).resize((W, H), Image.BILINEAR)
+        fr = Image.composite(dark, fr, shade)
+        if flash:
+            fr = Image.blend(fr, Image.new('RGB', (W, H), (170, 0, 10)), flash)
     d = ImageDraw.Draw(fr)
 
     # top hook (frame 1) -> payoff near the end
