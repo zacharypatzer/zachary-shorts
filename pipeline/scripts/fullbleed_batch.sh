@@ -4,7 +4,7 @@ cd /home/claude/zachary-shorts
 OUT=${OUT:-/home/claude/fb_out}; mkdir -p $OUT
 while IFS=$'\t' read -r f slug style; do
   o=$OUT/$(basename $f)
-  [ -s $o ] && continue
+  [ -s $o ] && continue; [ -s $OUT/staged/$(basename $f) ] && continue
   c=pipeline/qh/covers4x/$slug.png
   while [ ! -s $c ]; do sleep 20; done
   python3 pipeline/scripts/fullbleed.py $f $c $o.tmp.mp4 $style </dev/null && mv $o.tmp.mp4 $o && echo "done $f"
