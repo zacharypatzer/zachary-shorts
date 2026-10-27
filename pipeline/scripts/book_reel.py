@@ -136,7 +136,7 @@ def cover_layer(caption, small=None):
     y = para(d, y, caption, lora(58), CREAM, 940) + 18
     if small:
         rule(d, y); y += 26
-        para(d, y, small, lora(44, 400), GOLD if small.startswith('Link') else MUTED, 900)
+        para(d, y, small, lora(44, 400), GOLD, 900)
     return img
 
 
@@ -182,7 +182,7 @@ L = [np.asarray(intro(), np.float32), None,
      np.asarray(text_slide(*B['s3']), np.float32), np.asarray(text_slide(*B['s4']), np.float32),
      np.asarray(text_slide(*B['s5']), np.float32), None]
 cov2 = cover_layer('Book ' + str(book) + ' of The Real Life Series')
-cov6 = cover_layer('Paperback, hardcover, and Kindle.', 'Link in the comments.')
+cov6 = cover_layer('Paperback, hardcover, and Kindle.', os.environ.get('END_SMALL', 'Link in the comments.'))
 
 
 def cover_frame(base, u):
