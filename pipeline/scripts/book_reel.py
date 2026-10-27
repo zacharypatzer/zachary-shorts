@@ -32,6 +32,7 @@ BOOKS = {
    s5=('No gurus. No slogans.', 'Just a guy who walks slow enough for you to keep up with your own thoughts.')),
 }
 B = BOOKS[book]
+ACCENT = {1: (190, 40, 36), 2: (70, 105, 185), 3: (130, 165, 215)}
 COVER = Image.open(f'{R}/assets/book_covers/book{book}.jpg').convert('RGB')
 
 
@@ -82,10 +83,16 @@ def height(d, text, f, maxw=900, lh=1.22): return len(wrap(d, text, f, maxw)) * 
 
 def bg():
     s = COVER.resize((H, int(H * COVER.height / COVER.width)))
-    s = s.crop(((s.width - W) // 2, (s.height - H) // 2, (s.width - W) // 2 + W, (s.height - H) // 2 + H)).filter(ImageFilter.GaussianBlur(60))
-    a = np.asarray(s, np.float32) * 0.30 + np.array((14, 11, 8), np.float32) * 0.55
-    yy = np.arange(H, dtype=np.float32)[:, None, None]
-    a *= 1 - 0.38 * np.abs(yy - H / 2) / (H / 2)   # darker top/bottom where app buttons sit
+    s = s.crop(((s.width - W) // 2, (s.height - H) // 2, (s.width - W) // 2 + W, (s.height - H) // 2 + H)).filter(ImageFilter.GaussianBlur(70))
+    a = np.asarray(s, np.float32) * 0.34 + np.array((14, 11, 8), np.float32) * 0.5
+    yy, xx = np.mgrid[0:H, 0:W].astype(np.float32)
+    a *= (1 - 0.12 * np.abs(yy - H / 2) / (H / 2))[..., None]
+    # soft glows in the book's accent color, reaching every edge, so the frame never reads as a bordered video
+    acc = np.array(ACCENT[book], np.float32)
+    for gx, gy, r, k in [(0.12, 0.03, 420, 0.20), (0.88, 0.10, 380, 0.14), (0.20, 0.97, 440, 0.20), (0.85, 0.92, 400, 0.15), (0.55, 1.0, 260, 0.16),
+                         (0.02, 0.5, 320, 0.10), (0.98, 0.55, 320, 0.10)]:
+        a += (k * np.exp(-((xx - gx * W) ** 2 + (yy - gy * H) ** 2) / (2 * r * r)))[..., None] * acc
+    a += np.random.default_rng(7).normal(0, 2.5, (H, W, 1))  # light film grain
     return Image.fromarray(np.clip(a, 0, 255).astype(np.uint8))
 
 
