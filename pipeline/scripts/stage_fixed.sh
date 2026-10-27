@@ -15,7 +15,7 @@ for f in "$@"; do
     src=/home/claude/fb_out/$f
     dst=$(grep -P "/${f}\t" pipeline/shorts/fullbleed_jobs.tsv | cut -f1)
     # cover for posts: frame at 1.5 s (text fully faded in)
-    case $dst in shorts/story/*) ffmpeg -nostdin -v error -y -ss 1.5 -i $src -frames:v 1 -q:v 2 ${dst%.mp4}_cover.jpg ;; esac
+    case $dst in shorts/story/*) ffmpeg -nostdin -v error -y -ss 1.5 -i $src -frames:v 1 -q:v 2 ${dst%.mp4}_cover.jpg ;; *) ffmpeg -nostdin -v error -y -ss 2 -i $src -frames:v 1 -q:v 2 ${dst%.mp4}_cover.jpg ;; esac
   fi
   python3 pipeline/scripts/check_platform.py $src $dst </dev/null >&2
   cp $src $dst; mkdir -p $(dirname $src)/staged; mv $src $(dirname $src)/staged/
