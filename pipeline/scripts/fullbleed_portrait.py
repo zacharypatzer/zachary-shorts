@@ -4,7 +4,7 @@ Fixes the waxy face (cover was blown up ~10x) and the 'phantom' cover-title lett
 Lyric text is lifted from the ORIGINAL card-style Short (git 6b25d7e) by brightness, as in fullbleed.py.
 
 usage: fullbleed_portrait.py ORIG_CARD.mp4 OUT.mp4 STYLE(story|r) "Song Title"
-Slow push-in on the photo; song title + name in small caps under the lyrics."""
+Push-in + drift + rising embers on the photo; song title + name in small caps under the lyrics."""
 import subprocess, sys, os, tempfile
 from PIL import Image, ImageFilter, ImageEnhance, ImageDraw, ImageFont
 
@@ -73,12 +73,35 @@ lay = (f"[1:v]setsar=1,crop=iw:{h}:0:{t0},split[f][mm];"
        f"[f][a]alphamerge,format=rgba,split[t][s];"
        f"[s]lutrgb=r=0:g=0:b=0:a='clip((val-40)*3,0,255)',scale=iw/4:-2,boxblur=luma_radius=4:alpha_radius=4,scale=1080:{h}[sh];")
 N = round(float(dur) * eval(fps))
-# slow push-in 1.00 -> 1.07, centred a little below middle (on his eyes); 2x source keeps it smooth
-zoom = (f"[0]scale=2160:3840:flags=lanczos,zoompan=z='1+0.07*on/{N}':d=1:s={W}x{H}:fps={fps}"
-        f":x='iw/2-iw/zoom/2':y='(ih*0.56)-(ih*0.56)/zoom',setsar=1,format=yuv420p[bg];")
+
+# rising embers (drawn small, scaled up soft) so the frame is clearly alive, not a still photo
+import numpy as np
+EW, EH = 270, 480
+rng = np.random.default_rng(len(title) + 3)
+K = 45
+px, py = rng.uniform(0, EW, K), rng.uniform(0, EH, K)
+vy, ph, amp = rng.uniform(0.35, 1.1, K), rng.uniform(0, 6.28, K), rng.uniform(0.2, 0.7, K)
+br, sz = rng.uniform(0.6, 1.0, K), rng.integers(2, 4, K)
+emb = os.path.join(tmp, 'emb.rgba')
+with open(emb, 'wb') as fh:
+    for i in range(N):
+        fr = np.zeros((EH, EW, 4), np.uint8)
+        y = (py - vy * i) % EH
+        x = (px + amp * 12 * np.sin(ph + i * 0.045)) % EW
+        fl = br * (0.65 + 0.35 * np.sin(ph * 3 + i * 0.3))
+        for xx, yy, f, z in zip(x.astype(int), y.astype(int), fl, sz):
+            a = int(255 * f * min(1, yy / 60))          # fade out near the top
+            fr[yy:yy + z, xx:xx + z] = (255, 150 - int(40 * (1 - f)), 50, a)
+        fh.write(fr.tobytes())
+
+# push-in 1.00 -> 1.20 with ease-out, plus a slow sideways drift; 2x source keeps it smooth
+zoom = (f"[0]scale=2160:3840:flags=lanczos,zoompan=z='1+0.20*(1-pow(1-on/{N},2))':d=1:s={W}x{H}:fps={fps}"
+        f":x='iw/2-iw/zoom/2+18*sin(on/{N}*3.14)':y='(ih*0.56)-(ih*0.56)/zoom',setsar=1,format=yuv420p[bg];"
+        f"[3]scale={W}:{H}:flags=bicubic,gblur=sigma=3,format=rgba[em];")
 subprocess.run(['ffmpeg', '-v', 'error', '-y', '-loop', '1', '-framerate', fps, '-t', dur, '-i', bgp, '-i', inp, '-i', ovp,
+    '-f', 'rawvideo', '-pix_fmt', 'rgba', '-s', f'{EW}x{EH}', '-framerate', fps, '-i', emb,
     '-filter_complex', lay + zoom +
-    f"[bg][sh]overlay=0:{d0}:format=auto[b1];[b1][t]overlay=0:{d0}:format=auto[b2];"
+    f"[bg][em]overlay=0:0:format=auto[b0];[b0][sh]overlay=0:{d0}:format=auto[b1];[b1][t]overlay=0:{d0}:format=auto[b2];"
     f"[b2][2]overlay=0:0:format=auto,trim=end_frame={N},format=yuv420p[v]",
     '-map', '[v]', '-map', '1:a', '-c:v', 'libx264', '-preset', 'veryfast', '-crf', '20',
     '-maxrate', '8M', '-bufsize', '16M', '-c:a', 'copy', '-movflags', '+faststart', out], check=True)
