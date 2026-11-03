@@ -44,6 +44,7 @@ S = {
     'lions_heart':            ('/home/claude/songs/lions_heart/scene_crop.png', 'ofl/sansita/Sansita-BlackItalic.ttf', None, '#ffd27a', '#3d0f08', 'lion', False),
     'glad_youre_here':        ('/home/claude/songs/glad_youre_here/scene_src.png', 'ofl/pacifico/Pacifico-Regular.ttf', None, '#ffd27a', '#5a1a04', 'sunrise', False),
     'say_thank_you_for_me':   ('/home/claude/songs/say_thank_you_for_me/scene_src.png', 'ofl/interdisplay/InterDisplay-BlackItalic.otf', None, '#f4c23c', '#0b1530', 'gold', True),
+    'thats_up':               ('/home/claude/songs/thats_up/scene_src.jpg', 'ofl/holtwoodonesc/HoltwoodOneSC-Regular.ttf', None, '#fff4d8', '#2a1406', 'sunrise', False),
 }
 # per-song face-panel crop (fraction of cover width): Lion's Heart shifts right to keep the lion and drop the IV cape
 PANEL_X = {}
@@ -52,7 +53,7 @@ HIDE_LEFT_SCENE = {'lions_heart'}
 EXTRA_TITLES = {'take_a_number': 'Take a Number', 'light_one_let_it_go': 'Light One, Let It Go',
                 'beautiful_anyway': 'Beautiful Anyway', 'a_mile_an_hour': 'A Mile An Hour',
                 'lions_heart': 'Lion\u2019s Heart', 'glad_youre_here': 'Glad You\u2019re Here',
-                'say_thank_you_for_me': 'Say Thank You For Me'}
+                'say_thank_you_for_me': 'Say Thank You For Me', 'thats_up': 'THAT\u2019S UP'}
 
 
 def hexc(h):

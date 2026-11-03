@@ -44,6 +44,7 @@ PAL = {
     'its_your_birthday':      ('#d63cc8', '#ffcf4a', '#ffd9f4', 1.0, 1.1),
     'glad_youre_here':        ('#ff8a1f', '#ffe08a', '#fff0c8', 0.8, 1.0),
     'say_thank_you_for_me':   ('#2f55b8', '#ffcf5a', '#ffe6a8', 0.7, 1.0),
+    'thats_up':               ('#e8a13f', '#ffd890', '#fff0d0', 0.5, 0.9),
 }
 
 
