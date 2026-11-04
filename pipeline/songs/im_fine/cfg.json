@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/im_fine",
+ "dur": 234.024,
+ "art_path": "/home/claude/songs/im_fine/cover.png",
+ "title": "I'm Fine",
+ "glow_col": [
+  120.0,
+  67.9,
+  41.4
+ ],
+ "ember_col": [
+  120.0,
+  200.0,
+  255.0
+ ],
+ "sub_tint": [
+  255,
+  228,
+  214
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

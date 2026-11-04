@@ -424,6 +424,24 @@ Who's the lion in your life?
 #LionsHeart #ZacharyPatzer #NewMusic''')
 
 
+T['im_fine'] = dict(
+    title="I'm Fine",
+    tags="I'm Fine, Im Fine, I'm Fine Remastered, Zachary Patzer, Zachary Patzer lyric video, acoustic soul, neo soul, soul ballad, cancer survivor song, stage 4 survivor, Hodgkin lymphoma survivor, chemo, life after cancer, mental health song, hidden pain, chronic pain, invisible illness, not okay, how are you really, check on your friends, new music 2026, lyric video",
+    desc='''Everybody's got a hidin' place. Mine's only two words long.
+
+I said it in the chemo chair while the drip ran slow. I said it to my mama, waiting out in the parking lot. Years later, when my legs give out by noon or I'm lying awake before a test, I still say it. "I'm fine." Two little words to hide behind, so nobody asks a second time.
+
+This song is for anyone who said it today and didn't mean it. You ain't the only one.
+
+So, friend... how you doin'? No, really. How you doin'?''',
+    hashtags='#ImFine #ZacharyPatzer #LyricVideo',
+    fb='''I'm a stage 4 cancer survivor, and "I'm fine" was my hiding place. This song is about the spiritual resilience it takes to finally say how you really are.
+
+How you doin'? No, really. How you doin'?
+
+#CancerSurvivor #SpiritualResilience #InspirationalMusic #Stage4Survivor #LifeAfterCancer''')
+
+
 def message(slug, n, notes):
     t = T[slug]
     lyr = open(f'/home/claude/songs/{slug}/distrokid.txt').read().strip()
