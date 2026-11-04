@@ -47,14 +47,15 @@ S = {
     'thats_up':               ('/home/claude/songs/thats_up/scene_src.jpg', 'ofl/holtwoodonesc/HoltwoodOneSC-Regular.ttf', None, '#fff4d8', '#2a1406', 'sunrise', False),
     'how_you_come_back':      ('/home/claude/songs/how_you_come_back/scene_src.jpg', 'ofl/anton/Anton-Regular.ttf', None, '#fff8e6', '#0d1630', 'sunrise', True),
     'hold_it_lightly':        ('/home/claude/songs/hold_it_lightly/scene_src.jpg', 'ofl/yesevaone/YesevaOne-Regular.ttf', None, None, '#2b1210', 'sunrise', True),
+    'what_im_livin':          ('/home/claude/songs/what_im_livin/scene_fix.jpg', 'ofl/rubikdirt/RubikDirt-Regular.ttf', None, None, '#1e0f05', 'lion', True),
     'im_fine':                ('/home/claude/songs/im_fine/scene_thumb.jpg', 'ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf', None, '#eaf1ff', '#0b1530', 'flat', False),
 }
 # per-song face-panel crop (fraction of cover width): Lion's Heart shifts right to keep the lion and drop the IV cape
 PANEL_X = {}
 # per-song: hide the cover's scene left of the portrait (Lion's Heart: IV pole + cape would double up with the background)
-HIDE_LEFT_SCENE = {'lions_heart', 'hold_it_lightly'}
+HIDE_LEFT_SCENE = {'lions_heart', 'hold_it_lightly', 'what_im_livin'}
 # per-song fixed title rows (so a phrase isn't split mid-thought)
-FIXED_ROWS = {'hold_it_lightly': ['HOLD IT LIGHTLY,', 'LOVE IT HARD']}
+FIXED_ROWS = {'hold_it_lightly': ['HOLD IT LIGHTLY,', 'LOVE IT HARD'], 'what_im_livin': ['WHAT I\u2019M', 'LIVIN\u2019']}
 EXTRA_TITLES = {'take_a_number': 'Take a Number', 'light_one_let_it_go': 'Light One, Let It Go',
                 'beautiful_anyway': 'Beautiful Anyway', 'a_mile_an_hour': 'A Mile An Hour',
                 'lions_heart': 'Lion\u2019s Heart', 'glad_youre_here': 'Glad You\u2019re Here',

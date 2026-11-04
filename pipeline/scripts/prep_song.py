@@ -48,6 +48,7 @@ PAL = {
     'im_fine':                ('#3a5fa8', '#ffc878', '#d6e4ff', 0.4, 0.8),
     'how_you_come_back':      ('#f2b552', '#ffe3a0', '#dbe6ff', 0.6, 0.9),
     'hold_it_lightly':        ('#f0a07e', '#ffd9b0', '#fff0e6', 0.4, 0.8),
+    'what_im_livin':          ('#e08f2c', '#ffcf7a', '#ffeec4', 0.6, 0.9),
 }
 
 

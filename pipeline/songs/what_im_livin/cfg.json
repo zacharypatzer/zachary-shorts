@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/what_im_livin",
+ "dur": 248.04,
+ "art_path": "/home/claude/songs/what_im_livin/cover.png",
+ "title": "What I'm Livin'",
+ "glow_col": [
+  23.6,
+  76.6,
+  120.0
+ ],
+ "ember_col": [
+  122.0,
+  207.0,
+  255.0
+ ],
+ "sub_tint": [
+  196,
+  238,
+  255
+ ],
+ "ember_speed": 0.6,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}
