@@ -45,6 +45,7 @@ S = {
     'glad_youre_here':        ('/home/claude/songs/glad_youre_here/scene_src.png', 'ofl/pacifico/Pacifico-Regular.ttf', None, '#ffd27a', '#5a1a04', 'sunrise', False),
     'say_thank_you_for_me':   ('/home/claude/songs/say_thank_you_for_me/scene_src.png', 'ofl/interdisplay/InterDisplay-BlackItalic.otf', None, '#f4c23c', '#0b1530', 'gold', True),
     'thats_up':               ('/home/claude/songs/thats_up/scene_src.jpg', 'ofl/holtwoodonesc/HoltwoodOneSC-Regular.ttf', None, '#fff4d8', '#2a1406', 'sunrise', False),
+    'how_you_come_back':      ('/home/claude/songs/how_you_come_back/scene_src.jpg', 'ofl/anton/Anton-Regular.ttf', None, '#fff8e6', '#0d1630', 'sunrise', True),
     'im_fine':                ('/home/claude/songs/im_fine/scene_thumb.jpg', 'ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf', None, '#eaf1ff', '#0b1530', 'flat', False),
 }
 # per-song face-panel crop (fraction of cover width): Lion's Heart shifts right to keep the lion and drop the IV cape

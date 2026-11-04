@@ -46,6 +46,7 @@ PAL = {
     'say_thank_you_for_me':   ('#2f55b8', '#ffcf5a', '#ffe6a8', 0.7, 1.0),
     'thats_up':               ('#e8a13f', '#ffd890', '#fff0d0', 0.5, 0.9),
     'im_fine':                ('#3a5fa8', '#ffc878', '#d6e4ff', 0.4, 0.8),
+    'how_you_come_back':      ('#f2b552', '#ffe3a0', '#dbe6ff', 0.6, 0.9),
 }
 
 
