@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/hold_it_lightly",
+ "dur": 264.912,
+ "art_path": "/home/claude/songs/hold_it_lightly/cover.png",
+ "title": "Hold It Lightly, Love It Hard",
+ "glow_col": [
+  63.0,
+  80.0,
+  120.0
+ ],
+ "ember_col": [
+  176.0,
+  217.0,
+  255.0
+ ],
+ "sub_tint": [
+  230,
+  240,
+  255
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}
