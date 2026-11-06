@@ -69,3 +69,6 @@ All scripts use absolute paths under `/home/claude/` (`scripts/`, `songs/<slug>/
 - Don't redo finished songs. He can't afford more changes.
 - Keep his physical effort to a minimum and make reasonable decisions without asking.
 - Never touch the 25 published lyric videos.
+
+## New song lyrics
+Before he runs any new song in Suno: run `python3 scripts/lyric_check.py draft.txt "Title" songs --style style.txt --exclude exclude.txt` (FIX list must be empty), then walk every box in `SONG_CHECKLIST.md`.
