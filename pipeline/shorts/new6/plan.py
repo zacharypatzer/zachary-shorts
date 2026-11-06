@@ -26,7 +26,7 @@ V2 = [
     ('accidental_motivation', 'N_am_4', 150, 187.5, 'A hundred "me too"s.', "You're not the only one up."),
     ('accidental_motivation', 'N_am_5', 186.5, 228, 'Passin\' it on', "without even tryin'."),
 
-    ('thats_up', 'N_tu_1', 5.5, 31, 'My body gets a vote', "every morning."),
+    ('thats_up', 'N_tu_1', 5.5, 50.5, 'My body gets a vote', "every morning."),
     ('thats_up', 'N_tu_2', 32, 72.5, '20 minutes now', 'to do what took me 2.'),
     ('thats_up', 'N_tu_3', 124.5, 167.5, 'Nobody hands out medals', 'for the mornings you got through.'),
     ('thats_up', 'N_tu_4', 166.5, 194, "The hurtin' ain't a contest.", 'Your little things are real.'),
