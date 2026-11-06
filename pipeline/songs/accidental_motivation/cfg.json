@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/accidental_motivation",
+ "dur": 234.912,
+ "art_path": "/home/claude/songs/accidental_motivation/cover.png",
+ "title": "Accidental Motivation",
+ "glow_col": [
+  120.0,
+  71.8,
+  48.8
+ ],
+ "ember_col": [
+  255.0,
+  224.0,
+  207.0
+ ],
+ "sub_tint": [
+  255,
+  236,
+  228
+ ],
+ "ember_speed": 0.35,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

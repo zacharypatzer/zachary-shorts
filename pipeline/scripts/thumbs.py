@@ -45,6 +45,7 @@ S = {
     'glad_youre_here':        ('/home/claude/songs/glad_youre_here/scene_src.png', 'ofl/pacifico/Pacifico-Regular.ttf', None, '#ffd27a', '#5a1a04', 'sunrise', False),
     'say_thank_you_for_me':   ('/home/claude/songs/say_thank_you_for_me/scene_src.png', 'ofl/interdisplay/InterDisplay-BlackItalic.otf', None, '#f4c23c', '#0b1530', 'gold', True),
     'thats_up':               ('/home/claude/songs/thats_up/scene_src.jpg', 'ofl/holtwoodonesc/HoltwoodOneSC-Regular.ttf', None, '#fff4d8', '#2a1406', 'sunrise', False),
+    'accidental_motivation':  ('/home/claude/songs/accidental_motivation/scene_src.webp', 'ofl/abrilfatface/AbrilFatface-Regular.ttf', None, '#d9e6ff', '#070c1f', 'flat', True),
     'how_you_come_back':      ('/home/claude/songs/how_you_come_back/scene_src.jpg', 'ofl/anton/Anton-Regular.ttf', None, '#fff8e6', '#0d1630', 'sunrise', True),
     'hold_it_lightly':        ('/home/claude/songs/hold_it_lightly/scene_src.jpg', 'ofl/yesevaone/YesevaOne-Regular.ttf', None, None, '#2b1210', 'sunrise', True),
     'what_im_livin':          ('/home/claude/songs/what_im_livin/scene_fix.jpg', 'ofl/rubikdirt/RubikDirt-Regular.ttf', None, None, '#1e0f05', 'lion', True),
