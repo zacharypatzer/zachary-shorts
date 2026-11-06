@@ -7,6 +7,8 @@ import sys, json, subprocess, re, random
 import numpy as np, cv2
 
 slug = sys.argv[1]
+import os, tempfile
+QD = os.environ.get('QC_DIR', tempfile.gettempdir())  # where QC frames and the sheet go
 D = f'/home/claude/songs/{slug}'
 title = json.load(open(f'{D}/cfg.json'))['title']
 fn = re.sub(r'[^A-Za-z0-9]+', '_', title.replace("'", '')).strip('_')
@@ -31,12 +33,12 @@ tiles = []
 for k in pick:
     w = words[k]
     t = w['s'] + min(0.12, (w['e'] - w['s']) / 2)
-    png = f'/tmp/claude-0/-home-claude/7e2b6de3-c1a2-50ff-9aa8-ba533aa956e4/scratchpad/qc_{k}.png'
+    png = f'{QD}/qc_{k}.png'
     subprocess.run(['ffmpeg', '-nostdin', '-v', 'error', '-y', '-ss', f'{t:.3f}', '-i', mp4, '-frames:v', '1', png], check=True)
     im = cv2.imread(png)[1110:1440]
     im = cv2.resize(im, (540, 165))
     cv2.putText(im, f'{t:.2f} "{w["w"]}"', (8, 22), cv2.FONT_HERSHEY_SIMPLEX, 0.6, (0, 255, 255), 2)
     tiles.append(im)
 rows = [np.hstack(tiles[i:i + 3]) for i in range(0, 12, 3)]
-cv2.imwrite(f'/tmp/claude-0/-home-claude/7e2b6de3-c1a2-50ff-9aa8-ba533aa956e4/scratchpad/qc_{slug}.jpg', np.vstack(rows))
+cv2.imwrite(f'{QD}/qc_{slug}.jpg', np.vstack(rows))
 print('sheet written')

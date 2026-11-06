@@ -50,6 +50,7 @@ PAL = {
     'hold_it_lightly':        ('#f0a07e', '#ffd9b0', '#fff0e6', 0.4, 0.8),
     'what_im_livin':          ('#e08f2c', '#ffcf7a', '#ffeec4', 0.6, 0.9),
     'accidental_motivation':  ('#5b86e0', '#cfe0ff', '#e4ecff', 0.35, 0.8),
+    'we_die_v2':              ('#c0392b', '#ffd27a', '#ffe9c0', 0.9, 1.0),
 }
 
 
