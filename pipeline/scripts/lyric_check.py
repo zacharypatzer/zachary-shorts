@@ -160,6 +160,12 @@ for name, rx in THEMES.items():
     if found:
         CHECK.append(f'catalog theme - {name}: "{found[0]}"' + (f' (+{len(found)-1} more)' if len(found) > 1 else ''))
 
+AWKWARD = r"\b(armpits?|snot|puke|puk(ed|in'?g?)|vomit\w*|butt|diarrhea|pee|poop|bowels?|sweaty|spit up|drool\w*|catheter|enema|crotch|belly ?button)\b"
+for tag, rows in sections:
+    for r in rows:
+        if re.search(AWKWARD, r.lower()):
+            CHECK.append(f'{tag} body/medical word may sound gross or comical when sung - read it out loud: "{r}"')
+
 VAGUE = r"\b(really|truly|somehow|somethin'?g?|stuff|things?|kinda|sorta|whatever|anyway)\b"
 for tag, rows in sections:
     for r in rows:

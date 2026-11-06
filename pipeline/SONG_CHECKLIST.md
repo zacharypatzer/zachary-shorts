@@ -43,6 +43,7 @@ Read it as someone who has never heard of Zachary.
 - [ ] No preachy advice lists or calls-to-action that read like a sermon (Footprints of Gold, Light One's last section).
 - [ ] No borrowed sayings or famous quotes (10%/90%, "empty your cup", 6-and-9).
 - [ ] Nothing that's merely "fine". Check intro, every verse, bridge AND outro. Outros got missed before (I'm Fine, Say Thank You For Me).
+- [ ] Read every line OUT LOUD the way it'll be sung. A great true story can still have a line that sounds off: too long, too graphic, or accidentally funny (Embrace Every Scar's "bicep... rolled up in my armpit like a window shade" got praised for the story but sounds off sung). Rate the line, not just the story.
 - [ ] Lines sound like how people actually talk ("pour a double out for me", "maybe even two").
 
 ## F. Message safety
