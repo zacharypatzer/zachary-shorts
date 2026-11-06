@@ -79,6 +79,6 @@ QH = [
     ('what_im_livin', 'QN_wl_C', 104.6, 118.4, 'Every morning I check', 'WHAT\'S BROKE, WHAT WORKS.', 'B'),
 
     ('im_fine', 'QN_if_A', 48.6, 62.4, 'Two little words', 'TO HIDE BEHIND.', 'C'),
-    ('im_fine', 'QN_if_B', 185.6, 202.4, 'If you said "I\'m fine" today', 'YOU\'RE NOT THE ONLY ONE.', 'C'),
+    ('im_fine', 'QN_if_B', 185.6, 202.4, 'If you said "I\'m fine" today,', 'YOU\'RE NOT THE ONLY ONE.', 'C'),
     ('im_fine', 'QN_if_C', 80.6, 91.4, 'My legs give out by noon.', 'I DON\'T TELL ANYONE.', 'B'),
 ]
