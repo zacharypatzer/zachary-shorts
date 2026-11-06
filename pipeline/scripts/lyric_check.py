@@ -17,6 +17,7 @@ ap.add_argument('title')
 ap.add_argument('cat_dir', nargs='?', default='/home/claude/zachary-shorts/pipeline/songs')
 ap.add_argument('--style')
 ap.add_argument('--exclude')
+ap.add_argument('--replaces', help='song folder this draft replaces (left out of the overlap check)')
 ap.add_argument('--skip-self', action='store_true', help='leave this song out of the catalog (for testing on catalog songs)')
 a = ap.parse_args()
 path, title, cat_dir = a.path, a.title, a.cat_dir
@@ -69,7 +70,8 @@ words = re.findall(r"[a-z']+", body.lower())
 
 # ---- original stats ---------------------------------------------------------
 cat_files = [f for f in glob.glob(f'{cat_dir}/*/lyrics.txt')
-             if not (a.skip_self and open(f).read() == open(path).read())]
+             if not (a.skip_self and open(f).read() == open(path).read())
+             and not (a.replaces and f.split('/')[-2] == a.replaces)]
 cat = ' '.join(open(f).read().lower() for f in cat_files)
 cw = re.findall(r"[a-z']+", cat)
 grams = set(tuple(cw[i:i + 4]) for i in range(len(cw) - 3))
@@ -187,6 +189,8 @@ def rkey(w):
 
 
 def rhymes(x, y):
+    if not re.search('[aeiouy]', x.lower()) or not re.search('[aeiouy]', y.lower()):
+        return 'no'
     if x == y:
         return 'same'
     kx, vx = rkey(x)
@@ -218,6 +222,8 @@ for tag, rows in sections:
     if is_chorus((tag, rows)) and len(rows) >= 4:
         loose = []
         for i, e in enumerate(ends):
+            if not e:
+                continue
             partners = [ends[j] for j in range(max(0, i - 2), min(len(ends), i + 3)) if j != i]
             if not any(rhymes(e, p) != 'no' for p in partners):
                 loose.append(rows[i])
