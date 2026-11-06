@@ -2,13 +2,13 @@ import os, json
 import numpy as np, cv2
 from PIL import Image, ImageDraw, ImageFont, ImageFilter
 W,H=1080,1350
-R='/home/claude/zacharypatzer/zachary-shorts/pipeline'
+R='/home/claude/zachary-shorts/pipeline'
 LORA='/usr/share/fonts/truetype/google-fonts/Lora-Variable.ttf'
 INTER='/usr/share/fonts/opentype/inter/Inter-SemiBold.otf'
 INTERM='/usr/share/fonts/opentype/inter/Inter-Medium.otf'
 GOLD=(232,184,96); CREAM=(250,242,228); DIM=(205,190,170)
 OUT='/home/claude/carousels/out'; os.makedirs(OUT,exist_ok=True)
-SCR='/tmp/claude-0/-home-claude/cb0a3232-efbb-506f-975f-a63d141a917e/scratchpad'
+SCR=f'{R}/songs/say_thank_you_for_me'   # portrait matte lives here
 
 def lora(sz,bold=True):
     f=ImageFont.truetype(LORA,sz)
