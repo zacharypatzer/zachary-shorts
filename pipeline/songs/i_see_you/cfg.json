@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/i_see_you",
+ "dur": 277.224,
+ "art_path": "/home/claude/songs/i_see_you/cover.png",
+ "title": "I See You",
+ "glow_col": [
+  114.8,
+  120.0,
+  30.7
+ ],
+ "ember_col": [
+  251.0,
+  255.0,
+  216.0
+ ],
+ "sub_tint": [
+  249,
+  251,
+  230
+ ],
+ "ember_speed": 0.35,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

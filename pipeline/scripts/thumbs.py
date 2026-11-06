@@ -50,6 +50,7 @@ S = {
     'hold_it_lightly':        ('/home/claude/songs/hold_it_lightly/scene_src.jpg', 'ofl/yesevaone/YesevaOne-Regular.ttf', None, None, '#2b1210', 'sunrise', True),
     'what_im_livin':          ('/home/claude/songs/what_im_livin/scene_fix.jpg', 'ofl/rubikdirt/RubikDirt-Regular.ttf', None, None, '#1e0f05', 'lion', True),
     'we_die_v2':              ('/home/claude/zachary-shorts/pipeline/songs/we_die_before_we_quit/scene_v2.jpg', 'ofl/alfaslabone/AlfaSlabOne-Regular.ttf', None, '#fff2cc', '#3a0606', 'gold', True),
+    'i_see_you':              ('/home/claude/songs/i_see_you/scene_src.jpg', 'ofl/righteous/Righteous-Regular.ttf', None, None, '#06141f', 'teal', False),
     'im_fine':                ('/home/claude/songs/im_fine/scene_thumb.jpg', 'ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf', None, '#eaf1ff', '#0b1530', 'flat', False),
 }
 # per-song face-panel crop (fraction of cover width): Lion's Heart shifts right to keep the lion and drop the IV cape
@@ -222,7 +223,7 @@ def thumb(slug):
         ty = np.clip(ty, 0, 1)[..., None]
         top_c, mid_c, low_c = hexc('#ffffff'), hexc('#8d9aaa'), hexc('#e6ecf3')
         col = np.where(ty < 0.55, top_c * (1 - ty / 0.55) + mid_c * (ty / 0.55), mid_c * (1 - (ty - 0.55) / 0.45) + low_c * ((ty - 0.55) / 0.45))
-    elif mode in ('gold', 'fire', 'sunrise', 'lion'):
+    elif mode in ('gold', 'fire', 'sunrise', 'lion', 'teal'):
         ty = np.zeros_like(yy)
         for b in base:
             ty = np.where((yy > b - asc) & (yy <= b + desc), (yy - (b - asc)) / (asc * 0.95), ty)
@@ -233,6 +234,8 @@ def thumb(slug):
             c0, c1 = hexc('#fffaf1'), hexc('#ffbf9c')
         elif mode == 'lion':
             c0, c1 = hexc('#ffe9a3'), hexc('#ec7a26')
+        elif mode == 'teal':
+            c0, c1 = hexc('#f4fffe'), hexc('#4fd1c9')
         else:
             c0, c1 = hexc('#ffd24a'), hexc('#ff4a0c')
         col = c0 * (1 - ty) + c1 * ty
@@ -253,6 +256,8 @@ def thumb(slug):
         accent = hexc('#ffbf9c')
     elif mode == 'lion':
         accent = hexc('#ffc160')
+    elif mode == 'teal':
+        accent = hexc('#4fd1c9')
 
     # ---- artist + tags
     fa = font(INTER_B, 38)
