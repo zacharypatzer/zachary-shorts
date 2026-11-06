@@ -62,8 +62,8 @@ QH = [
     ('accidental_motivation', 'QN_am_B', 44, 58.6, 'Stop counting what\'s left.', 'COUNT WHAT\'S BEHIND YOU.', 'C'),
     ('accidental_motivation', 'QN_am_C', 212.6, 227.8, 'You might be somebody\'s reason', 'WITHOUT EVEN TRYING.', 'C'),
 
-    ('thats_up', 'QN_tu_A', 75.8, 87.5, 'However small it looks,', 'IF IT TOOK YOUR ALL, THAT\'S ENOUGH.', 'C'),
-    ('thats_up', 'QN_tu_B', 178.5, 186.5, 'Hurting is not a contest.', 'YOUR LITTLE THINGS ARE REAL.', 'C'),
+    ('thats_up', 'QN_tu_A', 75.8, 87.5, 'If it took your all,', 'THAT\'S ENOUGH.', 'C'),
+    ('thats_up', 'QN_tu_B', 172.6, 186.5, 'Hurting is not a contest.', 'YOURS COUNTS TOO.', 'C'),
     ('thats_up', 'QN_tu_C', 58.6, 72.5, 'Not okay. Not done.', 'BUT I\'M UP.', 'A'),
 
     ('how_you_come_back', 'QN_hy_A', 59.6, 74.2, 'Scared is not', 'THE SAME AS STUCK.', 'C'),

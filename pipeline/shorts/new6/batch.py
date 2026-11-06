@@ -30,9 +30,10 @@ else:
         out = f'{OUT}/{name}.mp4'
         if os.path.exists(out): continue
         s0, s1 = snap(slug, a, b); s0 -= 0.15; s1 += 0.25
-        cover = f'/home/claude/songs/{slug}/cover.png'
+        clean = f'/home/claude/covers/x4_{slug}_clean.png'   # title-free cover where the title runs into his head
+        cover = clean if os.path.exists(clean) else f'/home/claude/songs/{slug}/cover.png'
         sz = 1668
-        top = 0.30 if slug == 'accidental_motivation' else 0.245
+        top = 0 if cover == clean else 0.245
         cfg = dict(lyrics=f'{P}/songs/{slug}/lyrics_final.json', cover=cover, song_start=round(s0, 3), song_end=round(s1, 3),
                    audio_src=f'/home/claude/songs/{slug}/song_14.m4a', audio_off=round(s0, 3), accent=ACCENT[slug],
                    hook=[l1, big], payoff=PAY[pk], punch_words=sorted(PUNCH), out=f'{OUT}/{name}_raw.mp4',
