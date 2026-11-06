@@ -2,3 +2,5 @@ pipeline/qh/covers4x/
 __pycache__/
 shorts/qh/
 pipeline/qh/cfg/
+pipeline/shorts/new6/*.log
+pipeline/shorts/new6/cfg/
