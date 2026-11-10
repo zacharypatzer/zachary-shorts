@@ -45,6 +45,7 @@ S = {
     'glad_youre_here':        ('/home/claude/songs/glad_youre_here/scene_src.png', 'ofl/pacifico/Pacifico-Regular.ttf', None, '#ffd27a', '#5a1a04', 'sunrise', False),
     'say_thank_you_for_me':   ('/home/claude/songs/say_thank_you_for_me/scene_src.png', 'ofl/interdisplay/InterDisplay-BlackItalic.otf', None, '#f4c23c', '#0b1530', 'gold', True),
     'thats_up':               ('/home/claude/songs/thats_up/scene_src.jpg', 'ofl/holtwoodonesc/HoltwoodOneSC-Regular.ttf', None, '#fff4d8', '#2a1406', 'sunrise', False),
+    'thatd_be_easy':          ('/home/claude/songs/thatd_be_easy/scene_src.jpg', 'ofl/bevan/Bevan-Regular.ttf', None, '#eaf4ff', '#06101f', 'flat', True),
     'accidental_motivation':  ('/home/claude/songs/accidental_motivation/scene_src.webp', 'ofl/abrilfatface/AbrilFatface-Regular.ttf', None, '#d9e6ff', '#070c1f', 'flat', True),
     'how_you_come_back':      ('/home/claude/songs/how_you_come_back/scene_src.jpg', 'ofl/anton/Anton-Regular.ttf', None, '#fff8e6', '#0d1630', 'sunrise', True),
     'hold_it_lightly':        ('/home/claude/songs/hold_it_lightly/scene_src.jpg', 'ofl/yesevaone/YesevaOne-Regular.ttf', None, None, '#2b1210', 'sunrise', True),
@@ -62,7 +63,7 @@ FIXED_ROWS = {'we_die_v2': ['WE DIE', 'BEFORE', 'WE QUIT'], 'hold_it_lightly': [
 EXTRA_TITLES = {'take_a_number': 'Take a Number', 'light_one_let_it_go': 'Light One, Let It Go',
                 'beautiful_anyway': 'Beautiful Anyway', 'a_mile_an_hour': 'A Mile An Hour',
                 'lions_heart': 'Lion\u2019s Heart', 'glad_youre_here': 'Glad You\u2019re Here',
-                'say_thank_you_for_me': 'Say Thank You For Me', 'thats_up': 'THAT\u2019S UP'}
+                'say_thank_you_for_me': 'Say Thank You For Me', 'thats_up': 'THAT\u2019S UP', 'thatd_be_easy': 'THAT\u2019D BE EASY'}
 
 
 def hexc(h):

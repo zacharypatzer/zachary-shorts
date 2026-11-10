@@ -52,6 +52,7 @@ PAL = {
     'accidental_motivation':  ('#5b86e0', '#cfe0ff', '#e4ecff', 0.35, 0.8),
     'i_see_you':              ('#2fb8b0', '#d8fffb', '#e6fbf9', 0.35, 0.8),
     'we_die_v2':              ('#c0392b', '#ffd27a', '#ffe9c0', 0.9, 1.0),
+    'thatd_be_easy':          ('#2f6fd0', '#bfe0ff', '#dbe9ff', 0.35, 0.8),
 }
 
 
