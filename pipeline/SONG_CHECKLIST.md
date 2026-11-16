@@ -72,6 +72,7 @@ Read it as someone who has never heard of Zachary.
 
 ## I. After Suno (before anything goes out)
 - [ ] Compare Suno's vocal to the lyrics: changed, dropped or mushed lines get fixed by a new take or noted for him.
+- [ ] Words on screen and DistroKid lyrics match what Suno ACTUALLY sang, word for word, not the written draft. Where the transcript and the draft differ (e.g. "papa" vs "mama"), go with what Suno sang. If unsure, ask him to check by ear BEFORE rendering, never after.
 - [ ] The intro of the take hooks (make-or-break). Generate 2-3 takes; keep the one with the best intro and the one that still moves you with vocals down.
 - [ ] Full pre-release check: audio level, lyric video sync, thumbnail (readable at phone size, bold high-contrast font, different from recent ones), title/tags/description, Facebook post (template, under 400 chars), Metricool post.
 
