@@ -1,0 +1,10 @@
+{
+ "scene": "3b8808e2-image.jpg",
+ "font": "ofl/sansita/Sansita-BlackItalic.ttf",
+ "title_lines": [
+  "Even If We Fall"
+ ],
+ "fill_top": "#fff4d0",
+ "fill_bot": "#ff9a5a",
+ "outline": "#1e0f04"
+}

@@ -1,0 +1,10 @@
+{
+ "scene": "af283ec9-image.jpg",
+ "font": "apache/ultra/Ultra-Regular.ttf",
+ "title_lines": [
+  "Cancer Fighter"
+ ],
+ "fill_top": "#eaffea",
+ "fill_bot": "#5fe07a",
+ "outline": "#04140a"
+}

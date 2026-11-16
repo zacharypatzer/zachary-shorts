@@ -1,0 +1,10 @@
+{
+ "scene": "3f5c03b8-image.jpg",
+ "font": "ofl/pacifico/Pacifico-Regular.ttf",
+ "title_lines": [
+  "Keep On Breathing"
+ ],
+ "fill_top": "#ffffff",
+ "fill_bot": "#f6c7a8",
+ "outline": "#2a1606"
+}

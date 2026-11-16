@@ -1,0 +1,11 @@
+{
+ "scene": "60504a84-image.jpg",
+ "font": "ofl/holtwoodonesc/HoltwoodOneSC-Regular.ttf",
+ "title_lines": [
+  "Monsters Out",
+  "of Shadows"
+ ],
+ "fill_top": "#ffffff",
+ "fill_bot": "#bcd6ff",
+ "outline": "#0a1226"
+}

@@ -1,0 +1,10 @@
+{
+ "scene": "05c99761-image.jpg",
+ "font": "ofl/shrikhand/Shrikhand-Regular.ttf",
+ "title_lines": [
+  "Light the Way"
+ ],
+ "fill_top": "#fff1c8",
+ "fill_bot": "#ffb03a",
+ "outline": "#1e0f04"
+}
