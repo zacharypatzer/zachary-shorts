@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_true_strength",
+ "dur": 273.0,
+ "art_path": "/home/claude/songs/d_true_strength/cover.png",
+ "title": "True Strength Isn't Loud",
+ "glow_col": [
+  38.4,
+  96.0,
+  120.0
+ ],
+ "ember_col": [
+  192.0,
+  240.0,
+  255.0
+ ],
+ "sub_tint": [
+  216,
+  234,
+  242
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}
