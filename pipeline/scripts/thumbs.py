@@ -53,6 +53,7 @@ S = {
     'we_die_v2':              ('/home/claude/zachary-shorts/pipeline/songs/we_die_before_we_quit/scene_v2.jpg', 'ofl/alfaslabone/AlfaSlabOne-Regular.ttf', None, '#fff2cc', '#3a0606', 'gold', True),
     'i_see_you':              ('/home/claude/songs/i_see_you/scene_src.jpg', 'ofl/righteous/Righteous-Regular.ttf', None, None, '#06141f', 'teal', False),
     'say_it_like_a_kid_would': ('/home/claude/songs/say_it_like_a_kid_would/scene_src.jpg', 'ofl/amaticsc/AmaticSC-Bold.ttf', None, '#d6efff', '#0b1a33', 'flat', False),
+    'who_you_stay_for':       ('/home/claude/songs/who_you_stay_for/scene_src.jpg', 'ofl/alfaslabone/AlfaSlabOne-Regular.ttf', None, '#ffd6d0', '#2a0f0c', 'flat', True),
     'im_fine':                ('/home/claude/songs/im_fine/scene_thumb.jpg', 'ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf', None, '#eaf1ff', '#0b1530', 'flat', False),
 }
 # per-song face-panel crop (fraction of cover width): Lion's Heart shifts right to keep the lion and drop the IV cape

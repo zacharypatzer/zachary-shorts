@@ -54,6 +54,7 @@ PAL = {
     'we_die_v2':              ('#c0392b', '#ffd27a', '#ffe9c0', 0.9, 1.0),
     'thatd_be_easy':          ('#2f6fd0', '#bfe0ff', '#dbe9ff', 0.35, 0.8),
     'say_it_like_a_kid_would': ('#5aa8e0', '#fff1c8', '#e2f2ff', 0.35, 0.8),
+    'who_you_stay_for':       ('#e8928c', '#ffe2c0', '#ffe9e4', 0.35, 0.8),
 }
 
 
