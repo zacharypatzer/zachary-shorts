@@ -1,0 +1,20 @@
+{
+ "scene": "e9874bc2-image.jpg",
+ "font": "ofl/mrdafoe/MrDafoe-Regular.ttf",
+ "title_lines": [
+  "Things Break,",
+  "People Rebuild"
+ ],
+ "fill_top": "#fff4d0",
+ "fill_bot": "#f2c14e",
+ "outline": "#2a1606",
+ "tint": [
+  0.92,
+  1.0,
+  1.08
+ ],
+ "v_lines": [
+  "Things Break,",
+  "People Rebuild"
+ ]
+}

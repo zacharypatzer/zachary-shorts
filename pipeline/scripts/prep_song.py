@@ -55,6 +55,15 @@ PAL = {
     'thatd_be_easy':          ('#2f6fd0', '#bfe0ff', '#dbe9ff', 0.35, 0.8),
     'say_it_like_a_kid_would': ('#5aa8e0', '#fff1c8', '#e2f2ff', 0.35, 0.8),
     'who_you_stay_for':       ('#e8928c', '#ffe2c0', '#ffe9e4', 0.35, 0.8),
+    'pray_for_somebody_else': ('#d9a441', '#fff1c4', '#fff2d6', 0.35, 0.8),
+    'if_we_can_we_do': ('#e8b04a', '#ffe3a0', '#fff3d6', 0.5, 0.9),
+    'just_a_nod': ('#b8a888', '#f0e8d8', '#f2ede4', 0.35, 0.7),
+    'im_good_for_it': ('#e0862a', '#ffd27a', '#ffe9c8', 0.4, 0.8),
+    'givin_time_more_life': ('#ff7fb0', '#ffe0ef', '#ffe6f2', 0.6, 0.9),
+    'count_the_arms_you_hold': ('#7fbf4c', '#fff6c8', '#eaffd8', 0.5, 0.9),
+    'put_it_together': ('#f2a64c', '#ffd890', '#fff0dc', 0.5, 0.9),
+    'the_sunrise_kind': ('#ffb067', '#fff1d0', '#fff4e6', 0.5, 0.9),
+    'things_break_people_rebuild': ('#f2c14e', '#fff1c8', '#fff6dc', 0.6, 1.0),
 }
 
 

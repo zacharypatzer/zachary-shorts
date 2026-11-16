@@ -54,6 +54,15 @@ S = {
     'i_see_you':              ('/home/claude/songs/i_see_you/scene_src.jpg', 'ofl/righteous/Righteous-Regular.ttf', None, None, '#06141f', 'teal', False),
     'say_it_like_a_kid_would': ('/home/claude/songs/say_it_like_a_kid_would/scene_src.jpg', 'ofl/amaticsc/AmaticSC-Bold.ttf', None, '#d6efff', '#0b1a33', 'flat', False),
     'who_you_stay_for':       ('/home/claude/songs/who_you_stay_for/scene_src.jpg', 'ofl/alfaslabone/AlfaSlabOne-Regular.ttf', None, '#ffd6d0', '#2a0f0c', 'flat', True),
+    'pray_for_somebody_else': ('/home/claude/songs/pray_for_somebody_else/scene_src.jpg', 'ofl/abrilfatface/AbrilFatface-Regular.ttf', None, '#ffffff', '#1a1206', 'flat', True),
+    'if_we_can_we_do': ('/home/claude/songs/if_we_can_we_do/scene_src.jpg', 'ofl/arvo/Arvo-Bold.ttf', None, '#fff6dc', '#2a1a06', 'flat', True),
+    'just_a_nod': ('/home/claude/songs/just_a_nod/scene_src.jpg', 'apache/permanentmarker/PermanentMarker-Regular.ttf', None, '#ffffff', '#111111', 'flat', False),
+    'im_good_for_it': ('/home/claude/songs/im_good_for_it/scene_src.jpg', 'ofl/shrikhand/Shrikhand-Regular.ttf', None, '#ffe9b8', '#1e0f04', 'flat', True),
+    'givin_time_more_life': ('/home/claude/songs/givin_time_more_life/scene_src.jpg', 'ofl/pacifico/Pacifico-Regular.ttf', None, '#fff0f6', '#2a0a1a', 'flat', False),
+    'count_the_arms_you_hold': ('/home/claude/songs/count_the_arms_you_hold/scene_src.jpg', 'apache/ultra/Ultra-Regular.ttf', None, '#fffbe0', '#0c2410', 'flat', False),
+    'put_it_together': ('/home/claude/songs/put_it_together/scene_src.jpg', 'ofl/rubikdirt/RubikDirt-Regular.ttf', None, '#fff2dc', '#1e0f05', 'flat', True),
+    'the_sunrise_kind': ('/home/claude/songs/the_sunrise_kind/scene_src.jpg', 'ofl/poiretone/PoiretOne-Regular.ttf', None, '#fffaf0', '#2a1606', 'flat', False),
+    'things_break_people_rebuild': ('/home/claude/songs/things_break_people_rebuild/scene_src.jpg', 'ofl/mrdafoe/MrDafoe-Regular.ttf', None, '#fff4d0', '#2a1606', 'flat', False),
     'im_fine':                ('/home/claude/songs/im_fine/scene_thumb.jpg', 'ofl/dmserifdisplay/DMSerifDisplay-Italic.ttf', None, '#eaf1ff', '#0b1530', 'flat', False),
 }
 # per-song face-panel crop (fraction of cover width): Lion's Heart shifts right to keep the lion and drop the IV cape

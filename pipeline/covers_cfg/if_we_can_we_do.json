@@ -1,0 +1,19 @@
+{
+ "scene": "78f6a690-image.jpg",
+ "font": "ofl/arvo/Arvo-Bold.ttf",
+ "title_lines": [
+  "If We Can, We Do"
+ ],
+ "fill_top": "#fff6dc",
+ "fill_bot": "#e8b04a",
+ "outline": "#2a1a06",
+ "tint": [
+  0.95,
+  1.0,
+  1.06
+ ],
+ "v_lines": [
+  "If We Can,",
+  "We Do"
+ ]
+}

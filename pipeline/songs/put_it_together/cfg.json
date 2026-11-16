@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/put_it_together",
+ "dur": 319.632,
+ "art_path": "/home/claude/songs/put_it_together/cover.png",
+ "title": "Put It Together",
+ "glow_col": [
+  37.7,
+  82.3,
+  120.0
+ ],
+ "ember_col": [
+  144.0,
+  216.0,
+  255.0
+ ],
+ "sub_tint": [
+  220,
+  240,
+  255
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

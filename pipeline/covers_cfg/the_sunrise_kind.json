@@ -1,0 +1,20 @@
+{
+ "scene": "dcbb8f79-image.jpg",
+ "font": "ofl/poiretone/PoiretOne-Regular.ttf",
+ "title_lines": [
+  "The Sunrise Kind"
+ ],
+ "fill_top": "#fffaf0",
+ "fill_bot": "#ffb067",
+ "outline": "#2a1606",
+ "tint": [
+  0.92,
+  1.0,
+  1.08
+ ],
+ "bold": 5,
+ "v_lines": [
+  "The Sunrise",
+  "Kind"
+ ]
+}

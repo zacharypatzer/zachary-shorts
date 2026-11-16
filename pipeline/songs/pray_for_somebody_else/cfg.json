@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/pray_for_somebody_else",
+ "dur": 292.032,
+ "art_path": "/home/claude/songs/pray_for_somebody_else/cover.png",
+ "title": "Pray for Somebody Else",
+ "glow_col": [
+  35.9,
+  90.7,
+  120.0
+ ],
+ "ember_col": [
+  196.0,
+  241.0,
+  255.0
+ ],
+ "sub_tint": [
+  214,
+  242,
+  255
+ ],
+ "ember_speed": 0.35,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}
