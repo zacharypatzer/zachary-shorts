@@ -7,7 +7,10 @@ Plan (Nov 16, 2026): every song in the Drive folder gets a complete lyric video,
 - Older takes of songs that already have covers reuse that song's cover with a version label; no new prompt needed.
 - Words on screen must match what Suno actually sang; unclear spots get flagged for him to check by ear before rendering.
 
-## Status (Nov 16, 2026, 1 AM)
-- All 23 cover images received; 28 covers built (`covers_cfg/d_*.json`, scenes in `drive_versions/scenes/`, render with `SLUG=<slug> scripts/cover_generic.py`). He also made images for the two dropped songs (Follow Along bicycle road, Thank You for Joining open door) — unused.
-- All 28 takes are transcribed (songs/d_*/trans_voc.txt, rebuilt by restore + pipeline_one if the workspace is fresh; MP3 ids in Drive).
-- Next: lyrics as sung, one song at a time. Source = his written lyrics in past chats (mostly the Oct 2026 "Karaoke video with lyrics" chat) checked against Suno's vocal; flag unclear spots for him to check by ear before rendering. Do the sung songs first, fast rap songs last.
+## Status (Nov 16, 2026, 2 AM)
+- 3 files are exact duplicates (True Strength (1), A New God Rises (1), "I feel the weight..." = Lone Wolf Rising), so 25 videos.
+- Lyrics as sung done for all 25 (`songs/d_*/lyrics.txt`, timings in `aligned.json` / `lyrics_final.json`). Sheets came from past chats where they existed; the rest are from the vocal.
+- Lines to check by ear: `REVIEW.md` (regenerate with `review/make_review.py` after edits).
+- Drive MP3 file ids: `ids.tsv`.
+- Build one song: `scripts/drive_build.sh SLUG "glow,particles,tint,speed,gain"` (cover, -14 LUFS audio, render, QC). Queue: add lines to `songs/buildq.txt`, run `scripts/buildq.sh`. Videos go to `/home/claude/out/drive/` (not in the repo: they contain audio).
+- To fix a line: edit `songs/<slug>/lyrics.txt`, rerun `align.py lyrics.txt words_mix.json,words_voc.json[,win.json] aligned.json`, then rebuild.

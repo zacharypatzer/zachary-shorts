@@ -66,6 +66,7 @@ PAL = {
     'd_keep_on_breathing': ('#f0a050', '#ffe0b0', '#fff0dc', 0.5, 0.9),
     'd_just_remember_my_name': ('#e0a040', '#ffe0a0', '#fff0d0', 0.5, 0.9),
     'd_light_the_way': ('#2fa86a', '#ffe680', '#e8ffd0', 0.9, 1.0),
+    'd_words_unspoken': ('#c89048', '#ffd890', '#f4e2c0', 0.5, 0.8),
     'things_break_people_rebuild': ('#f2c14e', '#fff1c8', '#fff6dc', 0.6, 1.0),
 }
 
