@@ -15,3 +15,9 @@ Plan (Nov 16, 2026): every song in the Drive folder gets a complete lyric video,
 - Before building, run `scripts/check_wrap.py songs/<slug>/lyrics.txt` (lines that need 4+ rows break the render; split them).
 - Build one song: `scripts/drive_build.sh SLUG "glow,particles,tint,speed,gain"` (cover, -14 LUFS audio, render, QC). Queue: add lines to `songs/buildq.txt`, run `scripts/buildq.sh`. Videos go to `/home/claude/out/drive/` (not in the repo: they contain audio).
 - To fix a line: edit `songs/<slug>/lyrics.txt`, rerun `align.py lyrics.txt words_mix.json,words_voc.json[,win.json] aligned.json`, then rebuild.
+
+## Early takes (Nov 16, 2026): 18 videos, done and checked
+- Older takes of released songs, listed in `early_takes.tsv` (Drive id, file name, label). Folders `songs/o_*`.
+- Cover = the song's square cover (`qh/covers/<slug>.jpg`) with an "EARLY TAKE" badge (A/B/C when several): `scripts/take_cover.py`. On-screen title says "(Early Take X)".
+- Lyrics: Zachary's original sheets from past chats where the take matched them, else the released lyrics, pruned to what's sung with `scripts/prune_lyrics.py`; LNDL C and OTSS C are from the vocal.
+- Skipped: duplicates (Embrace (4) = Embrace (Remastered), Footprints (4) = Footprints (Remastered), Remember Me "Remastered2" = "Remastered x2" same vocal), We Die (12) = the held-back v2 that already has a video, and the under-3-minute files he chose to leave out.
