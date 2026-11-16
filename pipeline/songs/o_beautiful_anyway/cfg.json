@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/o_beautiful_anyway",
+ "dur": 318.069,
+ "art_path": "/home/claude/songs/o_beautiful_anyway/cover.png",
+ "title": "Beautiful Anyway (Early Take)",
+ "glow_col": [
+  36.2,
+  66.2,
+  120.0
+ ],
+ "ember_col": [
+  144.0,
+  200.0,
+  255.0
+ ],
+ "sub_tint": [
+  138,
+  180,
+  242
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

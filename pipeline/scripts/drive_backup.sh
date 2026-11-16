@@ -2,7 +2,7 @@
 # copy Drive-version text work (no audio) into the repo and push
 R=/home/claude/zachary-shorts/pipeline
 cd /home/claude/songs
-for d in d_*; do
+for d in d_* o_*; do
   mkdir -p $R/songs/$d
   for f in lyrics.txt aligned.json lyrics_final.json win.json trans_mix.txt trans_voc.txt words_mix.json words_voc.json dur.txt cfg.json loudness.txt; do [ -f $d/$f ] && cp $d/$f $R/songs/$d/; done
 done

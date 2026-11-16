@@ -128,3 +128,30 @@ No written sheet found. Fast rap: many lines are best guesses, so a full listen-
 - 1:30 "the apostle is counting the losses" — unclear.
 - 3:22 "I am a resonant battle" — unclear.
 - 3:59 "This is the moment I'm trying for" — unclear.
+
+# Early takes of released songs
+Each cover has an "EARLY TAKE" badge (A/B/C when a song has more than one), and the title on screen says the same. Most use your own sheets from our chats, so they need little checking.
+
+## Live Now, Die Later (Early Take B)
+The MP3 itself starts partway into the song (the tattoo verse isn't in the file).
+
+## Live Now, Die Later (Early Take C)
+A fast rap version with no written sheet. Best guesses:
+- 0:28 "We hold a currency, currently" — unclear.
+- 0:38 "building an iron alliance" — guess.
+- 1:13 "brand the quote on your arm" — "quote" is my guess (tattoo).
+- 4:02 "Forty-eight minutes, you're missing the prize" — unclear.
+- 4:57 "only raw truth for the weeks" — unclear.
+
+## Only The Strong Survive (Early Take A)
+The MP3 starts partway in (at the first chorus).
+
+## Only The Strong Survive (Early Take C)
+A rewrite of your sheet with new lines; taken from the vocal.
+- 1:25 "till the modern panics cease" — "modern" or "earthly"?
+
+## Remember Me When I'm Gone (Early Take A)
+The MP3 starts partway in. Also: the "Remastered x2" and "Remastered2" files are the same vocal take, so they share one video (Early Take B).
+
+## Take a Number (Early Take)
+The MP3 starts partway into verse 1.

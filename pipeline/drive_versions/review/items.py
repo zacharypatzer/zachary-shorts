@@ -9,11 +9,6 @@ song("Just Remember My Name", "d_just_remember_my_name", "No written sheet found
  ("Leave all the heavy tethers behind now", "\"tethers\" is my guess for an unclear word."),
  "0:00–0:31 and 1:42–1:55: soft humming, shown as dots.",
 ])
-song("Light the Way", "d_light_the_way", "Your sheet.", [
- ("Dutty yeah", "can't confirm this opening ad-lib."),
- ("Bada-bang-bang, bang, bang", "the number of \"bang\"s is approximate."),
- ("Emancipate your mind", "heads-up, not a lyric error: this part is very close to Bob Marley's \"Redemption Song\". Fine as a private perk, but I wouldn't post it publicly."),
-])
 song("Words Unspoken Remain Thoughts", "d_words_unspoken", "No written sheet found.", [
  ("Not broken, just broken", "intro, unclear."),
  ("renewed with the mission", "unclear."),
@@ -100,3 +95,18 @@ song("A New God Rises", "d_a_new_god_rises", "No written sheet found. Fast rap: 
  ("I am a resonant battle", "unclear."),
  ("This is the moment I'm trying for", "unclear."),
 ])
+S.append("\n# Early takes of released songs\nEach cover has an \"EARLY TAKE\" badge (A/B/C when a song has more than one), and the title on screen says the same. Most use your own sheets from our chats, so they need little checking.\n")
+song("Live Now, Die Later (Early Take B)", "o_live_now_die_later_2", "The MP3 itself starts partway into the song (the tattoo verse isn't in the file).", [])
+song("Live Now, Die Later (Early Take C)", "o_live_now_die_later_3", "A fast rap version with no written sheet. Best guesses:", [
+ ("We hold a currency, currently", "unclear."),
+ ("building an iron alliance", "guess."),
+ ("brand the quote on your arm", "\"quote\" is my guess (tattoo)."),
+ ("Forty-eight minutes, you're missing the prize", "unclear."),
+ ("only raw truth for the weeks", "unclear."),
+])
+song("Only The Strong Survive (Early Take A)", "o_only_the_strong_survive_1", "The MP3 starts partway in (at the first chorus).", [])
+song("Only The Strong Survive (Early Take C)", "o_only_the_strong_survive_3", "A rewrite of your sheet with new lines; taken from the vocal.", [
+ ("till the modern panics cease", "\"modern\" or \"earthly\"?"),
+])
+song("Remember Me When I'm Gone (Early Take A)", "o_remember_me_when_im_gone_1", "The MP3 starts partway in. Also: the \"Remastered x2\" and \"Remastered2\" files are the same vocal take, so they share one video (Early Take B).", [])
+song("Take a Number (Early Take)", "o_take_a_number", "The MP3 starts partway into verse 1.", [])

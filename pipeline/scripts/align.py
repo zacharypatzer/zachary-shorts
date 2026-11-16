@@ -159,6 +159,13 @@ for src in SOURCES[1:]:
             if mt[x] is not None:
                 times[x] = list(mt[x])
     fix_order()
+_MATCHED = [times[k] is not None for k in range(n)]
+import os as _os
+if _os.environ.get('MATCHDUMP'):
+    _per = {}
+    for k in range(n):
+        _per.setdefault(L[k][0], []).append(_MATCHED[k])
+    json.dump({str(a): sum(v) / len(v) for a, v in _per.items()}, open(_os.environ['MATCHDUMP'], 'w'))
 import os
 import scipy.io.wavfile as _wf
 _VOC = None

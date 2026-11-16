@@ -88,6 +88,10 @@ PAL = {
     'd_living_2_die': ('#d06a3a', '#ffd0a8', '#fde6d6', 0.5, 0.85),
     'd_maze_made_the_man': ('#c87a3a', '#ffd8a8', '#f2e6d8', 0.7, 1.0),
     'd_a_new_god_rises': ('#e07a2a', '#ffd080', '#ffe8c8', 0.8, 1.0),
+    'o_beautiful_anyway': ('#c06a3a', '#ffc890', '#f2b48a', 0.5, 0.8),
+    'o_embrace_every_scar': ('#9a7cff', '#d9c2ff', '#e6dcff', 0.9, 0.8),
+    'o_even_if_we_stumble': ('#b03ca8', '#ffb0f0', '#a8ffe0', 0.8, 0.9),
+    'o_floor_of_shadows': ('#6a7a8a', '#e8f0ff', '#fff6a0', 0.5, 0.6),
     'things_break_people_rebuild': ('#f2c14e', '#fff1c8', '#fff6dc', 0.6, 1.0),
 }
 

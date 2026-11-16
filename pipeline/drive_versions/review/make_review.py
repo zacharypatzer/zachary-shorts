@@ -25,6 +25,6 @@ open('/home/claude/zachary-shorts/pipeline/drive_versions/REVIEW.md','w').write(
 Each video already shows my best guess. If a line is wrong, tell me the right words (or just the time) and I'll fix and re-render that song.
 Songs marked "your sheet" use your own written lyrics, so they need little or no checking. The fast rap songs with no sheet need the most.
 
-Duplicates found: "True Strength Isn't Loud (1)" and "A New God Rises (1)" are the exact same audio as the main files, and "I feel the weight of every heart..." is the same audio as "Lone Wolf Rising". So there are 25 videos, not 28.
+Duplicates found: "True Strength Isn't Loud (1)" and "A New God Rises (1)" are the exact same audio as the main files, and "I feel the weight of every heart..." is the same audio as "Lone Wolf Rising". So there are 25 videos, not 28. Light the Way was dropped on Nov 16 (one section was too close to Bob Marley's \"Redemption Song\"), leaving 24.
 """+"".join(S))
 print("ok")
