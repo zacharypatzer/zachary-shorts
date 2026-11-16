@@ -59,7 +59,7 @@ Updated Nov 16, 2026. Paths are inside this repo (`pipeline/`). Drive = private 
 | People Rebuild | `songs/things_break_people_rebuild` | `10P8wHXQWC3kokZWC8mbDkcbRiwav_zCV` (Things Break, People Rebuild (Remastered).mp3) | out/People_Rebuild_Facebook_Vertical.jpg, out/People_Rebuild_Cover.jpg, out/People_Rebuild_Thumbnail.jpg |
 | Unfinished | `songs/unfinished` | `1UhRowAX8l0DCpB6GD8h6WAh7oB5ZpHTV` (Unfinished (Remastered) (1).mp3) | out/Unfinished_Thumbnail.jpg, out/Unfinished_Cover.jpg, out/Unfinished_Facebook_Vertical.jpg, qh/covers/unfinished.jpg |
 | We Die Before We Quit | `songs/we_die_before_we_quit` | `15zLWw6rlE1JdrA56kpNMGPwFLY4wtA0J` (We Die Before We Quit.mp3) | out/We_Die_Before_We_Quit_Facebook_Reel_Cover.jpg, out/We_Die_Before_We_Quit_v2_Facebook_Vertical.jpg, out/We_Die_Before_We_Quit_v2_Thumbnail.jpg, out/We_Die_Before_We_Quit_Thumbnail.jpg, qh/covers/we_die_before_we_quit.jpg |
-| We Die Before We Quit | `songs/we_die_v2` | see Drive (search title) | out/We_Die_Before_We_Quit_Facebook_Reel_Cover.jpg, out/We_Die_Before_We_Quit_v2_Facebook_Vertical.jpg, out/We_Die_Before_We_Quit_v2_Thumbnail.jpg, out/We_Die_Before_We_Quit_Thumbnail.jpg |
+| We Die Before We Quit (rewrite, on hold) | `songs/we_die_v2` (+ `hold/` Suno boxes) | `1kvjouuWyaK90Xxls4e8SiK7FRKK0v6Is` (We Die Before We Quit (Remastered) (12).mp3) | out/We_Die_Before_We_Quit_Facebook_Reel_Cover.jpg, out/We_Die_Before_We_Quit_v2_Facebook_Vertical.jpg, out/We_Die_Before_We_Quit_v2_Thumbnail.jpg, out/We_Die_Before_We_Quit_Thumbnail.jpg |
 | What I'm Livin' | `songs/what_im_livin` | `1nV0E5ivdo0wVyHgUxwBxnpnlx5qkNv9F` (What I'm Livin' (Remastered).mp3) | out/What_Im_Livin_Cover.jpg, out/What_Im_Livin_Facebook_Vertical.jpg, out/What_Im_Livin_Thumbnail.jpg |
 | Who You Stay For | `songs/who_you_stay_for` | `1a90L44h4NOIImtPB-nqSvlKhVoaoNS7m` (Who You Stay For (Remastered).mp3) | out/Who_You_Stay_For_Facebook_Vertical.jpg, out/Who_You_Stay_For_Cover.jpg, out/Who_You_Stay_For_Thumbnail.jpg |
 
@@ -114,6 +114,20 @@ Updated Nov 16, 2026. Paths are inside this repo (`pipeline/`). Drive = private 
 | Shout Yes (Early Take) | `songs/o_shout_yes` | `1-R83b9-gJEIhbdbf6-sfJmhxCYIJrI9v` (Shout Yes (Remastered).mp3) | qh/covers/shout_yes.jpg + badge |
 | Take a Number (Early Take) | `songs/o_take_a_number` | `1NkBJ1kcOpDGntXT72fdkGgcOrCQgpaRn` (Take a Number (Remastered) (2).mp3) | qh/covers/take_a_number.jpg + badge |
 | We Die Before We Quit (Early Take) | `songs/o_we_die_before_we_quit` | `1KPxCWJaPUNaejeFpza1Cy2sE5bnk2lIn` (We Die Before We Quit (Remastered).mp3) | qh/covers/we_die_before_we_quit.jpg + badge |
+
+## Passed on / short songs (kept so they can be revisited)
+| Song | Where | MP3 (Drive id) |
+|---|---|---|
+| Light the Way (Drive take) | `songs/d_light_the_way` (lyrics + timings, see PASSED_ON.md) | `1tKnfxsPjTsMfOY-gu3o2xDJ0zLnss1Bi` |
+| Follow Along | MP3 only (under 3 min) | `1IjX4Js6keQKODP4oaKaZ1hiD3Rm1HarJ` |
+| Thank You for Joining | MP3 only (under 3 min) | `1yqsF9nMcqH1O-vdd5YdEUlKBqczkzWeo` |
+| Living 2 Die (short take) | MP3 only (under 3 min) | `11z1EM4hj6RtOrkq02n4lmbCZaXtcCVZ-` |
+| Tick Talk Whoa | MP3 only (viral edit sound) | `1yWgbOJQlmeTzLGxdPpu-BC9l5g6MoKmw` |
+| That'd Be Easy (cleaned master) | `songs/thatd_be_easy` | `1qIfZ8JpO9zr-YD7__JRQzuSCVZuIyd5e` |
+
+Removed songs (Quiet Fire, Shout Yes, No Complaints, Even If We Stumble, Unfinished, From Where I Stand, A Seat at the Table, I'm a Witness, What I'm Livin', That'd Be Easy, We Die Before We Quit and the 5+4 being replaced) keep their full folders above; nothing is deleted.
+Song drafts that never went through Suno (People Rebuild drafts, Bury the Calendar, Pour One More, etc.) are in Claude's memory file `/areas/song-drafts.md` and past chats, by Zachary's choice not in this repo until a version works.
+Ratings for all 75 songs: `RATINGS.md`.
 
 ## Not made (by choice)
 - Light the Way Drive take: too close to "Redemption Song" — never make it.
