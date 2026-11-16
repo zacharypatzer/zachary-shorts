@@ -3,7 +3,7 @@
 Each video already shows my best guess. If a line is wrong, tell me the right words (or just the time) and I'll fix and re-render that song.
 Songs marked "your sheet" use your own written lyrics, so they need little or no checking. The fast rap songs with no sheet need the most.
 
-Duplicates found: "True Strength Isn't Loud (1)" and "A New God Rises (1)" are the exact same audio as the main files, and "I feel the weight of every heart..." is the same audio as "Lone Wolf Rising". So there are 25 videos, not 28.
+Duplicates found: "True Strength Isn't Loud (1)" and "A New God Rises (1)" are the exact same audio as the main files, and "I feel the weight of every heart..." is the same audio as "Lone Wolf Rising". So there are 25 videos, not 28. Light the Way was dropped on Nov 16 (one section was too close to Bob Marley's "Redemption Song"), leaving 24.
 
 ## Keep On Breathing
 Your sheet. Only small checks:
@@ -17,12 +17,6 @@ No written sheet found.
 - 0:44 "at the dark terrain" — "terrain"? The transcript hears "dark strain".
 - 1:13 "Leave all the heavy tethers behind now" — "tethers" is my guess for an unclear word.
 - 0:00–0:31 and 1:42–1:55: soft humming, shown as dots.
-
-## Light the Way
-Your sheet.
-- 0:01 "Dutty yeah" — can't confirm this opening ad-lib.
-- 1:27 "Bada-bang-bang, bang, bang" — the number of "bang"s is approximate.
-- 2:23 "Emancipate your mind" — heads-up, not a lyric error: this part is very close to Bob Marley's "Redemption Song". Fine as a private perk, but I wouldn't post it publicly.
 
 ## Words Unspoken Remain Thoughts
 No written sheet found.

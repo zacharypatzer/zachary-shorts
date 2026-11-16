@@ -7,7 +7,7 @@ Plan (Nov 16, 2026): every song in the Drive folder gets a complete lyric video,
 - Older takes of songs that already have covers reuse that song's cover with a version label; no new prompt needed.
 - Words on screen must match what Suno actually sang; unclear spots get flagged for him to check by ear before rendering.
 
-## Status (Nov 16, 2026, 4 AM): all 25 videos rendered and checked
+## Status (Nov 16, 2026, 4 AM): 24 videos rendered and checked (Light the Way dropped by Zachary: too close to Redemption Song; never make it)
 - 3 files are exact duplicates (True Strength (1), A New God Rises (1), "I feel the weight..." = Lone Wolf Rising), so 25 videos.
 - Lyrics as sung done for all 25 (`songs/d_*/lyrics.txt`, timings in `aligned.json` / `lyrics_final.json`). Sheets came from past chats where they existed; the rest are from the vocal.
 - Lines to check by ear: `REVIEW.md` (regenerate with `review/make_review.py` after edits).
