@@ -63,6 +63,9 @@ PAL = {
     'count_the_arms_you_hold': ('#7fbf4c', '#fff6c8', '#eaffd8', 0.5, 0.9),
     'put_it_together': ('#f2a64c', '#ffd890', '#fff0dc', 0.5, 0.9),
     'the_sunrise_kind': ('#ffb067', '#fff1d0', '#fff4e6', 0.5, 0.9),
+    'd_keep_on_breathing': ('#f0a050', '#ffe0b0', '#fff0dc', 0.5, 0.9),
+    'd_just_remember_my_name': ('#e0a040', '#ffe0a0', '#fff0d0', 0.5, 0.9),
+    'd_light_the_way': ('#2fa86a', '#ffe680', '#e8ffd0', 0.9, 1.0),
     'things_break_people_rebuild': ('#f2c14e', '#fff1c8', '#fff6dc', 0.6, 1.0),
 }
 
