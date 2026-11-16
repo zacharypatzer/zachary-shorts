@@ -118,7 +118,7 @@ Updated Nov 16, 2026. Paths are inside this repo (`pipeline/`). Drive = private 
 ## Passed on / short songs (kept so they can be revisited)
 | Song | Where | MP3 (Drive id) |
 |---|---|---|
-| Light the Way (Drive take) | `songs/d_light_the_way` (lyrics + timings, see PASSED_ON.md) | `1tKnfxsPjTsMfOY-gu3o2xDJ0zLnss1Bi` |
+| Light the Way (Drive take) | `songs/d_light_the_way` (lyrics + timings, see PASSED_ON.md) | `1tKnfxsPjTsMfOY-gu3o2xDJ0zLnss1Bi` | (lyrics.txt = safe revision; old MP3 sings cautioned lines, never use)
 | Follow Along | MP3 only (under 3 min) | `1IjX4Js6keQKODP4oaKaZ1hiD3Rm1HarJ` |
 | Thank You for Joining | MP3 only (under 3 min) | `1yqsF9nMcqH1O-vdd5YdEUlKBqczkzWeo` |
 | Living 2 Die (short take) | MP3 only (under 3 min) | `11z1EM4hj6RtOrkq02n4lmbCZaXtcCVZ-` |
@@ -130,6 +130,6 @@ Song drafts that never went through Suno (People Rebuild drafts, Bury the Calend
 Ratings for all 75 songs: `RATINGS.md`.
 
 ## Not made (by choice)
-- Light the Way Drive take: too close to "Redemption Song" — never make it.
+- Light the Way Drive take: too close to "Redemption Song" — never make it. (lyrics.txt = safe revision; old MP3 sings cautioned lines, never use)
 - Under 3 min, left out: Follow Along, Thank You for Joining, short Living 2 Die take, Tick Talk Whoa.
 - Duplicates share a video: True Strength (1), A New God Rises (1), "I feel the weight…" (= Lone Wolf Rising), Embrace (4), Footprints (4), Remember Me "Remastered2".
