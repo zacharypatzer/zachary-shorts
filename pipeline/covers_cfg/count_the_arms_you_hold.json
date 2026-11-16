@@ -2,8 +2,8 @@
  "scene": "126390d9-image.jpg",
  "font": "apache/ultra/Ultra-Regular.ttf",
  "title_lines": [
-  "Count the Arms",
-  "You Hold"
+  "Lost It in",
+  "the Paperwork"
  ],
  "fill_top": "#fffbe0",
  "fill_bot": "#8ad45c",
@@ -14,8 +14,7 @@
   1.08
  ],
  "v_lines": [
-  "Count the",
-  "Arms You",
-  "Hold"
+  "Lost It in",
+  "the Paperwork"
  ]
 }

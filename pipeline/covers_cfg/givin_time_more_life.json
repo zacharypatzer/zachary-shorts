@@ -2,7 +2,8 @@
  "scene": "0f017e2c-image.jpg",
  "font": "ofl/pacifico/Pacifico-Regular.ttf",
  "title_lines": [
-  "Givin' Time More Life"
+  "Giving Time",
+  "More Life"
  ],
  "fill_top": "#fff0f6",
  "fill_bot": "#ff8fbf",
@@ -13,7 +14,7 @@
   1.02
  ],
  "v_lines": [
-  "Givin' Time",
+  "Giving Time",
   "More Life"
  ]
 }
