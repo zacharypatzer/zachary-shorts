@@ -63,7 +63,7 @@ for n, (slug, var, sec, wi, l1, big, pk) in enumerate(PLAN):
     if slug == 'we_die_before_we_quit':
         cover, extra = f'{P}/songs/we_die_before_we_quit/cover_full.jpg', dict(crop_cx=966, crop_cy=966, crop_h=1932, hide_top=470)
     else:
-        cover = f'{P}/qh/covers4x/{slug}.png'
+        cover = f'{P}/qh/covers_real/{slug}.png'   # real portrait on the 4x cover (no waxy face)
         while not os.path.exists(cover): time.sleep(20)
         time.sleep(2)
         sz = Image.open(cover).size[1]

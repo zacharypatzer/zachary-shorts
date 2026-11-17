@@ -77,3 +77,4 @@ Before he runs any new song in Suno: run `python3 scripts/lyric_check.py draft.t
 Approved by Zachary Nov 17, 2026. 14 new "leaving something behind" quick-hooks (`qh/plan_nov.py`, rendered by `qh/batch_nov.py`, files `shorts/qh/QH_*_L1/L2.mp4`), all ending on "Send this to someone WHO NEEDS IT."
 They post at 5:30 PM every other day, Nov 19 - Dec 15 (payloads in `qh/sched_nov.json`). The 5:30 lyric Shorts they replaced were switched to drafts in Metricool (not deleted).
 The in-between days keep the usual 5:30 lyric Shorts, so the weekly report can compare the two styles in the same slot.
+Face fix (Nov 17): the 4x-upscaled cover face looks waxy/clay. `scripts/real_face_cover.py SLUG` pastes his real portrait (assets/face_src.jpg) onto `qh/covers4x/SLUG.png` -> `qh/covers_real/SLUG.png`; `batch_nov.py` uses those. The scheduled Nov batch uses the `_rf` files.
