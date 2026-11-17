@@ -106,6 +106,7 @@ PAL = {
     'o_shout_yes': ('#b03cff', '#4fe3ff', '#f2a8ff', 1.4, 1.0),
     'o_take_a_number': ('#b8743a', '#ffd9a0', '#f1d9ad', 0.7, 0.8),
     'o_we_die_before_we_quit': ('#b02020', '#ffffff', '#ffb0b0', 1.1, 0.9),
+    'raise_one_for_jim': ('#c8962e', '#ffe6a8', '#ffe2a0', 0.3, 0.7),
     'things_break_people_rebuild': ('#f2c14e', '#fff1c8', '#fff6dc', 0.6, 1.0),
 }
 
