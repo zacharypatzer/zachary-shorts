@@ -1,0 +1,156 @@
+[
+ {
+  "n": 0,
+  "slug": "beautiful_anyway",
+  "var": "L1",
+  "file": "QH_beautiful_anyway_L1.mp4",
+  "cover": "QH_beautiful_anyway_L1_cover.jpg",
+  "title": "Beautiful Anyway",
+  "hook": "I hug too long now. Here's why.",
+  "dur": 15.04,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 1,
+  "slug": "i_live_on_through_you",
+  "var": "L1",
+  "file": "QH_i_live_on_through_you_L1.mp4",
+  "cover": "QH_i_live_on_through_you_L1_cover.jpg",
+  "title": "I Live On Through You",
+  "hook": "No fortune to leave you. So I left this.",
+  "dur": 12.16,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 2,
+  "slug": "take_a_number",
+  "var": "L1",
+  "file": "QH_take_a_number_L1.mp4",
+  "cover": "QH_take_a_number_L1_cover.jpg",
+  "title": "Take a Number",
+  "hook": "Every time death knocked, I held on longer.",
+  "dur": 13.76,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 3,
+  "slug": "remember_me_when_im_gone",
+  "var": "L1",
+  "file": "QH_remember_me_when_im_gone_L1.mp4",
+  "cover": "QH_remember_me_when_im_gone_L1_cover.jpg",
+  "title": "Remember Me When I'm Gone",
+  "hook": "A voice you'd give anything to hear.",
+  "dur": 13.68,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 4,
+  "slug": "floor_of_shadows",
+  "var": "L1",
+  "file": "QH_floor_of_shadows_L1.mp4",
+  "cover": "QH_floor_of_shadows_L1_cover.jpg",
+  "title": "Floor of Shadows",
+  "hook": "For the stranger in the next chair.",
+  "dur": 15.84,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 5,
+  "slug": "light_one_let_it_go",
+  "var": "L1",
+  "file": "QH_light_one_let_it_go_L1.mp4",
+  "cover": "QH_light_one_let_it_go_L1_cover.jpg",
+  "title": "Light One, Let It Go",
+  "hook": "The light keeps going after the flame.",
+  "dur": 13.36,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 6,
+  "slug": "make_your_time_count",
+  "var": "L1",
+  "file": "QH_make_your_time_count_L1.mp4",
+  "cover": "QH_make_your_time_count_L1_cover.jpg",
+  "title": "Make Your Time Count",
+  "hook": "What I'd tell my younger self.",
+  "dur": 13.92,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 7,
+  "slug": "lions_heart",
+  "var": "L1",
+  "file": "QH_lions_heart_L1.mp4",
+  "cover": "QH_lions_heart_L1_cover.jpg",
+  "title": "Lion's Heart",
+  "hook": "To everyone we lost: Your song goes on.",
+  "dur": 14.76,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 8,
+  "slug": "dying_to_live",
+  "var": "L1",
+  "file": "QH_dying_to_live_L1.mp4",
+  "cover": "QH_dying_to_live_L1_cover.jpg",
+  "title": "Dying to Live",
+  "hook": "I stopped begging for more time.",
+  "dur": 10.32,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 9,
+  "slug": "footprints_of_gold",
+  "var": "L1",
+  "file": "QH_footprints_of_gold_L1.mp4",
+  "cover": "QH_footprints_of_gold_L1_cover.jpg",
+  "title": "Footprints of Gold",
+  "hook": "When it's all said and done, say this about me.",
+  "dur": 15.28,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 10,
+  "slug": "beautiful_anyway",
+  "var": "L2",
+  "file": "QH_beautiful_anyway_L2.mp4",
+  "cover": "QH_beautiful_anyway_L2_cover.jpg",
+  "title": "Beautiful Anyway",
+  "hook": "If you've got someone, don't wait.",
+  "dur": 13.03,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 11,
+  "slug": "i_live_on_through_you",
+  "var": "L2",
+  "file": "QH_i_live_on_through_you_L2.mp4",
+  "cover": "QH_i_live_on_through_you_L2_cover.jpg",
+  "title": "I Live On Through You",
+  "hook": "Everything I did was to make you great.",
+  "dur": 12.0,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 12,
+  "slug": "island_time",
+  "var": "L1",
+  "file": "QH_island_time_L1.mp4",
+  "cover": "QH_island_time_L1_cover.jpg",
+  "title": "Island Time",
+  "hook": "The only kind of rich worth keeping.",
+  "dur": 14.6,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ },
+ {
+  "n": 13,
+  "slug": "remember_me_when_im_gone",
+  "var": "L2",
+  "file": "QH_remember_me_when_im_gone_L2.mp4",
+  "cover": "QH_remember_me_when_im_gone_L2_cover.jpg",
+  "title": "Remember Me When I'm Gone",
+  "hook": "What they'd tell you if they could.",
+  "dur": 10.31,
+  "payoff": "Send this to someone WHO NEEDS IT."
+ }
+]

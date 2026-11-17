@@ -19,8 +19,8 @@ lines = []
 for x in json.load(open(C['lyrics'])):
     if 'words' not in x:
         continue
-    ws = [(w['w'], w['s'] - s0, w['e'] - s0) for w in x['words'] if s0 - 0.05 <= w['s'] < s1]
-    if ws:
+    ws = [(w['w'], w['s'] - s0, w['e'] - s0) for w in x['words'] if s0 - 0.05 <= w['s'] < s1 and w['e'] <= s1 + 0.05]
+    if ws and ws[0][1] < T - 0.6:   # skip a stray next-line word that starts in the last moment
         lines.append(ws)
 
 # background crop of the square cover (face + ring, no title)
