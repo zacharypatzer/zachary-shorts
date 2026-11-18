@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/a_seat_at_the_table",
+ "dur": 306.432,
+ "art_path": "/home/claude/songs/a_seat_at_the_table/cover.png",
+ "title": "A Seat at the Table",
+ "glow_col": [
+  23.8,
+  76.3,
+  120.0
+ ],
+ "ember_col": [
+  122.0,
+  207.0,
+  255.0
+ ],
+ "sub_tint": [
+  192,
+  240,
+  157
+ ],
+ "ember_speed": 0.9,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

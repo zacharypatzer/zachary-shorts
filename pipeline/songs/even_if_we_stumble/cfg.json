@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/even_if_we_stumble",
+ "dur": 332.04,
+ "art_path": "/home/claude/songs/even_if_we_stumble/cover.png",
+ "title": "Even If We Stumble",
+ "glow_col": [
+  114.5,
+  40.9,
+  120.0
+ ],
+ "ember_col": [
+  240.0,
+  176.0,
+  255.0
+ ],
+ "sub_tint": [
+  224,
+  255,
+  168
+ ],
+ "ember_speed": 0.8,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

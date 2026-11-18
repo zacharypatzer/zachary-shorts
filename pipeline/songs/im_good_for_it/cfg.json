@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/im_good_for_it",
+ "dur": 324.384,
+ "art_path": "/home/claude/songs/im_good_for_it/cover.png",
+ "title": "Good for It",
+ "glow_col": [
+  22.5,
+  71.8,
+  120.0
+ ],
+ "ember_col": [
+  122.0,
+  210.0,
+  255.0
+ ],
+ "sub_tint": [
+  200,
+  233,
+  255
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

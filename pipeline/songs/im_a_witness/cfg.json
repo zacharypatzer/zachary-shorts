@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/im_a_witness",
+ "dur": 358.464,
+ "art_path": "/home/claude/songs/im_a_witness/cover.png",
+ "title": "I'm a Witness",
+ "glow_col": [
+  120.0,
+  36.2,
+  64.9
+ ],
+ "ember_col": [
+  122.0,
+  210.0,
+  255.0
+ ],
+ "sub_tint": [
+  220,
+  179,
+  255
+ ],
+ "ember_speed": 1.0,
+ "ember_gain": 1.0,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

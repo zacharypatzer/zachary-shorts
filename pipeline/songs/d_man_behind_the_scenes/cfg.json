@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_man_behind_the_scenes",
+ "dur": 272.952,
+ "art_path": "/home/claude/songs/d_man_behind_the_scenes/cover.png",
+ "title": "The Man Behind the Scenes",
+ "glow_col": [
+  120.0,
+  72.3,
+  72.3
+ ],
+ "ember_col": [
+  255.0,
+  224.0,
+  224.0
+ ],
+ "sub_tint": [
+  255,
+  235,
+  236
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

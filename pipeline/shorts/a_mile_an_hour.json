@@ -1,0 +1,77 @@
+{
+ "video": "/home/claude/out/A_Mile_An_Hour_Lyric_Video.mp4",
+ "outdir": "/home/claude/shorts/a_mile_an_hour",
+ "accent": "#5ec0ff",
+ "clips": [
+  {
+   "id": 1,
+   "file": "AMAH_Short_1_Some_Roads.mp4",
+   "start": 6.5,
+   "end": 54.0,
+   "hook": [
+    "Some roads",
+    "you don't choose."
+   ]
+  },
+  {
+   "id": 2,
+   "file": "AMAH_Short_2_The_Scan.mp4",
+   "start": 54.9,
+   "end": 110.4,
+   "hook": [
+    "10 years they said",
+    "it was nothing."
+   ]
+  },
+  {
+   "id": 3,
+   "file": "AMAH_Short_3_Chorus.mp4",
+   "start": 101.6,
+   "end": 146.8,
+   "hook": [
+    "I can't walk fast.",
+    "I still walk."
+   ]
+  },
+  {
+   "id": 4,
+   "file": "AMAH_Short_4_The_Bell.mp4",
+   "start": 148.9,
+   "end": 204.3,
+   "hook": [
+    "I rang that bell",
+    "3 times."
+   ]
+  },
+  {
+   "id": 5,
+   "file": "AMAH_Short_5_Small_Circle.mp4",
+   "start": 258.9,
+   "end": 297.3,
+   "hook": [
+    "When it got bad,",
+    "my crowd got thin."
+   ]
+  },
+  {
+   "id": 6,
+   "file": "AMAH_Short_6_Daddy.mp4",
+   "start": 297.2,
+   "end": 338.2,
+   "hook": [
+    "Best advice my daddy",
+    "ever gave me:"
+   ]
+  },
+  {
+   "id": 7,
+   "file": "AMAH_Short_7_Worth_It.mp4",
+   "start": 361.5,
+   "end": 412.6,
+   "hook": [
+    "Who's worth going",
+    "through hell for?"
+   ]
+  }
+ ]
+}

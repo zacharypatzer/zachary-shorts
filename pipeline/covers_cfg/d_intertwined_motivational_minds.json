@@ -1,0 +1,11 @@
+{
+ "scene": "ee674dc9-image.jpg",
+ "font": "ofl/righteous/Righteous-Regular.ttf",
+ "title_lines": [
+  "Intertwined",
+  "Motivational Minds"
+ ],
+ "fill_top": "#fff1d8",
+ "fill_bot": "#ff9a3c",
+ "outline": "#1e0f04"
+}

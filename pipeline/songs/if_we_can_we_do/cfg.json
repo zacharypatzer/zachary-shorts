@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/if_we_can_we_do",
+ "dur": 264.84,
+ "art_path": "/home/claude/songs/if_we_can_we_do/cover.png",
+ "title": "If We Can, We Do",
+ "glow_col": [
+  38.3,
+  91.0,
+  120.0
+ ],
+ "ember_col": [
+  160.0,
+  227.0,
+  255.0
+ ],
+ "sub_tint": [
+  214,
+  243,
+  255
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

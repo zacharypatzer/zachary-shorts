@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/i_live_on_through_you",
+ "dur": 358.032,
+ "art_path": "/home/claude/songs/i_live_on_through_you/cover.png",
+ "title": "I Live On Through You",
+ "glow_col": [
+  25.7,
+  73.9,
+  120.0
+ ],
+ "ember_col": [
+  144.0,
+  216.0,
+  255.0
+ ],
+ "sub_tint": [
+  176,
+  226,
+  255
+ ],
+ "ember_speed": 0.8,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

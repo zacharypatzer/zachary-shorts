@@ -1,0 +1,10 @@
+{
+ "scene": "a962b5f7-image.jpg",
+ "font": "ofl/rye/Rye-Regular.ttf",
+ "title_lines": [
+  "Stranger's Anchor"
+ ],
+ "fill_top": "#fff4e6",
+ "fill_bot": "#d98a4a",
+ "outline": "#1e0f04"
+}

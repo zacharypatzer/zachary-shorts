@@ -1,0 +1,25 @@
+# Carousels for the six new core songs (Nov 2026), filling the removed songs' 10 AM slots.
+# date, slug, title, slide-1 subtitle, lyric slides, caption question
+SONGS = [
+('2026-11-06','accidental_motivation','Accidental Motivation','For whoever is up at 3 a.m.',
+ ['You don’t know me,\nbut your thumb just stopped tonight','Call it\naccidental motivation','I just stopped countin’\nwhat’s still left ahead','And started countin’\nwhat’s behind'],
+ 'Who has been your accidental motivation?'),
+('2026-11-11','im_fine','I’m Fine','Two little words to hide behind.',
+ ['Everybody’s got\na hidin’ place','Mine’s only\ntwo words long','Say ’em quick and say ’em smilin’,\nso nobody asks a second time','So, friend,\nhow you doin’?\nNo, really.'],
+ 'What do you really mean when you say “I’m fine”?'),
+('2026-11-18','thats_up','That’s Up','However small it looks.',
+ ['My body gets a vote each day,\nand it don’t always vote for me','Nobody hands out medals\nfor the mornin’s you got through','Maybe up is a shower,\nmaybe up’s a walk','However small it looks,\nif it took your all, that’s enough'],
+ 'What does “up” look like for you today?'),
+('2026-11-19','how_you_come_back','How You Come Back','Get up scared.',
+ ['Get up scared,\nget up shaking','’Cause scared is not\nthe same as stuck','Nobody waits\nuntil they’re brave','It’s not how long you can take it.\nIt’s how you come back.'],
+ 'What’s one scared step you took anyway?'),
+('2026-11-26','hold_it_lightly','Hold It Lightly, Love It Hard','For the ones at the table, and the ones we’re missing.',
+ ['You can’t hold a river.\nYou can only feel it run.','Hold it lightly,\nlove it hard','Laugh out loud in the waiting room.\nSay “I love you” first.','And let what’s left\nbe love'],
+ 'Who are you saying “I love you” to this Thanksgiving?'),
+('2026-12-03','what_im_livin','What I’m Livin’','It ain’t my voice. It’s every bit my life.',
+ ['I been takin’ notes on life\nfor twenty years or more','Never made ’em into music\ntill chemo knocked me to the floor','I’m just writin’ what I’m livin’,\neven though it ain’t me singin’','Wear your own shoes.\nYour style is what you’re livin’.'],
+ 'What would your song be about?'),
+('2026-12-11','accidental_motivation_2','Accidental Motivation','You might be somebody’s reason.',
+ ['A nurse in her car\nwhen the double shift ends','Same night, same screen,\nsame thoughts in their head','Some kid at the bus stop,\nhood pulled low','Now you’re somebody’s\naccidental sign'],
+ 'Who might be watching you get through it?'),
+]

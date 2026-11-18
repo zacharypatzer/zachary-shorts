@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_empty_out_the_cup",
+ "dur": 264.96,
+ "art_path": "/home/claude/songs/d_empty_out_the_cup/cover.png",
+ "title": "Empty Out the Cup",
+ "glow_col": [
+  50.5,
+  83.2,
+  120.0
+ ],
+ "ember_col": [
+  192.0,
+  224.0,
+  255.0
+ ],
+ "sub_tint": [
+  212,
+  230,
+  244
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

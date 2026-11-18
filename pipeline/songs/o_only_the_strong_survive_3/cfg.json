@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/o_only_the_strong_survive_3",
+ "dur": 248.424,
+ "art_path": "/home/claude/songs/o_only_the_strong_survive_3/cover.png",
+ "title": "Only The Strong Survive (Early Take C)",
+ "glow_col": [
+  30.0,
+  30.0,
+  120.0
+ ],
+ "ember_col": [
+  255.0,
+  255.0,
+  255.0
+ ],
+ "sub_tint": [
+  240,
+  232,
+  224
+ ],
+ "ember_speed": 1.2,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

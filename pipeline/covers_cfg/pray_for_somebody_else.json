@@ -1,0 +1,21 @@
+{
+ "scene": "a2c8d994-image.jpg",
+ "font": "ofl/abrilfatface/AbrilFatface-Regular.ttf",
+ "title_lines": [
+  "Pray for",
+  "Somebody Else"
+ ],
+ "fill_top": "#ffffff",
+ "fill_bot": "#ffd27a",
+ "outline": "#1a1206",
+ "tint": [
+  0.95,
+  1.0,
+  1.06
+ ],
+ "max_h": 150,
+ "v_lines": [
+  "Pray for",
+  "Somebody Else"
+ ]
+}

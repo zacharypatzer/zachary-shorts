@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/how_you_come_back",
+ "dur": 242.232,
+ "art_path": "/home/claude/songs/how_you_come_back/cover.png",
+ "title": "How You Come Back",
+ "glow_col": [
+  40.7,
+  89.8,
+  120.0
+ ],
+ "ember_col": [
+  160.0,
+  227.0,
+  255.0
+ ],
+ "sub_tint": [
+  255,
+  230,
+  219
+ ],
+ "ember_speed": 0.6,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

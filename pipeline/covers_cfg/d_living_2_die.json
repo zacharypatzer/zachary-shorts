@@ -1,0 +1,11 @@
+{
+ "scene": "447e685f-image.jpg",
+ "font": "ofl/bevan/Bevan-Regular.ttf",
+ "title_lines": [
+  "Living 2 Die",
+  "or Dying 2 Live"
+ ],
+ "fill_top": "#ffffff",
+ "fill_bot": "#c8d8e8",
+ "outline": "#0a1226"
+}

@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/count_the_arms_you_hold",
+ "dur": 303.12,
+ "art_path": "/home/claude/songs/count_the_arms_you_hold/cover.png",
+ "title": "Lost It in the Paperwork",
+ "glow_col": [
+  47.7,
+  120.0,
+  79.8
+ ],
+ "ember_col": [
+  200.0,
+  246.0,
+  255.0
+ ],
+ "sub_tint": [
+  216,
+  255,
+  234
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

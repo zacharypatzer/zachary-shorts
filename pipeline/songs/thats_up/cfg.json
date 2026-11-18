@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/thats_up",
+ "dur": 292.944,
+ "art_path": "/home/claude/songs/thats_up/cover.png",
+ "title": "That's Up",
+ "glow_col": [
+  32.6,
+  83.3,
+  120.0
+ ],
+ "ember_col": [
+  144.0,
+  216.0,
+  255.0
+ ],
+ "sub_tint": [
+  208,
+  240,
+  255
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

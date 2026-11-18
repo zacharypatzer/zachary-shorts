@@ -1,0 +1,20 @@
+{
+ "scene": "126390d9-image.jpg",
+ "font": "apache/ultra/Ultra-Regular.ttf",
+ "title_lines": [
+  "Lost It in",
+  "the Paperwork"
+ ],
+ "fill_top": "#fffbe0",
+ "fill_bot": "#8ad45c",
+ "outline": "#0c2410",
+ "tint": [
+  0.92,
+  1.0,
+  1.08
+ ],
+ "v_lines": [
+  "Lost It in",
+  "the Paperwork"
+ ]
+}

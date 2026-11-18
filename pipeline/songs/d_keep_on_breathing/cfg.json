@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_keep_on_breathing",
+ "dur": 264.6,
+ "art_path": "/home/claude/songs/d_keep_on_breathing/cover.png",
+ "title": "Keep On Breathing",
+ "glow_col": [
+  40.0,
+  80.0,
+  120.0
+ ],
+ "ember_col": [
+  176.0,
+  224.0,
+  255.0
+ ],
+ "sub_tint": [
+  220,
+  240,
+  255
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

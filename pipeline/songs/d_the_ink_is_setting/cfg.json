@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_the_ink_is_setting",
+ "dur": 227.064,
+ "art_path": "/home/claude/songs/d_the_ink_is_setting/cover.png",
+ "title": "The Ink Is Setting",
+ "glow_col": [
+  48.0,
+  96.0,
+  120.0
+ ],
+ "ember_col": [
+  200.0,
+  240.0,
+  255.0
+ ],
+ "sub_tint": [
+  214,
+  230,
+  239
+ ],
+ "ember_speed": 0.4,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

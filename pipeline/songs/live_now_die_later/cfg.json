@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/live_now_die_later",
+ "dur": 379.224,
+ "art_path": "/home/claude/songs/live_now_die_later/cover.png",
+ "title": "Live Now, Die Later",
+ "glow_col": [
+  95.2,
+  120.0,
+  32.4
+ ],
+ "ember_col": [
+  255.0,
+  246.0,
+  232.0
+ ],
+ "sub_tint": [
+  255,
+  235,
+  196
+ ],
+ "ember_speed": 0.6,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

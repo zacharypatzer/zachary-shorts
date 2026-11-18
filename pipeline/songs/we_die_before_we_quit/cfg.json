@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/we_die_before_we_quit",
+ "dur": 291.0,
+ "art_path": "/home/claude/songs/we_die_before_we_quit/cover.png",
+ "title": "We Die Before We Quit",
+ "glow_col": [
+  21.8,
+  21.8,
+  120.0
+ ],
+ "ember_col": [
+  255.0,
+  255.0,
+  255.0
+ ],
+ "sub_tint": [
+  176,
+  176,
+  255
+ ],
+ "ember_speed": 1.1,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

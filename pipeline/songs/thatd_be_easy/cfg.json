@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/thatd_be_easy",
+ "dur": 252.003,
+ "art_path": "/home/claude/songs/thatd_be_easy/cover.png",
+ "title": "That'd Be Easy",
+ "glow_col": [
+  120.0,
+  64.0,
+  27.1
+ ],
+ "ember_col": [
+  255.0,
+  224.0,
+  191.0
+ ],
+ "sub_tint": [
+  255,
+  233,
+  219
+ ],
+ "ember_speed": 0.35,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

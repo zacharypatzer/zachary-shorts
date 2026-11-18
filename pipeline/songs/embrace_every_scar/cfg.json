@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/embrace_every_scar",
+ "dur": 342.72,
+ "art_path": "/home/claude/songs/embrace_every_scar/cover.png",
+ "title": "Embrace Every Scar",
+ "glow_col": [
+  120.0,
+  58.4,
+  72.5
+ ],
+ "ember_col": [
+  255.0,
+  194.0,
+  217.0
+ ],
+ "sub_tint": [
+  255,
+  220,
+  230
+ ],
+ "ember_speed": 0.9,
+ "ember_gain": 0.8,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

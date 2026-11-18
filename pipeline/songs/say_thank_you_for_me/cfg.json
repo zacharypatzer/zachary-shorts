@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/say_thank_you_for_me",
+ "dur": 179.952,
+ "art_path": "/home/claude/songs/say_thank_you_for_me/cover.png",
+ "title": "Say Thank You For Me",
+ "glow_col": [
+  120.0,
+  55.4,
+  30.7
+ ],
+ "ember_col": [
+  90.0,
+  207.0,
+  255.0
+ ],
+ "sub_tint": [
+  168,
+  230,
+  255
+ ],
+ "ember_speed": 0.7,
+ "ember_gain": 1.0,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/footprints_of_gold",
+ "dur": 292.944,
+ "art_path": "/home/claude/songs/footprints_of_gold/cover.png",
+ "title": "Footprints of Gold",
+ "glow_col": [
+  27.5,
+  91.9,
+  120.0
+ ],
+ "ember_col": [
+  87.0,
+  210.0,
+  255.0
+ ],
+ "sub_tint": [
+  138,
+  213,
+  244
+ ],
+ "ember_speed": 0.8,
+ "ember_gain": 1.1,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

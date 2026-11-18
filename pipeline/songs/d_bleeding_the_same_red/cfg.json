@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_bleeding_the_same_red",
+ "dur": 225.36,
+ "art_path": "/home/claude/songs/d_bleeding_the_same_red/cover.png",
+ "title": "Bleeding the Same Red",
+ "glow_col": [
+  43.6,
+  21.8,
+  120.0
+ ],
+ "ember_col": [
+  200.0,
+  192.0,
+  255.0
+ ],
+ "sub_tint": [
+  230,
+  224,
+  255
+ ],
+ "ember_speed": 0.6,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

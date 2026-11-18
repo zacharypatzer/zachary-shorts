@@ -1,0 +1,19 @@
+{
+ "scene": "56a51f27-image.jpg",
+ "font": "ofl/shrikhand/Shrikhand-Regular.ttf",
+ "title_lines": [
+  "Good for It"
+ ],
+ "fill_top": "#ffe9b8",
+ "fill_bot": "#e0862a",
+ "outline": "#1e0f04",
+ "tint": [
+  0.9,
+  1.0,
+  1.1
+ ],
+ "v_lines": [
+  "Good",
+  "for It"
+ ]
+}

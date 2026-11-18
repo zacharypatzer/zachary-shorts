@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_quality_over_quantity",
+ "dur": 239.832,
+ "art_path": "/home/claude/songs/d_quality_over_quantity/cover.png",
+ "title": "Quality Over Quantity",
+ "glow_col": [
+  33.5,
+  79.6,
+  120.0
+ ],
+ "ember_col": [
+  176.0,
+  224.0,
+  255.0
+ ],
+ "sub_tint": [
+  220,
+  240,
+  255
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.85,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

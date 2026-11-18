@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/d_light_the_way",
+ "dur": 222.84,
+ "art_path": "/home/claude/songs/d_light_the_way/cover.png",
+ "title": "Light the Way",
+ "glow_col": [
+  75.7,
+  120.0,
+  33.6
+ ],
+ "ember_col": [
+  128.0,
+  230.0,
+  255.0
+ ],
+ "sub_tint": [
+  208,
+  255,
+  232
+ ],
+ "ember_speed": 0.9,
+ "ember_gain": 1.0,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}
