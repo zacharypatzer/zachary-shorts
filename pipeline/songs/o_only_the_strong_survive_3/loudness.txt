@@ -1,1 +1,0 @@
-source -13.4 LUFS / -2.0 dBTP -> -14.2 LUFS / -2.5 dBTP
