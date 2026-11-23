@@ -16,6 +16,7 @@ INTER_B = '/usr/share/fonts/opentype/inter/Inter-Bold.otf'
 
 # slug: (bg image, font file, variation weight, fill, stroke, mode, upper)
 S = {
+    'nobody_watches_a_draw':  ('/home/claude/songs/nobody_watches_a_draw/scene_src.jpg', 'ofl/blackopsone/BlackOpsOne-Regular.ttf', None, '#ff7a3a', '#0b0b0d', 'fire', True),
     'island_time':            ('210d3d2e-7890.jpg', 'ofl/pacifico/Pacifico-Regular.ttf', None, '#46e8e4', '#06302f', 'flat', False),
     'im_a_witness':           ('29c93216-7912.webp', 'ofl/playfairdisplaysc/PlayfairDisplaySC-Black.ttf', None, '#ff4fae', '#2a0018', 'flat', True),
     'a_seat_at_the_table':    ('5b8c1aa4-7892.jpg', 'ofl/uncialantiqua/UncialAntiqua-Regular.ttf', None, '#35d47d', '#03200f', 'flat', True),

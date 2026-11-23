@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/nobody_watches_a_draw",
+ "dur": 312.024,
+ "art_path": "/home/claude/songs/nobody_watches_a_draw/cover.png",
+ "title": "Nobody Watches a Draw",
+ "glow_col": [
+  14.5,
+  38.0,
+  120.0
+ ],
+ "ember_col": [
+  107.0,
+  179.0,
+  255.0
+ ],
+ "sub_tint": [
+  239,
+  236,
+  232
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

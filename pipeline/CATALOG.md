@@ -54,6 +54,7 @@ Updated Nov 16, 2026. Paths are inside this repo (`pipeline/`). Drive = private 
 | Take a Number | `songs/take_a_number` | `1Py6hXP_ZLAUMhWDv64XvHDdvssWYxyXJ` (Take a Number (Remastered) (2).mp3) | out/Take_a_Number_Facebook_Vertical.jpg, out/Take_a_Number_Thumbnail.jpg, qh/covers/take_a_number.jpg |
 | That'd Be Easy | `songs/thatd_be_easy` | `1YI4fZTLYxwmKSOkTKeRljNRyYlYIf1k1` (That'd Be Easy (Remastered).mp3) | out/Thatd_Be_Easy_Cover.jpg, out/Thatd_Be_Easy_Thumbnail.jpg |
 | That's Up | `songs/thats_up` | `1e3SLPTTNWyjIpNhuFhwPp60cXIRgKikL` (That's Up (Remastered) (1).mp3) | out/Thats_Up_Thumbnail.jpg, out/Thats_Up_Cover.jpg |
+| Nobody Watches a Draw | `songs/nobody_watches_a_draw` | (not in Drive yet - add Nobody_Watches_a_Draw_Remastered.mp3) | out/Nobody_Watches_a_Draw_Thumbnail.jpg, out/Nobody_Watches_a_Draw_Cover.png |
 | The Seventh Day | `songs/the_seventh_day` | `1-gL8ZSIewbMJhaSVLKrboQsVSx91LjPt` (The Seventh Day (Remastered) (1).mp3) | out/The_Seventh_Day_Facebook_Vertical.jpg, out/The_Seventh_Day_Facebook_Reel_Cover.jpg, out/The_Seventh_Day_Cover.jpg |
 | The Sunrise Kind | `songs/the_sunrise_kind` | `1flYq-Wkuc2oAu5gCsHud_iUn6X4vQQ5s` (The Sunrise Kind (Remastered).mp3) | out/The_Sunrise_Kind_Cover.jpg, out/The_Sunrise_Kind_Thumbnail.jpg, out/The_Sunrise_Kind_Facebook_Vertical.jpg |
 | People Rebuild | `songs/things_break_people_rebuild` | `10P8wHXQWC3kokZWC8mbDkcbRiwav_zCV` (Things Break, People Rebuild (Remastered).mp3) | out/People_Rebuild_Facebook_Vertical.jpg, out/People_Rebuild_Cover.jpg, out/People_Rebuild_Thumbnail.jpg |
