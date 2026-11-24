@@ -1,0 +1,29 @@
+{
+ "work": "/home/claude/songs/rearrange",
+ "dur": 296.784,
+ "art_path": "/home/claude/songs/rearrange/cover.png",
+ "title": "Rearrange",
+ "glow_col": [
+  34.5,
+  90.0,
+  120.0
+ ],
+ "ember_col": [
+  168.0,
+  230.0,
+  255.0
+ ],
+ "sub_tint": [
+  244,
+  244,
+  224
+ ],
+ "ember_speed": 0.5,
+ "ember_gain": 0.9,
+ "bg_tint": [
+  1.0,
+  1.0,
+  1.0
+ ],
+ "bg_gain": 0.4
+}

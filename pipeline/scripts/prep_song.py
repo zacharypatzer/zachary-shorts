@@ -109,6 +109,7 @@ PAL = {
     'o_we_die_before_we_quit': ('#b02020', '#ffffff', '#ffb0b0', 1.1, 0.9),
     'raise_one_for_jim': ('#c8962e', '#ffe6a8', '#ffe2a0', 0.3, 0.7),
     'things_break_people_rebuild': ('#f2c14e', '#fff1c8', '#fff6dc', 0.6, 1.0),
+    'rearrange': ('#f0b445', '#ffe6a8', '#e0f4f4', 0.5, 0.9),
 }
 
 
